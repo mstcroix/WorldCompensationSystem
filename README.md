@@ -1,6 +1,15 @@
-# World Compensation System
-__Keywords__: #Blockchain, #DeFi, #2020, #InternetOfValue, #RSK
+# Decentralised Financial Applications 
+__Short-name__: DeFiApp or DFApp
+# List of *proposed* DFApp
 
+   [wcsRunStart](https://www.google.com) - World Compensation System server
+   
+   [wcsDeductor]() - Deduces 10% from src monthly into dst 
+
+   [wcsDFApp](wcsDFApp) - Template
+
+# wcsRunStart - World Compensation System
+__Keywords__: #Blockchain, #DeFi, #2020, #InternetOfValue, #RSK
 
 ## Purpose 
 
