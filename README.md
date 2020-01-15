@@ -62,25 +62,6 @@ Non-privileged (Unbanked)
 1. Asia
 1. Africa
 
-### Software development
-
-#### Normative references
-- ISO 26262-6:2018(E) Functional safety. Part 6: Product development at the software level
-
-#### General
-
-#### Inputs to this clause
-##### Prerequisites
-##### Further supporting information
-#### Requirements and recommendations
-#### Work products
-
-## Annex A (informative) Overview
-## Annex B (normative) Bitcoin
-- [ ] Bitcoin
-- [ ] RSK
-
-
 ## Disclaimer
 
 All quoted phrases are verbatim copies found at Conversations with God. Book Two (siehe Bibliography unten)
