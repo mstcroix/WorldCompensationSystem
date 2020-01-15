@@ -1,6 +1,4 @@
 # World Compensation System
-__Keywords__: #Blockchain, #DeFi, #2020, #InternetOfValue
-
 ## Purpose 
 
 Simple. Eliminate money invisibility.
@@ -8,8 +6,6 @@ Simple. Eliminate money invisibility.
 ## Genesis 
 
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over. 
-
-#WCS, #WorldCompensationSystem
 
 🙏🏽 @realNealWealsh, #CWG
 
@@ -87,3 +83,8 @@ All quoted phrases are verbatim copies found at Conversations with God. Book Two
 
 ## Bibliography
 - Conversations with God (c) 1997 Neale Donald Walsch. ISBN 978 0 340 76544 9
+
+
+__Keywords__: #Blockchain, #DeFi, #2020, #InternetOfValue
+#WCS, #WorldCompensationSystem
+
