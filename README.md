@@ -9,7 +9,8 @@ Simple. Eliminate money invisibility.
 ## Genesis 
 
 ..and then God said, 
-> I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over. 
+> I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
+
 #WCS, #WorldCompensationSystem
 
 🙏🏽 @realNealWealsh
