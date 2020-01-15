@@ -9,13 +9,6 @@ __Status__: *in work*
 
 Simple. Eliminate money invisibility.
 
-## Genesis 
-
-..and then God said, 
-> I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
-
-🙏🏽 @realNealWealsh
-
 ## Concept
 
 Create a Ecosystem of Decentralised Financial Applications.
@@ -178,7 +171,14 @@ __Platform:__ #DeFi, #RSK, @rsksmart, @rif_os
 "And God looked upon all that He had made, and indeed, it was very good. And there was evening, and there was morning— the sixth day."
 > _Bible:Genesis 1:31_
 
-## Disclaimer
+## Genesis 
+
+..and then God said, 
+> I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
+
+🙏🏽 @realNealWealsh
+
+### Disclaimer
 
 All quoted phrases are verbatim copies found at Conversations with God. Book Two (siehe Bibliography unten)
 
