@@ -1,15 +1,6 @@
-# Decentralised Financial Applications 
-__Short-name__: DeFiApp or DFApp
-# List of *proposed* DFApp
-
-   [wcsRunStart](https://www.google.com) - World Compensation System server
-   
-   [wcsDeductor]() - Deduces 10% from src monthly into dst 
-
-   [wcsDFApp](wcsDFApp) - Template
-
-# wcsRunStart - World Compensation System
-__Keywords__: #Blockchain, #DeFi, #2020, #InternetOfValue, #RSK
+# WCS Decentralised Financial Applications (EcoSystem)
+__Short-name__: WCS, DeFiApp, wcsDFApp
+__Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
 ## Purpose 
 
@@ -21,6 +12,18 @@ Simple. Eliminate money invisibility.
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
 
 🙏🏽 @realNealWealsh
+
+# List of *proposed* DFApp
+
+   [wcsRunStart](https://www.google.com) - World Compensation System server
+   
+   [wcsDeductor]() - Deduces 10% from src monthly into dst 
+
+   [wcsDFApp](wcsDFApp) - Template
+
+# wcsRunStart - World Compensation System
+
+## Roadmap
 
 ### Part I (2012-2019)
 
