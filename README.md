@@ -21,13 +21,6 @@ Layers:
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
-### Realisation
-
-TCP/IP Server
- :port
-UNIX's "Everything is a File" -> (name:Address)
- - Network (distributed) File-System
-
 #### Network
 
 __Topology__: Tree-of-Life (star 1:N, N:=6)
@@ -36,24 +29,22 @@ __Nodes__:
 Full-nodes: store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
 Light-nodes: store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
 ```
-
-#### Support Tools 
-```
-neo4.js - Graph Database 
-```
-
 ### File-system
 
 ```
 / - WCS root Ecosystem
+/dapp/ - Decentralised User or Third-Party Applications
+/documentation
+/dbin/ - Decentralised System services
 /users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
 
-/dbin/ - Decentralised System services
-/dapp/ - Decentralised User or Third-Party Applications
+
+RK1
 /dapp/DeFi/ - Decentralised Financial Apps
+
 ```
 
-### List of supported *commands*
+#### List of supported *commands*
 
 ```
 __user__
@@ -69,32 +60,51 @@ telnet -
 mail - transfer value
 ```
 
-# Documententation
+### Realisation
+
+TCP/IP Server
+ :port
+UNIX's "Everything is a File" -> (name:Address)
+ - Network (distributed) File-System
+
+#### Support Tools 
+```
+neo4.js - Graph Database 
+```
+
+# Project Organisation
+## Documentation (status:*in-definition*)
 
 ```
-/0-requirements -- requirements level '0' (customer)
-/1-requirements -- requirements level '1' (platform)
+/0-customer -- customer requirements (overview)
+/1-use-cases -- rationali (network independent, platform specific)
+/2-platform -- platform requirements (network dependent)
 
 /arch -- architecture
 /commands -- command interface specification
 /design -- service design (internal)
 /dapp -- Distributed Applications (executable -- analog to /usr/bin)
+/integration -- (Release-) Integration sequence and plan
+/regression -- regression tests (continuous integration)
 ```
 
-# Implementation
+## Implementation (status:*todo*,*looking for interested*)
 
-## Commands (status:*in-work*)
+### Commands (status:*in-work*)
 
 ```
-/commands/
+/commands/Cmd1 -- Command1 executable
+/commands/Cmd1/spec
+/commands/Cmd1/src
+
 ```
-## Distributed Apps (status:*in-work*)
+### Distributed Apps (status:*in-work*)
 
 ```
 /dapp/DApp1 -- Distributed App1 executable
 /dapp/<Domain>/DApp1/spec -- (external) interface specification
-/dapp/<Domain>/src -- source code
-/dapp/<Domain>/test -- test
+/dapp/<Domain>/DApp1/src -- source code
+/dapp/<Domain>/DApp1/test -- test
 ```
 
 #### List of WCS DFApp(s) (status:*in-work*)
@@ -105,7 +115,7 @@ mail - transfer value
 [wcsUTelnet](wcs) - Telnet
 [wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
 [wcsPHtpp](wcs) - HTML eXchanger
-[wcsDFAppDeductor(src, dst)]() - Deduces 10% from src *monthly* into dst 
+[wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst 
 [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
 
 --
