@@ -16,22 +16,44 @@ Simple. Eliminate money invisibility.
 
 ## Realisation Goal: Concept
 
-Create a Blockchain based Ecosystem of Decentralised Financial Applications.
+Create a Blockchain based Ecosystem (network) of Decentralised Financial Applications.
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
 # List of WCS DFApp(s) (*proposed*)
 
-   [wcsRunStart](https://www.google.com) - World Compensation System server
+   [wcsServer](https://www.google.com) - World Compensation System server
    
-   [wcsDeductor]() - Deduces 10% from src monthly into dst 
+   [wcsUPing](wcsPing) - wcs:Util : Ping
+   [wcsUEcho](wcs) - Echo
+   [wcsUTelnet](wcs) - Telnet
+   
+   [wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
+   [wcsPHtpp](wcs) - HTML eXchanger
 
-   [wcsDFApp](wcsDFApp) - Template
+   [wcsDFAppDeductor(src, dst)]() - Deduces 10% from src *monthly* into dst 
 
-# wcsRunStart - World Compensation System
+   [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
 
-## Roadmap
+# wcsServer - World Compensation System server
 
+Starts execution of WCS Node as TCP/IP Server listening for commands at port :280182
+
+## Functional Requirements (Roadmap)
+
+### Software Realisation Plan
+RK0-Sample 2012
+RK1-Sample 2019
+R1-Release 2026
+R2-Release 2033
+R3-Release 2040
+
+# Software Integration Plan
+
+|| (pre-)Release || Features || Server, Util/Tool, DFApp ||
+| RK0 | testnet | Network. Master Nodes (Server) |
+
+### Customer requirements
 ### Part I (2012-2019)
 
 > Develop an international monetary system that is wide open, totally visible, immediately traceable, completely accountable. 
