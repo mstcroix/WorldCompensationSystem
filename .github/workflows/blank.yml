@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: WCS Run a one-line script
+      run: echo Hello, World Compensation System!
+    - name: WCS Run a multi-line script
+      run: |
+        echo Step 1. Add other actions to build,
+        echo Step 1.1) test, and deploy your project.
