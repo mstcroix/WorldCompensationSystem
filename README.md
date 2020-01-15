@@ -11,11 +11,7 @@ Simple. Eliminate money invisibility.
 ..and then God said, 
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
 
-#WCS, #WorldCompensationSystem
-
 🙏🏽 @realNealWealsh
-
-## Concept and Roadmap
 
 ### Part I (2012-2019)
 
@@ -28,6 +24,7 @@ __Platform:__ #Blockchain
 ### Part II (2019-2026)
 
 > Establish a Worldwide Compensation System by which people would be given Credits for services rendered and products produced, and Debits for services used and products consumed. 
+#WCS, #WorldCompensationSystem
 
 > Under the new Worldwide Compensation System, WCS, the transfer of Debits and Credits would be immediate and totally visible.
 > That is, anybody and everybody could inspect the account of any other person or organization at any time.
