@@ -34,20 +34,30 @@ TCP/IP Server
  :port
 
 ### Tools 
+```
 neo4.js - Graph Database 
+```
 
+#### Nodes
+```
 Full-nodes: store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
 Light-nodes: store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+```
 
 ### File-system
+
+```
 / - WCS root Ecosystem
 /users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
 
 /dbin/ - Decentralised System services
 /dapp/ - Decentralised User or Third-Party Applications
 /dapp/DeFi/ - Decentralised Financial Apps
+```
 
 ### List of supported *commands*
+
+```
 mount - loads/unloads foreign WCS Networks
 ls - show current Users in the Ecosystem
 mv - transfer value
@@ -55,6 +65,7 @@ mv - transfer value
 ping -
 telnet - 
 mail
+```
 
 # Documententation
 
@@ -70,17 +81,21 @@ mail
 
 ## Commands (status:*in-work*)
 
+```
 /commands/
-
+```
 ## Distributed Apps (status:*in-work*)
 
+```
 /dapp/DApp1 -- Distributed App1 executable
 /dapp/<Domain>/DApp1/spec -- (external) interface specification
 /dapp/<Domain>/src -- source code
 /dapp/<Domain>/test -- test
+```
 
 #### List of WCS DFApp(s) (status:*in-work*)
 
+```
 [wcsServer](https://www.google.com) - World Compensation System server
 [wcsUPing](wcsPing) - wcs:Util : Ping
 [wcsUEcho](wcs) - Echo
@@ -89,7 +104,7 @@ mail
 [wcsPHtpp](wcs) - HTML eXchanger
 [wcsDFAppDeductor(src, dst)]() - Deduces 10% from src *monthly* into dst 
 [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
-   
+```   
 --
 # wcsServer - World Compensation System server
 
@@ -106,7 +121,8 @@ R3-Release 2040
 
 # Software Integration Plan
 
-|| (pre-)Release || Features || Server, Util/Tool, DFApp ||
+| (pre-)Release | Features | Server, Util/Tool, DFApp |
+| --- | --- | --- | 
 | RK0 | testnet | Network. Master Nodes (Server) |
 
 ### Customer requirements
