@@ -36,7 +36,7 @@ __Platform:__ #DeFi, #RSK, @rsksmart, @rif_os
 ### Part III (2026-2033)
 
 > The WCS would deduct 10 percent of all earnings each year from the income of those *voluntarily requesting* such a deduction.
-> Everyone in the society would be able to observe who was choosing to offer teh 10 percent for the general good of all, and who was not.
+> Everyone in the society would be able to observe who was choosing to offer the 10 percent for the general good of all, and who was not.
 > And everyone's records would be open to everyone else.
 
 ### Part IV (2033-2040)
@@ -48,6 +48,8 @@ __Platform:__ #DeFi, #RSK, @rsksmart, @rif_os
 
 * increase competition
 * boost fair trade
+* transform current interactive social system based on 
+** "taking advantage", "getting the edge", "making the most" and "the survival of the so-called fittest."
 
 ## Scope
 
@@ -76,6 +78,8 @@ Non-privileged (Unbanked)
 ## Annex A (informative) Overview
 ## Annex B (normative) Bitcoin
 - [ ] Bitcoin
+- [ ] RSK
+
 
 ## Disclaimer
 
