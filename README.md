@@ -2,6 +2,8 @@
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
 __Classification__: DeFi : EcoSystem : @rif_os : 
+__Version__: 0.0.1 (2020-01-15)
+__Status__: *in work*
 
 ## Purpose 
 
@@ -58,17 +60,22 @@ Light-nodes: store, validate and reconstruct environment from all nodes in local
 ### List of supported *commands*
 
 ```
+__user__
 mount - loads/unloads foreign WCS Networks
 ls - show current Users in the Ecosystem
-mv - transfer value
+
+*admin*
+mv - allocate users in different sub-network
 
 ping -
 telnet - 
-mail
+
+mail - transfer value
 ```
 
 # Documententation
 
+```
 /0-requirements -- requirements level '0' (customer)
 /1-requirements -- requirements level '1' (platform)
 
@@ -76,6 +83,7 @@ mail
 /commands -- command interface specification
 /design -- service design (internal)
 /dapp -- Distributed Applications (executable -- analog to /usr/bin)
+```
 
 # Implementation
 
