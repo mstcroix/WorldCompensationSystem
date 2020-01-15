@@ -14,10 +14,12 @@ Simple. Eliminate money invisibility.
 
 🙏🏽 @realNealWealsh
 
-## Decentralised Financial Applications
+## Realisation Goal: Concept
+
+Generate a Blockchain based Ecosystem of Decentralised Financial Applications
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
-# List of DFApp (*proposed*)
+# List of WCS DFApp(s) (*proposed*)
 
    [wcsRunStart](https://www.google.com) - World Compensation System server
    
