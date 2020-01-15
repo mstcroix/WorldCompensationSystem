@@ -1,6 +1,6 @@
 # World Compensation System
 __Keywords__: #Blockchain, #DeFi, #2020, #InternetOfValue
-#WCS, #WorldCompensationSystem
+
 
 ## Purpose 
 
@@ -8,7 +8,9 @@ Simple. Eliminate money invisibility.
 
 ## Genesis 
 
+And God said, 
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over. 
+#WCS, #WorldCompensationSystem
 
 🙏🏽 @realNealWealsh
 
