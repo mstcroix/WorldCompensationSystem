@@ -49,23 +49,7 @@ __Platform:__ #DeFi, #RSK, @rsksmart, @rif_os
 > And nothing could be purchased without Credits.
 > There would be no other negotiable currency.
 
-#### Objectives
-
-* increase competition
-* boost fair trade
-* transform current interactive social system based on 
-** "taking advantage", "getting the edge", "making the most" and "the survival of the so-called fittest."
-
-## Scope
-
-Non-privileged (Unbanked)
-
-1. BRIC Countries (Brazil, Russia, India, China + South Africa) emerging economies
-1. Latinamerica
-1. Asia
-1. Africa
-
-🙏🏽 @aantonop
+> And God looked upon all that He had made, and indeed, it was very good. And there was evening, and there was morning— the sixth day.
 
 ## Disclaimer
 
