@@ -28,22 +28,25 @@ Layers:
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
-## Implementation
-### Concept
+### Realisation
 
-UNIX's "Everything is a File" -> (name:Address)
 TCP/IP Server
  :port
+UNIX's "Everything is a File" -> (name:Address)
+ - Network (distributed) File-System
 
-### Tools 
-```
-neo4.js - Graph Database 
-```
+#### Network
 
-#### Nodes
+__Topology__: Tree-of-Life (star 1:N, N:=6)
+__Nodes__:
 ```
 Full-nodes: store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
 Light-nodes: store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+```
+
+#### Support Tools 
+```
+neo4.js - Graph Database 
 ```
 
 ### File-system
@@ -103,7 +106,6 @@ mail - transfer value
 
 #### List of WCS DFApp(s) (status:*in-work*)
 
-```
 [wcsServer](https://www.google.com) - World Compensation System server
 [wcsUPing](wcsPing) - wcs:Util : Ping
 [wcsUEcho](wcs) - Echo
@@ -112,7 +114,7 @@ mail - transfer value
 [wcsPHtpp](wcs) - HTML eXchanger
 [wcsDFAppDeductor(src, dst)]() - Deduces 10% from src *monthly* into dst 
 [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
-```   
+
 --
 # wcsServer - World Compensation System server
 
