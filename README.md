@@ -1,4 +1,4 @@
-# Blockchain : EcoSystem(DeFi:rif_os) : World Compensation System (WCS)
+# DeFi : EcoSystem : @rif_os : World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
 ## Purpose 
@@ -15,7 +15,7 @@ Simple. Eliminate money invisibility.
 ## Decentralised Financial Applications
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
-# List of *proposed* DFApp
+# List of DFApp (*proposed*)
 
    [wcsRunStart](https://www.google.com) - World Compensation System server
    
@@ -37,9 +37,11 @@ __Platform:__ #Blockchain
 
 ### Part II (2019-2026)
 
-> Establish a Worldwide Compensation System by which people would be given Credits for services rendered and products produced, and Debits for services used and products consumed. 
+> Establish a Worldwide Compensation System by which people would be given Credits for services rendered and products produced, and Debits for services used and products consumed.
+
 #WCS, #WorldCompensationSystem
 
+#### Objective
 > Under the new Worldwide Compensation System, WCS, the transfer of Debits and Credits would be immediate and totally visible.
 > That is, anybody and everybody could inspect the account of any other person or organization at any time.
 > Nothing would be kept secret, nothing would be 'private'
