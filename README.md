@@ -60,12 +60,12 @@ __Platform:__ #DeFi, #RSK, @rsksmart, @rif_os
 
 Non-privileged (Unbanked)
 
-🙏🏽 @aantonop
-
 1. BRIC Countries (Brazil, Russia, India, China + South Africa) emerging economies
 1. Latinamerica
 1. Asia
 1. Africa
+
+🙏🏽 @aantonop
 
 ## Disclaimer
 
