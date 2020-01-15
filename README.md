@@ -14,7 +14,7 @@ Simple. Eliminate money invisibility.
 
 🙏🏽 @realNealWealsh
 
-## Realisation Goal: Concept
+## Concept
 
 Create a Blockchain based Ecosystem (network) of Decentralised Financial Applications.
 
@@ -23,16 +23,12 @@ __Short-name__: WCS, DeFiApp, wcsDFApp
 # List of WCS DFApp(s) (*proposed*)
 
    [wcsServer](https://www.google.com) - World Compensation System server
-   
    [wcsUPing](wcsPing) - wcs:Util : Ping
    [wcsUEcho](wcs) - Echo
    [wcsUTelnet](wcs) - Telnet
-   
    [wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
    [wcsPHtpp](wcs) - HTML eXchanger
-
    [wcsDFAppDeductor(src, dst)]() - Deduces 10% from src *monthly* into dst 
-
    [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
 
 # wcsServer - World Compensation System server
