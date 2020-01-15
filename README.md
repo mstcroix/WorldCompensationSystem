@@ -10,7 +10,7 @@ Simple. Eliminate money invisibility.
 
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over. 
 
-🙏🏽 @realNealWealsh, #CWG
+🙏🏽 @realNealWealsh
 
 ## Concept and Roadmap
 
@@ -19,6 +19,8 @@ Simple. Eliminate money invisibility.
 > Develop an international monetary system that is wide open, totally visible, immediately traceable, completely accountable. 
 
 __Platform:__ #Blockchain
+
+🙏🏽 Satoshi Nakamoto
 
 ### Part II (2019-2026)
 
