@@ -8,7 +8,7 @@ Simple. Eliminate money invisibility.
 
 ## Genesis 
 
-And God said, 
+..and then God said, 
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over. 
 #WCS, #WorldCompensationSystem
 
