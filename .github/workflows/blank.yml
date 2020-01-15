@@ -13,5 +13,5 @@ jobs:
       run: echo Hello, World Compensation System!
     - name: WCS Run a multi-line script
       run: |
-        echo Step 1. Add other actions to build,
-        echo Step 1.1) test, and deploy your project.
+        echo Step 1 Add other actions to build,
+        echo Step 1_1 test, and deploy your project.
