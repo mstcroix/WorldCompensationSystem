@@ -16,7 +16,8 @@ Simple. Eliminate money invisibility.
 
 ## Realisation Goal: Concept
 
-Generate a Blockchain based Ecosystem of Decentralised Financial Applications
+Create a Blockchain based Ecosystem of Decentralised Financial Applications.
+
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
 # List of WCS DFApp(s) (*proposed*)
