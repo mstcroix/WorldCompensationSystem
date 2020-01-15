@@ -1,4 +1,7 @@
 # World Compensation System
+__Keywords__: #Blockchain, #DeFi, #2020, #InternetOfValue
+#WCS, #WorldCompensationSystem
+
 ## Purpose 
 
 Simple. Eliminate money invisibility.
@@ -68,8 +71,3 @@ All quoted phrases are verbatim copies found at Conversations with God. Book Two
 
 ## Bibliography
 - Conversations with God (c) 1997 Neale Donald Walsch. ISBN 978 0 340 76544 9
-
-
-__Keywords__: #Blockchain, #DeFi, #2020, #InternetOfValue
-#WCS, #WorldCompensationSystem
-
