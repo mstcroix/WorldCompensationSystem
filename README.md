@@ -41,7 +41,7 @@ __Platform:__ #Blockchain
 
 > Establish a Worldwide Compensation System by which people would be given Credits for services rendered and products produced, and Debits for services used and products consumed.
 
-#WCS, #WorldCompensationSystem
+__Whitepaper:__ [#WorldCompensationSystem](#worldcompensation), #WCS 
 
 #### Objective
 > Under the new Worldwide Compensation System, WCS, the transfer of Debits and Credits would be immediate and totally visible.
