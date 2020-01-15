@@ -16,21 +16,81 @@ Simple. Eliminate money invisibility.
 
 ## Concept
 
-Create a Blockchain based Ecosystem (network) of Decentralised Financial Applications.
+Create a Ecosystem of Decentralised Financial Applications.
+Layers: 
+1. Distributed peer-2-peer (P2P) Network (Blockchain based)
+1. Distributed File system
+1. Nodes are Servers
+1. Users services runs in Nodes
+1. Users decide to participate or not (mounting/unmounting)
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
-# List of WCS DFApp(s) (*proposed*)
+## Implementation
+### Concept
 
-   [wcsServer](https://www.google.com) - World Compensation System server
-   [wcsUPing](wcsPing) - wcs:Util : Ping
-   [wcsUEcho](wcs) - Echo
-   [wcsUTelnet](wcs) - Telnet
-   [wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
-   [wcsPHtpp](wcs) - HTML eXchanger
-   [wcsDFAppDeductor(src, dst)]() - Deduces 10% from src *monthly* into dst 
-   [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
+UNIX's "Everything is a File" -> (name:Address)
+TCP/IP Server
+ :port
 
+### Tools 
+neo4.js - Graph Database 
+
+Full-nodes: store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
+Light-nodes: store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+
+### File-system
+/ - WCS root Ecosystem
+/users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
+
+/dbin/ - Decentralised System services
+/dapp/ - Decentralised User or Third-Party Applications
+/dapp/DeFi/ - Decentralised Financial Apps
+
+### List of supported *commands*
+mount - loads/unloads foreign WCS Networks
+ls - show current Users in the Ecosystem
+mv - transfer value
+
+ping -
+telnet - 
+mail
+
+# Documententation
+
+/0-requirements -- requirements level '0' (customer)
+/1-requirements -- requirements level '1' (platform)
+
+/arch -- architecture
+/commands -- command interface specification
+/design -- service design (internal)
+/dapp -- Distributed Applications (executable -- analog to /usr/bin)
+
+# Implementation
+
+## Commands (status:*in-work*)
+
+/commands/
+
+## Distributed Apps (status:*in-work*)
+
+/dapp/DApp1 -- Distributed App1 executable
+/dapp/<Domain>/DApp1/spec -- (external) interface specification
+/dapp/<Domain>/src -- source code
+/dapp/<Domain>/test -- test
+
+#### List of WCS DFApp(s) (status:*in-work*)
+
+[wcsServer](https://www.google.com) - World Compensation System server
+[wcsUPing](wcsPing) - wcs:Util : Ping
+[wcsUEcho](wcs) - Echo
+[wcsUTelnet](wcs) - Telnet
+[wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
+[wcsPHtpp](wcs) - HTML eXchanger
+[wcsDFAppDeductor(src, dst)]() - Deduces 10% from src *monthly* into dst 
+[wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
+   
+--
 # wcsServer - World Compensation System server
 
 Starts execution of WCS Node as TCP/IP Server listening for commands at port :280182
