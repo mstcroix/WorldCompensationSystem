@@ -1,5 +1,4 @@
-# WCS Decentralised Financial Applications (EcoSystem)
-__Short-name__: WCS, DeFiApp, wcsDFApp
+# Blockchain : EcoSystem(DeFi:rif_os) : World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
 ## Purpose 
@@ -12,6 +11,9 @@ Simple. Eliminate money invisibility.
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
 
 🙏🏽 @realNealWealsh
+
+## Decentralised Financial Applications
+__Short-name__: WCS, DeFiApp, wcsDFApp
 
 # List of *proposed* DFApp
 
