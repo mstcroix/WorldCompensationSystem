@@ -5,6 +5,8 @@
 /1-req-use-cases.md -- rationali (network independent, platform specific)
 /2-req-platform.md -- platform requirements (network dependent)
 
+/apps.md -- user-apps
+/dapps.md -- distributed user-apps
 /arch.md -- architecture elements
 /commands.md -- command interface specification
 /documentation.md
@@ -14,6 +16,4 @@
 /project/regression.md -- regression tests (continuous integration)
 /services.md -- service design (internal layers)
 /tools.md -- tools
-/uapps.md -- user-apps
-/udapps.md -- distributed user-apps
 ```
