@@ -1,19 +1,19 @@
 ## Documentation (status:*in-definition*)
 
 ```
-/0-req-customer -- customer requirements (overview)
-/1-req-use-cases -- rationali (network independent, platform specific)
-/2-req-platform -- platform requirements (network dependent)
+/0-req-customer.md -- customer requirements (overview)
+/1-req-use-cases.md -- rationali (network independent, platform specific)
+/2-req-platform.md -- platform requirements (network dependent)
 
-/arch -- architecture elements
-/commands -- command interface specification
-/documentation
+/arch.md -- architecture elements
+/commands.md -- command interface specification
+/documentation.md
 /project/ - project organisation strategies and plans
-/project/implementation - coding guidelines, templates, etc.
-/project/integration -- (Release-) Integration sequence and plan
-/project/regression -- regression tests (continuous integration)
-/services -- service design (internal layers)
-/tools -- tools
-/uapps -- user-apps
-/udapps -- distributed user-apps
+/project/implementation.md - coding guidelines, templates, etc.
+/project/integration.md -- (Release-) Integration sequence and plan
+/project/regression.md -- regression tests (continuous integration)
+/services.md -- service design (internal layers)
+/tools.md -- tools
+/uapps.md -- user-apps
+/udapps.md -- distributed user-apps
 ```
