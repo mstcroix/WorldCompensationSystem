@@ -21,6 +21,7 @@ RK1.1
 /dapp/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
 
 RK1.2
+/lang - implementation language specific files
 /tools - Utility tools
 
 RK2
