@@ -1,4 +1,27 @@
 ```
+$wcsStart &
+World Compensation System server (wcss) running
+Listening on port:280182
+
+$wcsStatus
+Status: OK
+
+$whoami
+{0x123456:mstcroix:mstcroix@protonmail.com}
+
+$ls
+/users/{0x123456:mstcroix:mstcroix@protonmail.com}
+/users/{0x423456:mstcroix:none}
+/users/{0x223456:anonymous:none}
+/users/{0x723456:mstcroix:mstcroix@protonmail.com}
+
+$ps
+0 applications running
+
+$App1 &
+$ps
+App1 running. 5 users connected
+
 1) Requirements
 /0-req-customer -- customer requirements (overview)
 /1-req-use-cases -- use case rationali (network independent, platform specific)
