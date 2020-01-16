@@ -25,15 +25,9 @@ Layers:
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
-### Uses
-```
-mount - loads/unloads foreign WCS Networks
-ls - show current Users in the Ecosystem
-mv - allocate users in different sub-network
-ping - ping 
-telnet - establish connection and echo server
-mail - transfer value
-```
+### Common Use-cases
+
+* transfer value-assets
 
 ### Startup
 
@@ -44,6 +38,16 @@ Listening on port:280182
 
 $wcsStatus
 Status: OK
+```
+
+### Command, Services and Tools
+```
+mount - loads/unloads foreign WCS Networks
+ls - show current Users in the Ecosystem
+mv - allocate users in different sub-network
+ping - ping 
+telnet - establish connection and echo server
+mail - transfer value
 ```
 
 ### Application Notes
