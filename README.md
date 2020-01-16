@@ -29,7 +29,7 @@ __Short-name__: WCS, DeFiApp, wcsDFApp
 
 * transfer value-assets
 
-### Startup
+### Network Startup
 
 ```
 $wcsStart &
