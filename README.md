@@ -1,3 +1,22 @@
+```
+Markdown Documentation
+/0-req-customer -- customer requirements (overview)
+/1-req-use-cases -- rationali (network independent, platform specific)
+/2-req-platform -- platform requirements (network dependent)
+
+/apps -- user-apps
+/dapps -- distributed user-apps
+/arch.md -- architecture elements
+/commands.md -- command interface specification
+/documentation.md
+/project/ - project organisation strategies and plans
+/project/implementation.md - coding guidelines, templates, etc.
+/project/integration.md -- (Release-) Integration sequence and plan
+/project/regression.md -- regression tests (continuous integration)
+/services.md -- service design (internal layers)
+/tools.md -- tools
+```
+
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
