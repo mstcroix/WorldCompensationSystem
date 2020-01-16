@@ -1,6 +1,8 @@
 ## Documentation (status:*in-definition*)
 
 ```
+/_files.md -- file description *this file*
+
 /0-req-customer.md -- customer requirements (overview)
 /1-req-use-cases.md -- rationali (network independent, platform specific)
 /2-req-platform.md -- platform requirements (network dependent)
