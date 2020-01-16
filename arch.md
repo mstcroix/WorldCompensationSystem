@@ -27,3 +27,15 @@ RK2
 /dapp/DeFi/ - Decentralised Financial Apps
 
 ```
+
+### Realisation
+
+TCP/IP Server
+ :port
+UNIX's "Everything is a File" -> (name:Address)
+ - Network (distributed) File-System
+
+#### Support Tools 
+```
+neo4.js - Graph Database 
+```
