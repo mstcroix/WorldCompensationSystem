@@ -1,20 +1,25 @@
 ```
-Markdown Documentation
+1) Requirements
 /0-req-customer -- customer requirements (overview)
-/1-req-use-cases -- rationali (network independent, platform specific)
+/1-req-use-cases -- use case rationali (network independent, platform specific)
 /2-req-platform -- platform requirements (network dependent)
 
-/apps -- user-apps
-/dapps -- distributed user-apps
+2) Architecture and Services
 /arch.md -- architecture elements
 /commands.md -- command interface specification
-/documentation.md
+/services.md -- service design (internal layers)
+/tools.md -- tools
+
+3) Applications
+/apps -- user-apps (local)
+/dapps -- distributed user-apps (remote)
+
+4) Project organisation
 /project/ - project organisation strategies and plans
 /project/implementation.md - coding guidelines, templates, etc.
 /project/integration.md -- (Release-) Integration sequence and plan
 /project/regression.md -- regression tests (continuous integration)
-/services.md -- service design (internal layers)
-/tools.md -- tools
+
 ```
 
 # World Compensation System (WCS)
