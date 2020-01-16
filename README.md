@@ -65,8 +65,20 @@ neo4.js - Graph Database
 /commands/Cmd1 -- Command1 executable
 /commands/Cmd1/spec
 /commands/Cmd1/src
-
 ```
+
+#### List of WCS Commands(s) (status:*in-work*)
+/commands/:
+* [wcsUStatus](wcs) - Echo
+
+### Applications
+
+#### List of WCS Application(s) (status:*in-work*)
+/apps/:
+* [wcsUTelnet](wcs) - Telnet
+[wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
+[wcsPHtpp](wcs) - HTML eXchanger
+
 ### Distributed Apps (status:*in-work*)
 
 ```
@@ -76,33 +88,30 @@ neo4.js - Graph Database
 /dapp/<Domain>/DApp1/test -- test
 ```
 
-#### List of WCS DFApp(s) (status:*in-work*)
+### Services
+
+#### List of WCS Service(s) (status:*in-work*)
 
 /services/:
 * [wcsServer](https://www.google.com) - World Compensation System server
 
-/commands/:
-* [wcsUStatus](wcs) - Echo
 
+### Tools
+
+#### List of WCS Tool(s) (status:*in-work*)
 /tools/:
 * [wcsUPing](wcsPing) - wcs:Util : Ping
 * [wcsUEcho](wcs) - Echo
 
-/apps/:
-* [wcsUTelnet](wcs) - Telnet
-[wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
-[wcsPHtpp](wcs) - HTML eXchanger
+#### List of WCS DFApp(s) (status:*in-work*)
 
 /dapps:/
 * [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst 
 [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
 
 --
-# wcsServer - World Compensation System server
 
-Starts execution of WCS Node as TCP/IP Server listening for commands at port :280182
-
-## Functional Requirements (Roadmap)
+# Platform Requirements (Roadmap)
 
 ### Software Realisation Plan
 RK0-Sample 2012
@@ -111,7 +120,7 @@ R1-Release 2026
 R2-Release 2033
 R3-Release 2040
 
-# Software Integration Plan
+### Release- and Integration Plan
 
 | (pre-)Release | Features | Server, Util/Tool, DFApp |
 | --- | --- | --- | 
@@ -121,8 +130,13 @@ R3-Release 2040
 | R1.2 | mainnet | Applications |
 | R1.3 | mainnet | Distributed Applications |
 
-### Customer requirements
-### Part I (2012-2019)
+# Customer requirements
+
+## wcsServer - World Compensation System server
+
+__Description:__ Starts execution of WCS Node as TCP/IP Server listening for commands at port :280182
+
+### Implemenation Part I (2012-2019)
 
 > Develop an international monetary system that is wide open, totally visible, immediately traceable, completely accountable. 
 
@@ -130,7 +144,7 @@ __Platform:__ #Blockchain
 
 🙏🏽 Satoshi Nakamoto
 
-### Part II (2019-2026)
+### Implementation Part II (2019-2026)
 
 > Establish a Worldwide Compensation System by which people would be given Credits for services rendered and products produced, and Debits for services used and products consumed.
 
