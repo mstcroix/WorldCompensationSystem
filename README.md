@@ -21,7 +21,8 @@ Layers:
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
-#### Network
+## Architecture
+### Network
 
 __Topology__: Tree-of-Life (star 1:N, N:=6)
 __Nodes__:
@@ -43,19 +44,24 @@ RK1
 /dapp/DeFi/ - Decentralised Financial Apps
 
 ```
-
-#### List of supported *commands*
+### Applications
+#### List of supported user-system services (*commands*)
 
 ```
-__user__
 mount - loads/unloads foreign WCS Networks
 ls - show current Users in the Ecosystem
+```
 
-*admin*
+#### List of supported system services (*services*)
+```
 mv - allocate users in different sub-network
+```
 
-ping -
-telnet - 
+#### List of application (*third-party-services*)
+
+```
+ping - ping 
+telnet - establish connection and echo server
 
 mail - transfer value
 ```
