@@ -35,7 +35,6 @@ Light-nodes: store, validate and reconstruct environment from all nodes in local
 ```
 RK1.0
 / - WCS root Ecosystem
-/documentation
 /dbin/ - Decentralised System services
 /users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
 
@@ -84,20 +83,6 @@ neo4.js - Graph Database
 ```
 
 # Project Organisation
-## Documentation (status:*in-definition*)
-
-```
-/0-customer -- customer requirements (overview)
-/1-use-cases -- rationali (network independent, platform specific)
-/2-platform -- platform requirements (network dependent)
-
-/arch -- architecture
-/commands -- command interface specification
-/design -- service design (internal)
-
-/integration -- (Release-) Integration sequence and plan
-/regression -- regression tests (continuous integration)
-```
 
 ## Implementation (status:*todo*,*looking for interested*)
 
@@ -120,13 +105,23 @@ neo4.js - Graph Database
 
 #### List of WCS DFApp(s) (status:*in-work*)
 
-[wcsServer](https://www.google.com) - World Compensation System server
-[wcsUPing](wcsPing) - wcs:Util : Ping
-[wcsUEcho](wcs) - Echo
-[wcsUTelnet](wcs) - Telnet
+/services/:
+* [wcsServer](https://www.google.com) - World Compensation System server
+
+/commands/:
+* [wcsUStatus](wcs) - Echo
+
+/tools/:
+* [wcsUPing](wcsPing) - wcs:Util : Ping
+* [wcsUEcho](wcs) - Echo
+
+/apps/:
+* [wcsUTelnet](wcs) - Telnet
 [wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
 [wcsPHtpp](wcs) - HTML eXchanger
-[wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst 
+
+/dapps:/
+* [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst 
 [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
 
 --
@@ -147,7 +142,11 @@ R3-Release 2040
 
 | (pre-)Release | Features | Server, Util/Tool, DFApp |
 | --- | --- | --- | 
-| RK0 | testnet | Network. Master Nodes (Server) |
+| RK0 | testnet | Network topology. Master Nodes (Server) |
+| RK1 | testnet | Master Nodes (Server) |
+| R1.1 | mainnet | Clients |
+| R1.2 | mainnet | Applications |
+| R1.3 | mainnet | Distributed Applications |
 
 ### Customer requirements
 ### Part I (2012-2019)
