@@ -14,15 +14,17 @@ Light-nodes: store, validate and reconstruct environment from all nodes in local
 ```
 RK1.0
 / - WCS root Ecosystem
+/commands
 /dbin/ - Decentralised System services
 /users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
 
 RK1.1
-/dapp/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
-
-RK1.2
+/apps
 /lang - implementation language specific files
 /tools - Utility tools
+
+RK1.2
+/dapp/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
 
 RK2
 /dapp/DeFi/ - Decentralised Financial Apps
