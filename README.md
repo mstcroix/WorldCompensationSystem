@@ -15,17 +15,22 @@ Create a World Compensation Ecosystem based on Decentralised Financial Applicati
 
 Layers: 
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
-1. Distributed File system
+1. Distributed File system (dfsWcs)
 1. Nodes are Servers
-1. Nodes run System- and Users-services
-1. Users decide to participate or not (mounting/unmounting) as service suppliers in the network
-1. Users interact with other users or service suppliers
-1. Users transfer value-assets to single or multiple-users or services
-1. Spontaneous Users connect and use the network only for short-time (SMS, PPP)
+1. Servers
+   1. run System- and Users-services
+   1. route User- and System- interactions (transactions)
+1. Users are Clients
+1. Clients decide to participate or not (mounting/unmounting) as service suppliers in the network
+1. Clients interact with other Clients 
+1. Clients request services from Servers (service suppliers)
+   1. Via Remote Procedure Call (RPC) returning values in JSON format
+1. Clients transfer value-assets to single or multiple-users or services
+1. Light-Clients connect and use the network only for short-time (SMS, PPP)
 1. Value-assets are represented via Addresses in the Distributed File system
-1. User or User-services interact via read/write file operations with other Users or User-services
-1. User providing User-services are debted certain agreed amount per-use
-1. System-services are debted per-use, daily, monthly or yearly on donation basis
+1. Clients and Servers interact via read/write file operations with eachother
+1. Servers providing User-services are debted certain agreed amount per-use
+1. Servers providing System-services are debted an agreed amount per-use, daily, monthly or yearly on donation basis
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
@@ -61,7 +66,17 @@ mailto - use mail-alies to transfer transfer value-assets in the network
 $whoami
 {0x123456:mstcroix:mstcroix@protonmail.com}
 
+$pwd
+/
+
 $ls
+/apps
+/commands
+/dapps
+/services
+/users
+
+$ls /users
 /users/{0x123456:mstcroix:mstcroix@protonmail.com}
 /users/{0x423456:mstcroix:none}
 /users/{0x223456:anonymous:none}
@@ -70,7 +85,7 @@ $ls
 $ps
 0 applications running
 
-$App1 &
+$/apps/App1 &
 $ps
-App1 running. 5 users connected
+/apps/App1 running. 5 users connected
 ```
