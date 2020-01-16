@@ -1,28 +1,3 @@
-```
-$wcsStart &
-World Compensation System server (wcss) running
-Listening on port:280182
-
-$wcsStatus
-Status: OK
-
-$whoami
-{0x123456:mstcroix:mstcroix@protonmail.com}
-
-$ls
-/users/{0x123456:mstcroix:mstcroix@protonmail.com}
-/users/{0x423456:mstcroix:none}
-/users/{0x223456:anonymous:none}
-/users/{0x723456:mstcroix:mstcroix@protonmail.com}
-
-$ps
-0 applications running
-
-$App1 &
-$ps
-App1 running. 5 users connected
-```
-
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -57,6 +32,36 @@ mv - allocate users in different sub-network
 ping - ping 
 telnet - establish connection and echo server
 mail - transfer value
+```
+
+### Startup
+
+```
+$wcsStart &
+World Compensation System server (wcss) running
+Listening on port:280182
+
+$wcsStatus
+Status: OK
+```
+
+### Application Notes
+```
+$whoami
+{0x123456:mstcroix:mstcroix@protonmail.com}
+
+$ls
+/users/{0x123456:mstcroix:mstcroix@protonmail.com}
+/users/{0x423456:mstcroix:none}
+/users/{0x223456:anonymous:none}
+/users/{0x723456:mstcroix:mstcroix@protonmail.com}
+
+$ps
+0 applications running
+
+$App1 &
+$ps
+App1 running. 5 users connected
 ```
 
 ## References
