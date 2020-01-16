@@ -17,13 +17,15 @@ Layers:
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system
 1. Nodes are Servers
-1. Nodes run Users services
+1. Nodes run System- and Users-services
 1. Users decide to participate or not (mounting/unmounting) as service suppliers in the network
 1. Users interact with other users or service suppliers
 1. Users transfer value-assets to single or multiple-users or services
 1. Spontaneous Users connect and use the network only for short-time (SMS, PPP)
 1. Value-assets are represented via Addresses in the Distributed File system
-1. User or User.services interact via read/write file operations with other Users or User-services
+1. User or User-services interact via read/write file operations with other Users or User-services
+1. User providing User-services are debted certain agreed amount per-use
+1. System-services are debted per-use, daily, monthly or yearly on donation basis
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
