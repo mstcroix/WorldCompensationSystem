@@ -33,14 +33,19 @@ Light-nodes: store, validate and reconstruct environment from all nodes in local
 ### File-system
 
 ```
+RK1.0
 / - WCS root Ecosystem
-/dapp/ - Decentralised User or Third-Party Applications
 /documentation
 /dbin/ - Decentralised System services
 /users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
 
+RK1.1
+/dapp/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
 
-RK1
+RK1.2
+/tools - Utility tools
+
+RK2
 /dapp/DeFi/ - Decentralised Financial Apps
 
 ```
@@ -89,7 +94,7 @@ neo4.js - Graph Database
 /arch -- architecture
 /commands -- command interface specification
 /design -- service design (internal)
-/dapp -- Distributed Applications (executable -- analog to /usr/bin)
+
 /integration -- (Release-) Integration sequence and plan
 /regression -- regression tests (continuous integration)
 ```
