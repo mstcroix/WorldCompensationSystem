@@ -22,6 +22,8 @@ Layers:
 1. Users interact with other users or service suppliers
 1. Users transfer value-assets to single or multiple-users or services
 1. Spontaneous Users connect and use the network only for short-time (SMS, PPP)
+1. Value-assets are represented via Addresses in the Distributed File system
+1. User or User.services interact via read/write file operations with other Users or User-services
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
@@ -45,9 +47,11 @@ Status: OK
 mount - loads/unloads foreign WCS Networks
 ls - show current Users in the Ecosystem
 mv - allocate users in different sub-network
+whoami - 
+ps - process
 ping - ping 
 telnet - establish connection and echo server
-mail - transfer value
+mailto - use mail-alies to transfer transfer value-assets in the network
 ```
 
 ### Application Notes
@@ -68,32 +72,3 @@ $App1 &
 $ps
 App1 running. 5 users connected
 ```
-
-## References
-### 1) Requirements
-```
-/0-req-customer -- customer requirements (overview)
-/1-req-use-cases -- use case rationali (network independent, platform specific)
-/2-req-platform -- platform requirements (network dependent)
-
-2) Architecture and Services
-/arch.md -- architecture elements
-/commands.md -- command interface specification
-/services.md -- service design (internal layers)
-/tools.md -- tools
-
-3) Applications
-/apps -- user-apps (local)
-/dapps -- distributed user-apps (remote)
-
-4) Project organisation
-/project/ - project organisation strategies and plans
-/project/implementation.md - coding guidelines, templates, etc.
-/project/integration.md -- (Release-) Integration sequence and plan
-/project/regression.md -- regression tests (continuous integration)
-
-```
-
-# Project Organisation
-
-Refer to /project
