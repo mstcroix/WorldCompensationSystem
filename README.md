@@ -16,8 +16,10 @@ Layers:
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system
 1. Nodes are Servers
-1. Users services runs in Nodes
-1. Users decide to participate or not (mounting/unmounting)
+1. Nodes run Users services
+1. Users decide to participate or not (mounting/unmounting services in the network)
+1. Users
+1. Other Users
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
