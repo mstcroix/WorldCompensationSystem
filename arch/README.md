@@ -1,7 +1,8 @@
 ## Architecture
 ### Network
 
-__Topology__: Tree-of-Life (star 1:N, N:=6)
+__Topology__: Flower or Tree-of-Life (sacred geometry star 1:N, N:=6)
+https://en.wikipedia.org/wiki/Overlapping_circles_grid#Modern_usage
 
 __Nodes__:
 
