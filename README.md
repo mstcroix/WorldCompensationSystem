@@ -11,7 +11,8 @@ Simple. Eliminate money invisibility.
 
 ## Concept
 
-Create a Ecosystem of Decentralised Financial Applications.
+Create a World Compensation Ecosystem based on Decentralised Financial Applications.
+
 Layers: 
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system
