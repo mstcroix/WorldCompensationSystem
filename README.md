@@ -21,28 +21,6 @@ $ps
 $App1 &
 $ps
 App1 running. 5 users connected
-
-1) Requirements
-/0-req-customer -- customer requirements (overview)
-/1-req-use-cases -- use case rationali (network independent, platform specific)
-/2-req-platform -- platform requirements (network dependent)
-
-2) Architecture and Services
-/arch.md -- architecture elements
-/commands.md -- command interface specification
-/services.md -- service design (internal layers)
-/tools.md -- tools
-
-3) Applications
-/apps -- user-apps (local)
-/dapps -- distributed user-apps (remote)
-
-4) Project organisation
-/project/ - project organisation strategies and plans
-/project/implementation.md - coding guidelines, templates, etc.
-/project/integration.md -- (Release-) Integration sequence and plan
-/project/regression.md -- regression tests (continuous integration)
-
 ```
 
 # World Compensation System (WCS)
@@ -64,36 +42,47 @@ Layers:
 1. Distributed File system
 1. Nodes are Servers
 1. Nodes run Users services
-1. Users decide to participate or not (mounting/unmounting services in the network)
-1. Users
-1. Other Users
+1. Users decide to participate or not (mounting/unmounting) as service suppliers in the network
+1. Users interact with other users or service suppliers
+1. Users transfer value-assets to single or multiple-users or services
+1. Spontaneous Users connect and use the network only for short-time (SMS, PPP)
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
-### Applications
-#### *commands*
-
+### Uses
 ```
 mount - loads/unloads foreign WCS Networks
 ls - show current Users in the Ecosystem
-```
-
-#### *services*
-```
 mv - allocate users in different sub-network
-```
-
-#### *third-party-services (extended)*
-```
 ping - ping 
 telnet - establish connection and echo server
-
-#### *third-party-services (extended)*
-```
 mail - transfer value
 ```
 
+## References
+### 1) Requirements
+```
+/0-req-customer -- customer requirements (overview)
+/1-req-use-cases -- use case rationali (network independent, platform specific)
+/2-req-platform -- platform requirements (network dependent)
 
+2) Architecture and Services
+/arch.md -- architecture elements
+/commands.md -- command interface specification
+/services.md -- service design (internal layers)
+/tools.md -- tools
+
+3) Applications
+/apps -- user-apps (local)
+/dapps -- distributed user-apps (remote)
+
+4) Project organisation
+/project/ - project organisation strategies and plans
+/project/implementation.md - coding guidelines, templates, etc.
+/project/integration.md -- (Release-) Integration sequence and plan
+/project/regression.md -- regression tests (continuous integration)
+
+```
 
 # Project Organisation
 
