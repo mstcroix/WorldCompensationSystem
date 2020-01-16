@@ -22,24 +22,25 @@ Layers:
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
 ### Applications
-#### List of supported user-system services (*commands*)
+#### *commands*
 
 ```
 mount - loads/unloads foreign WCS Networks
 ls - show current Users in the Ecosystem
 ```
 
-#### List of supported system services (*services*)
+#### *services*
 ```
 mv - allocate users in different sub-network
 ```
 
-#### List of application (*third-party-services*)
-
+#### *third-party-services (extended)*
 ```
 ping - ping 
 telnet - establish connection and echo server
 
+#### *third-party-services (extended)*
+```
 mail - transfer value
 ```
 
@@ -47,4 +48,4 @@ mail - transfer value
 
 # Project Organisation
 
-## Implementation (status:*todo*,*looking for interested*)
+Refer to /project
