@@ -120,7 +120,10 @@ homeland$debts
 homeland$assets
 2 assetts
 
-tetris - (2 Credits 16:company:gameco:*)
+leasing
+tetris - (2 Credits:16:company:gameco:*)
+
+licensed
 doomclone - (34 Credits:872355:user:girx34:*****)
 ```
 
@@ -180,16 +183,35 @@ donating local idle-time for federation1
 
 homeland$tax 8
 donate to local nation 8hrs full-time
+completed (8 Credits)
 ```
 
 ```
-homeland$greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
+homeland$credits
+8 Credits
+```
+
+```
+homeland$tetris
+running tetris..
+..
+exiting tetris
+goodbye
+```
+
+```
+homeland$credits
+6 Credits
+```
+
+```
+homeland$greetings community1 me --verbose
+$greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
 me>greetings community1
 me>credentials me{pubkey:address:nodeuuid:useralias:mail}
 community1>greetings me
-here our credentials community1{pubkey:address:nodeuuid:useralias:mail}
+community1>here our credentials community1{pubkey:address:nodeuuid:useralias:mail}
 ```
-
 
 ```
 homeland$offers
