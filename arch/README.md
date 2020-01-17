@@ -54,7 +54,7 @@ RK1.2
 
 ```
 
-### Local File-system
+### Remote (distributed) File-system
 
 ```
 RK2
