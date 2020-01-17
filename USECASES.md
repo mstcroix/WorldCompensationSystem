@@ -72,19 +72,35 @@ debit -
 loan - 
 value - set 'own' market-value (local cost of service-unit) -- analog to BTC-Network-Fee or ETH-Gas
 cost - update 'own' local (production) cost (fixed costs (including internet + electricity)) based on local average estimation
+income - show current regular income
+work - produce a work-product (costing local energy (computational power))
 
 transactions
 credit - credit user for consumed-service (online time + service computer power)
-accept - accept offer
+accept/service - accept offer
 send - transfer asset to otheruser
+reputation - get/set reputation-value (quadratic-voting) to given asset
 
 ```
 
 ```
+homeland$tools
+2 tools
+
+telnet - (0 credit:government:culture) 
+ping - (1 credit:foundation:ibm) 
+telnet - (1 credit:institute:fraunhofer) 
+hash - (1 credit:university:berlin) 
+```
+
+````console
 homeland$apps
-3 apps
+3 apps, 1 local
 
+tetris - (16 times:company:gameco:*)
+doomclone - (872355 times:user:girx34:*****)
 
+xyz - (4 times:local)
 ```
 
 ```
@@ -98,6 +114,16 @@ homeland$debts
 ```
 
 ```
+homeland$assets
+2 assetts
+
+
+tetris - (2 Credits 16:company:gameco:*)
+doomclone - (34 Credits:872355:user:girx34:*****)
+```
+
+
+```
 homeland$offers
 1 offers (1 miners)
 ```
@@ -108,6 +134,14 @@ homeland$dapp1 --verbose --debug
 running dapp1@lapland
 address: 0xc5..000
 -
+```
+
+```console
+homeland$man app
+
+json app(arg1, arg2){
+ return json; 
+}
 ```
 
 ### User-management
