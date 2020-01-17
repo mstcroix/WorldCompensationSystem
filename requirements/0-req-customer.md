@@ -1,5 +1,7 @@
 # Customer requirements
 
+__Keywords__: Executable specification, user-story
+
 ## User-story
 
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
@@ -17,10 +19,7 @@
 > And nothing could be purchased without Credits.
 > There would be no other negotiable currency. (source:[#CWG, @realNealWealsh](http:://ISBN))
 
-# Reease Plan
-## wcsServer - World Compensation System server
-
-## Executable Specification
+# Release Plan
 
 wcsServer - World Compensation System server
 
