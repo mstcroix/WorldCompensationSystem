@@ -2,6 +2,9 @@
 
 __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stories
 
+
+Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
+
 ## Welcome home
 ```console
 ** Welcome homeland
@@ -94,7 +97,7 @@ hash - (1 credit:university:berlin)
 ```
 
 ````console
-homeland$apps
+homeland$apps           ($ls /apps)
 3 apps, 1 local
 
 tetris - (16 times:company:gameco:*)
@@ -110,16 +113,81 @@ homeland$credits
 
 ```
 homeland$debts
-0 credits
+0 debts
 ```
 
 ```
 homeland$assets
 2 assetts
 
-
 tetris - (2 Credits 16:company:gameco:*)
 doomclone - (34 Credits:872355:user:girx34:*****)
+```
+
+```
+homeland$credit tetris
+no neighbors found
+```
+
+```
+homeland$neighborhood
+0 neighbors
+```
+
+```
+homeland$discover
+discovering users
+34 neighbor users found
+3 communities found
+```
+
+```
+homeland$connect
+connecting with local neighborhood
+1. peer-to-peer connection established. Hello node34
+2. peer-to-peer connection established. Hello 
+3. remote-connection established. Hello server78.google.com
+OK service-connection established. Hello homequarters (#WCS00.org) time:34.251 ms
+```
+
+```
+homeland$citizen
+connecting with local nation
+1. remote-connection established. Hello finance.gov
+2. remote-connection established. Hello congress.EU
+OK service-connection established. Hello homequarters (#WCS00.org)
+
+0 taxes
+2 messages
+1 requests
+```
+
+```
+homeland$citizen federation1
+connecting with local federation1
+1. remote-connection established. Hello finance.gov
+OK service-connection established. Hello homequarters (#WCS00.org)
+
+0 taxes
+2 messages
+1 requests
+```
+
+
+```
+homeland$donate -idle
+donating local idle-time for federation1
+
+homeland$tax 8
+donate to local nation 8hrs full-time
+```
+
+```
+homeland$greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
+me>greetings community1
+me>credentials me{pubkey:address:nodeuuid:useralias:mail}
+community1>greetings me
+here our credentials community1{pubkey:address:nodeuuid:useralias:mail}
 ```
 
 
