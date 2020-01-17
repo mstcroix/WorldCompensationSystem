@@ -54,6 +54,7 @@ no local credits (use command: credits)
 no local debts (use command: debts)
 
 use '$commands' for a listing of available operation commands
+use '$apps' for a listing of currently available user-services
 ```
 
 ```console
@@ -63,17 +64,27 @@ credits - credits are gained by certain proof-of-work
 debts - debts are credits debited to the users (to be payed later in time or as part of a loan (see :loans))
 loans - list of available loans (request for asset-transfer (value transfer)
 offers - list of published offers (request for service)
-assets - show c
+assets - show local assets (including applications,commands,services,tools and monetary value)
 
 
 actions
 debit -  
 loan - 
 value - set 'own' market-value (local cost of service-unit) -- analog to BTC-Network-Fee or ETH-Gas
+cost - update 'own' local (production) cost (fixed costs (including internet + electricity)) based on local average estimation
 
 transactions
-credit - 
-send - 
+credit - credit user for consumed-service (online time + service computer power)
+accept - accept offer
+send - transfer asset to otheruser
+
+```
+
+```
+homeland$apps
+3 apps
+
+
 ```
 
 ```
