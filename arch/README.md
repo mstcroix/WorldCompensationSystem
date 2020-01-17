@@ -56,6 +56,8 @@ RK1.2
 
 ### Remote (distributed) File-system
 
+[/arch/dfs](dfs)
+
 ```
 RK2
 /dapp/DeFi/ - Decentralised Financial Apps
