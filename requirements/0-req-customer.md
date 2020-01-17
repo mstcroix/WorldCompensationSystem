@@ -1,7 +1,5 @@
 # Customer requirements
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## User-story
 
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
@@ -21,18 +19,10 @@
 
 # Reease Plan
 ## wcsServer - World Compensation System server
-=======
-=======
->>>>>>> b95d41bc2d09f5d62054daf956c2430486ba4977
+
 ## Executable Specification
 
 wcsServer - World Compensation System server
-
-### wcsServer - World Compensation System server
-<<<<<<< HEAD
->>>>>>> b95d41bc2d09f5d62054daf956c2430486ba4977
-=======
->>>>>>> b95d41bc2d09f5d62054daf956c2430486ba4977
 
 __Description:__ Starts execution of WCS Node as TCP/IP Server listening for commands at port :280182
 
