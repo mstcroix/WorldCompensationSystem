@@ -3,7 +3,7 @@
 __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stories
 
 ## Welcome home
-```
+```console
 ** Welcome homeland
 homeland$whoami
 homeland
@@ -49,6 +49,46 @@ running cmd1
 homeland$dapp1 --verbose
 running dapp1@lapland
 address: 0xc5..000
+
+no local credits (use command: credits)
+no local debts (use command: debts)
+
+use '$commands' for a listing of available operation commands
+```
+
+```console
+homeland$commands
+opeartions
+credits - credits are gained by certain proof-of-work 
+debts - debts are credits debited to the users (to be payed later in time or as part of a loan (see :loans))
+loans - list of available loans (request for asset-transfer (value transfer)
+offers - list of published offers (request for service)
+assets - show c
+
+
+actions
+debit -  
+loan - 
+value - set 'own' market-value (local cost of service-unit) -- analog to BTC-Network-Fee or ETH-Gas
+
+transactions
+credit - 
+send - 
+```
+
+```
+homeland$credits
+0 credits
+```
+
+```
+homeland$debts
+0 credits
+```
+
+```
+homeland$offers
+1 offers (1 miners)
 ```
 
 ### Running in debug-mode
