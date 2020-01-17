@@ -1,91 +1,29 @@
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
-__Classification__: DeFi : EcoSystem : @rif_os : 
+__Classification__: DeFi : EcoSystem : @rif_os :
 __Version__: 0.0.1 (2020-01-15)
 __Status__: *in work*
 
-## Purpose 
+## Purpose
 
 Simple. Eliminate money invisibility.
 
-## Concept
+## User-story
 
-Create a World Compensation Ecosystem based on Decentralised Financial Applications.
+> I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
+> Develop an international monetary system that is wide open, totally visible, immediately traceable, completely accountable.
+> Establish a Worldwide Compensation System by which people would be given Credits for services rendered and products produced, and Debits for services used and products consumed.
+> Under the new Worldwide Compensation System, WCS, the transfer of Debits and Credits would be immediate and totally visible.
+> That is, anybody and everybody could inspect the account of any other person or organization at any time.
+> Nothing would be kept secret, nothing would be 'private'
 
-Layers: 
-1. Distributed peer-2-peer (P2P) Network (Blockchain based)
-1. Distributed File system (dfsWcs)
-1. Nodes are Servers
-1. Servers
-   1. run System- and Users-services
-   1. route User- and System- interactions (transactions)
-1. Users are Clients
-1. Clients decide to participate or not (mounting/unmounting) as service suppliers in the network
-1. Clients interact with other Clients 
-1. Clients request services from Servers (service suppliers)
-   1. Via Remote Procedure Call (RPC) returning values in JSON format
-1. Clients transfer value-assets to single or multiple-users or services
-1. Light-Clients connect and use the network only for short-time (SMS, PPP)
-1. Value-assets are represented via Addresses in the Distributed File system
-1. Clients and Servers interact via read/write file operations with eachother
-1. Servers providing User-services are debted certain agreed amount per-use
-1. Servers providing System-services are debted an agreed amount per-use, daily, monthly or yearly on donation basis
+> Everything would be on the system of Credits and Debits.
+> Returns on investments, inheritances, winnings of wagers, salaries and wages, tips and gratuities, everything.
+> The WCS would deduct 10 percent of all earnings each year from the income of those *voluntarily requesting* such a deduction.
+> Everyone in the society would be able to observe who was choosing to offer the 10 percent for the general good of all, and who was not.
+> And everyone's records would be open to everyone else.
+> And nothing could be purchased without Credits.
+> There would be no other negotiable currency. (source:#CWG, @realNealWealsh)
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
-
-### Common Use-cases
-
-* transfer value-assets
-
-### Network Startup
-
-```
-$wcsStart &
-World Compensation System server (wcss) running
-Listening on port:280182
-
-$wcsStatus
-Status: OK
-```
-
-### Command, Services and Tools
-```
-mount - loads/unloads foreign WCS Networks
-ls - show current Users in the Ecosystem
-mv - allocate users in different sub-network
-whoami - 
-ps - process
-ping - ping 
-telnet - establish connection and echo server
-mailto - use mail-alies to transfer transfer value-assets in the network
-```
-
-### Application Notes
-```
-$whoami
-{0x123456:mstcroix:mstcroix@protonmail.com}
-
-$pwd
-/
-
-$ls
-/apps
-/commands
-/dapps
-/services
-/users
-
-$ls /users
-/users/{0x123456:mstcroix:mstcroix@protonmail.com}
-/users/{0x423456:mstcroix:none}
-/users/{0x223456:anonymous:none}
-/users/{0x723456:mstcroix:mstcroix@protonmail.com}
-
-$ps
-0 applications running
-
-$/apps/App1 &
-$ps
-/apps/App1 running. 5 users connected
-```
