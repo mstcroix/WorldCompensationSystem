@@ -29,5 +29,3 @@ Simple. Eliminate money invisibility.
 > There would be no other negotiable currency. ([source:#CWG, @realNealWealsh](http://ISBN))
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
-
-## Contribution
