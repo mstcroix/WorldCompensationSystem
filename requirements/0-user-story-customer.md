@@ -1,6 +1,6 @@
 # Customer requirements
 
-__Keywords__: Executable specification, user-story
+__Keywords__: Executable specification, User-stories
 
 ## User-story
 
@@ -17,13 +17,15 @@ __Keywords__: Executable specification, user-story
 > Everyone in the society would be able to observe who was choosing to offer the 10 percent for the general good of all, and who was not.
 > And everyone's records would be open to everyone else.
 > And nothing could be purchased without Credits.
-> There would be no other negotiable currency. (source:[#CWG, @realNealWealsh](http:://ISBN))
+> There would be no other negotiable currency. (source:#CWG, @realNealWealsh)
 
-# Release Plan
+# Reease Plan
+## wcsServer - World Compensation System server
 
 wcsServer - World Compensation System server
 
-## wcsServer - World Compensation System server
+### wcsServer - World Compensation System server
+>>>>>>> b95d41bc2d09f5d62054daf956c2430486ba4977
 
 __Description:__ Starts execution of WCS Node as TCP/IP Server listening for commands at port :280182
 
