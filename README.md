@@ -12,8 +12,10 @@ Simple. Eliminate money invisibility.
 ## User-story
 
 > I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
+
 > Develop an international monetary system that is wide open, totally visible, immediately traceable, completely accountable.
 > Establish a Worldwide Compensation System by which people would be given Credits for services rendered and products produced, and Debits for services used and products consumed.
+
 > Under the new Worldwide Compensation System, WCS, the transfer of Debits and Credits would be immediate and totally visible.
 > That is, anybody and everybody could inspect the account of any other person or organization at any time.
 > Nothing would be kept secret, nothing would be 'private'
@@ -24,6 +26,8 @@ Simple. Eliminate money invisibility.
 > Everyone in the society would be able to observe who was choosing to offer the 10 percent for the general good of all, and who was not.
 > And everyone's records would be open to everyone else.
 > And nothing could be purchased without Credits.
-> There would be no other negotiable currency. (source:#CWG, @realNealWealsh)
+> There would be no other negotiable currency. ([source:#CWG, @realNealWealsh](http://ISBN))
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
+
+## Contribution
