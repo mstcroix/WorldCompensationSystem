@@ -1,6 +1,10 @@
 # Customer requirements
 
-## wcsServer - World Compensation System server
+## Executable Specification
+
+wcsServer - World Compensation System server
+
+### wcsServer - World Compensation System server
 
 __Description:__ Starts execution of WCS Node as TCP/IP Server listening for commands at port :280182
 
