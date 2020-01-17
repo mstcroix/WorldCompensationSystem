@@ -4,6 +4,8 @@
 
 Create a World Compensation Ecosystem based on Decentralised Financial Applications.
 
+Implementation: Operation System (including fs, dfs, time-shared applications)
+
 Layers:
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system (dfsWcs)
