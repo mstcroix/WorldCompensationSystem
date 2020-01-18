@@ -39,8 +39,8 @@ debit - crediting unit referring the used time during required computation
 
 __Services__:
 service - an action executed virtually (software) or physically (hardware)
-   eg. (software:x386:server) hashvalueof bigfile.bin
-       (hardware:raspberrypi:io) getoutsidetemp
+- eg. (software:x386:server) hashvalueof bigfile.bin
+- (hardware:raspberrypi:io) getoutsidetemp
 
 ## Use-cases
 
