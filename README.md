@@ -30,6 +30,10 @@ Simple. Eliminate money invisibility.
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
+## Use-cases
+
+- Typical [Use-cases](requirements/USECASES.md) and User-workflow
+
 ## Community
 - [@WorldCompensationSystem (Twitter)](https://twitter.com/WorldCompensationSystem)
 
