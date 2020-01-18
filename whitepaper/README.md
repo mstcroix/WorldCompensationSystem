@@ -258,10 +258,10 @@ Status: OK
 ```
 61c2223045284a14e903089d266c04c6  ./arch/README.md
 ```
-\| Document \| Checksum-hash \|
-\| -- \| -- \|
-\| basename GLOSSARY.md \| 3582056e21f163e556a92a29f26da4bc GLOSSARY.md \|
-\| basename README.md \| 4e57eedfde6cb02c52aec8be79b015c9 README.md \|
+| Document | Checksum-hash |
+| -- | -- |
+| basename GLOSSARY.md | 3582056e21f163e556a92a29f26da4bc GLOSSARY.md |
+| basename README.md | 4e57eedfde6cb02c52aec8be79b015c9 README.md |
 ## 2020 (CC) Creative Common License
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 #### Digital signatures
