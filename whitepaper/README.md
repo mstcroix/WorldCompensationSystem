@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:26:00 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:30:28 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -156,8 +156,8 @@ homeland$share dapp1 user1 2
 homeland$lend dapp1
 homeland$claim dapp1
 ```
-
-/apps
+### Applications
+/apps:
 ### Applications
 
 ```
@@ -183,8 +183,8 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 | -- | -- |
 | README.md | c2bf4fc7bf438106c12f307afd337811 apps/README.md |
 
-### Applications
-/dapps
+### Distributed Apps (status:*in-work*)
+/dapps:
 ### Distributed Apps (status:*in-work*)
 
 ```
@@ -208,8 +208,8 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 | -- | -- |
 | README.md | 2dfccc42d70768a23f6464cb7940915a dapps/README.md |
 
-### Distributed Apps (status:*in-work*)
-/commands
+## Commands (status:*in-work*)
+/commands:
 ## Commands (status:*in-work*)
 
 ```
@@ -219,21 +219,21 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 ```
 
 ### List of WCS Commands(s) (status:*in-work*)
-/commands/:
+
 * [wcsUStatus](wcs) - Echo
 
 
 ### Application Notes
 #### Digital signatures
 ```
-19378124b967a8ee694fbb7303c7897b  ./commands/README.md
+904c01d929ce8597189d60c971d93641  ./commands/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 19378124b967a8ee694fbb7303c7897b commands/README.md |
+| README.md | 904c01d929ce8597189d60c971d93641 commands/README.md |
 
-## Commands (status:*in-work*)
-/operations
+## Operations
+/operations:
 ## Operations
 #### Digital signatures
 ```
@@ -243,40 +243,39 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 | -- | -- |
 | README.md | 88c2dd22668d96cb2232b8c136cbd982 operations/README.md |
 
-## Operations
-/tools
+## Tools
+/tools:
 ## Tools
 
 ### List of off-the-shelf Admin Tool(s) (status:*in-work*)
-/tools/:
+
 * [wcsUPing](wcsPing) - wcs:Util : Ping
 * [wcsUEcho](wcs) - Echo
 #### Digital signatures
 ```
-ac9c232097bd812a82d4717c2298f6eb  ./tools/README.md
+aba20cefd0503d8c5efaeac7c77680f5  ./tools/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | ac9c232097bd812a82d4717c2298f6eb tools/README.md |
+| README.md | aba20cefd0503d8c5efaeac7c77680f5 tools/README.md |
 
-## Tools
-/services
+### Services
+/services:
 ### Services
 
 #### List of wcsOS System-Service(s) (status:*in-work*)
 
-/services/:
 * [wcsServer](wcsServer) - World Compensation System server
 #### Digital signatures
 ```
-06ae6a9d35733170f372c50e1e6ed749  ./services/README.md
+7c604d049c674a6ef8ff531ebcdc7191  ./services/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 06ae6a9d35733170f372c50e1e6ed749 services/README.md |
+| README.md | 7c604d049c674a6ef8ff531ebcdc7191 services/README.md |
 
-### Services
-/arch
+## Architecture
+/arch:
 ## Architecture
 
 ### Concept
@@ -387,7 +386,7 @@ Status: OK
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 #### Digital signatures
 ```
-ac9c232097bd812a82d4717c2298f6eb  ./tools/README.md
+aba20cefd0503d8c5efaeac7c77680f5  ./tools/README.md
 dc2c8698da44a75bdd5c19efd0860213  ./dbin/README.md
 d47693b9acb4e93021125f2c7a3d36f2  ./bin/README.md
 49a5c547537d2c6a77e17d08d62bd5e2  ./networking/README.md
@@ -396,7 +395,7 @@ d47693b9acb4e93021125f2c7a3d36f2  ./bin/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-b5a54244e007e773c40cbc165cc3607a  ./whitepaper/README.md
+a1b07036afabfcd52b7dc65ca5ad51cb  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
@@ -410,8 +409,8 @@ b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
 61c2223045284a14e903089d266c04c6  ./arch/README.md
 c4feafee3b3e1969bc45b3fc9f2575ee  ./arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ./users/README.md
-19378124b967a8ee694fbb7303c7897b  ./commands/README.md
+904c01d929ce8597189d60c971d93641  ./commands/README.md
 c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
-06ae6a9d35733170f372c50e1e6ed749  ./services/README.md
+7c604d049c674a6ef8ff531ebcdc7191  ./services/README.md
 ```

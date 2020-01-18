@@ -36,8 +36,8 @@ echo '```' >> ./whitepaper/README.md
 ### Element (z.B. Architecture)
 for d in apps dapps commands operations tools services arch ;
   do
-    echo `head -n 1 $f` >> ./whitepaper/README.md
-    echo /$d >> ./whitepaper/README.md
+    echo `head -n 1 $d/README.md` >> ./whitepaper/README.md
+    echo "/$d:" >> ./whitepaper/README.md
     cat $d/README.md >> ./whitepaper/README.md
 
     echo '#### Digital signatures' >> ./whitepaper/README.md

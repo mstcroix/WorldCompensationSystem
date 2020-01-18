@@ -7,7 +7,7 @@
 ```
 
 ### List of WCS Commands(s) (status:*in-work*)
-/commands/:
+
 * [wcsUStatus](wcs) - Echo
 
 
