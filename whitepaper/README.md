@@ -58,6 +58,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 ```
 ```
 
+<<<<<<< HEAD
 [../tools](README.md) -
 
 [../networking](README.md) - # Networking
@@ -91,6 +92,30 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 [../services/wcsServer](README.md) - # wcsServer - World Compensation System server
 
 [../services](README.md) - ### Services
+=======
+[README.md](../tools/README.md) -
+
+[README.md](../networking/README.md) - # Networking
+
+[README.md](../dapps/README.md) - ### Distributed Apps (status:*in-work*)
+
+[README.md](../whitepaper/README.md) - # World Compensation System (WCS)
+[README.md](../operations/README.md) - # Operations
+[README.md](../README.md) - # World Compensation System (WCS)
+[README.md](../lang/README.md) -
+[README.md](../lang/c/README.md) - c
+[README.md](../arch/dfs/README.md) - # Distributed File-System(s)
+[README.md](../arch/dfs/dFSwcs/README.md) - # Distributed File-System WCS
+[README.md](../arch/README.md) - ## Architecture
+[README.md](../arch/fs/README.md) - # File System
+[README.md](../users/README.md) - # Users
+[README.md](../commands/README.md) - ### Commands (status:*in-work*)
+[README.md](../apps/README.md) - ### Applications
+
+[README.md](../services/wcsServer/README.md) - # wcsServer - World Compensation System server
+
+[README.md](../services/README.md) - ### Services
+>>>>>>> 9956a78e2d9c4731aac975a80bc2a96082439de1
 
 ## Operating (Eco-)System Concept
 1. wcsO(E)S - WCS Operating Eco-System
