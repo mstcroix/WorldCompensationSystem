@@ -1,5 +1,5 @@
 # wcsStartRun - World Compensation System server
 
-__Category__: Server
+__Category__: System-service: Server
 
 ## Purpose
