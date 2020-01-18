@@ -1,21 +1,27 @@
-#### File System
+### File System
 
-###### Local File-system
-
+#### Local File-system
 
 ```
 / - root Ecosystem
-local-runnables (runtime-environment)
+```
+
+###### local-runnables (runtime-environment)
+```
 /commands
 /bin - Local commands, services and tools
 /apps
 /tools - Utility tools
 /lang - implementation language specific files
+```
 
-user-management
+###### user-management
+```
 /users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
+```
 
-distributed
+###### distributed
+```
 /dapp/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
 /dbin/ - Decentralised System services
 ```

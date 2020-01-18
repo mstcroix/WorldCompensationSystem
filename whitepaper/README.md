@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:48:13 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:49:50 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -380,7 +380,7 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-9b5da76ed5a384c26e6792edbc47c39e  ./whitepaper/README.md
+7dfb5b333bb4154a689d42cece4d49b7  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 e7628ed2655ae8735f1f0b9afb7fa61e  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
@@ -392,7 +392,7 @@ f16bab90fe5bf837c86b04e89f7dbb86  ./lang/README.md
 bdb604d4b1a062ad395e255c5fe46ca6  ./arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
 98b26c87b00660ea619e96fdb6a67885  ./arch/README.md
-38d91334dc2c6cd8a8948e1825ffaa0b  ./arch/fs/README.md
+0ee73e6a7044edab5d3f4bd3177d0a58  ./arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ./users/README.md
 edf88082867feb04d7cd8796b39561a3  ./commands/README.md
 49bf9fabbb31ca80119c72109b914708  ./apps/README.md
