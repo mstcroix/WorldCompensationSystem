@@ -28,15 +28,15 @@ do
 done
 
 #footer
-echo "## 2020 (CC) Creative Common LIcense" >> whitepaper.md
+echo "## 2020 (CC) Creative Common License" >> whitepaper.md
 
 md5sum wcsOES.md >> whitepaper.md
-echo published by: user : $(date) $(time) >> whitepaper
+echo published by: user : $(date) $(time) >> whitepaper.md
 
 # Fingerprinting (Signature)
-echo ```
+echo ``` >> whitepaper.md
 for f in $(find .. -regex '.*/*.md' )
 do
     md5sum $f >> whitepaper.md
 done
-echo ```
+echo ``` >> whitepaper.md
