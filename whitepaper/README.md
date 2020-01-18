@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:31:33 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:34:17 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -158,7 +158,6 @@ homeland$claim dapp1
 ```
 ### Applications
 /apps:
-### Applications
 
 ```
 /app/App1 -- Local App1 executable
@@ -185,7 +184,6 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 
 ### Distributed Apps (status:*in-work*)
 /dapps:
-### Distributed Apps (status:*in-work*)
 
 ```
 /dapp/DApp1 -- Distributed App1 executable
@@ -196,21 +194,19 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 
 #### List of WCS DFApp(s) (status:*in-work*)
 
-/dapps:/
 * [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst
 
 * [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
 #### Digital signatures
 ```
-2dfccc42d70768a23f6464cb7940915a  ./dapps/README.md
+3ca57832b861ca78e7c3abb680411fcb  ./dapps/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 2dfccc42d70768a23f6464cb7940915a dapps/README.md |
+| README.md | 3ca57832b861ca78e7c3abb680411fcb dapps/README.md |
 
 ## Commands (status:*in-work*)
 /commands:
-## Commands (status:*in-work*)
 
 ```
 /commands/Cmd1 -- Command1 executable
@@ -234,7 +230,6 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 
 ## Operations
 /operations:
-## Operations
 #### Digital signatures
 ```
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
@@ -245,7 +240,6 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 
 ## Tools
 /tools:
-## Tools
 
 ### List of off-the-shelf Admin Tool(s) (status:*in-work*)
 
@@ -261,7 +255,6 @@ aba20cefd0503d8c5efaeac7c77680f5  ./tools/README.md
 
 ### Services
 /services:
-### Services
 
 #### List of wcsOS System-Service(s) (status:*in-work*)
 
@@ -276,7 +269,6 @@ aba20cefd0503d8c5efaeac7c77680f5  ./tools/README.md
 
 ## Architecture
 /arch:
-## Architecture
 
 ### Concept
 
@@ -391,11 +383,11 @@ dc2c8698da44a75bdd5c19efd0860213  ./dbin/README.md
 d47693b9acb4e93021125f2c7a3d36f2  ./bin/README.md
 49a5c547537d2c6a77e17d08d62bd5e2  ./networking/README.md
 3582056e21f163e556a92a29f26da4bc  ./GLOSSARY.md
-2dfccc42d70768a23f6464cb7940915a  ./dapps/README.md
+3ca57832b861ca78e7c3abb680411fcb  ./dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-3d1317062fb84eaf6fdeb52d578bfce9  ./whitepaper/README.md
+fd2e4666c53c15fdb3c2ac5a5113979d  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
