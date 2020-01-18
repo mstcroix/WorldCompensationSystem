@@ -40,6 +40,7 @@ for d in apps dapps commands operations tools services arch ;
     echo "/$d:" >> ./whitepaper/README.md
     tail -n +2 $d/README.md >> ./whitepaper/README.md
 
+    echo '' >> ./whitepaper/README.md
     echo '#### Digital signatures' >> ./whitepaper/README.md
     echo '```' >> ./whitepaper/README.md
     md5sum ./$d/*.md >> ./whitepaper/README.md
@@ -57,12 +58,12 @@ for d in apps dapps commands operations tools services arch ;
 ### ----------------------------------------------------------------------
 
 ## Footer
-echo "Whitepaper" >> ./whitepaper/README.md
-echo "-- WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
-
 echo "## 2020 (CC) Creative Common License" >> ./whitepaper/README.md
 
-md5sum ./whitepaper/wcsOES.md >> ./whitepaper/README.md
+md5sum ./whitepaper/README.md >> ./whitepaper/README.md
+
+echo "Whitepaper" >> ./whitepaper/README.md
+echo "-- WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
 
 ## Fingerprinting
 echo '#### Digital signatures' >> ./whitepaper/README.md

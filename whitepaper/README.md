@@ -185,6 +185,7 @@ homeland$claim dapp1
 /lang - implementation language specific files
 
 ### Application Notes
+
 #### Digital signatures
 ```
 49bf9fabbb31ca80119c72109b914708  ./apps/README.md
@@ -213,6 +214,7 @@ homeland$claim dapp1
 
 
 #### Application Notes
+
 #### Digital signatures
 ```
 8bac8aaca025fbaed5d9753a66a1b7cd  ./dapps/README.md
@@ -236,6 +238,7 @@ homeland$claim dapp1
 
 
 ### Application Notes
+
 #### Digital signatures
 ```
 edf88082867feb04d7cd8796b39561a3  ./commands/README.md
@@ -246,6 +249,7 @@ edf88082867feb04d7cd8796b39561a3  ./commands/README.md
 
 ## Operations
 /operations:
+
 #### Digital signatures
 ```
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
@@ -263,6 +267,7 @@ edf88082867feb04d7cd8796b39561a3  ./commands/README.md
 * [wcsUEcho](wcs) - Echo (status:*planned*)
 
 ### Application Notes
+
 #### Digital signatures
 ```
 d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
@@ -277,6 +282,7 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 #### List of supported System-Service(s)
 
 * [wcsServer](wcsServer) - World Compensation System server (status:*planned*)
+
 #### Digital signatures
 ```
 086f662610232b3d3c823e5af2138bce  ./services/README.md
@@ -292,11 +298,13 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 
 Create a World Compensation Ecosystem based on Decentralised Financial Applications.
 
-Implementation: Operation System (including fs, dfs, time-shared applications)
+__Implementation__:
+* Operation System (including fs, dfs, time-shared applications)
 
 [wcsOS](http://wikipedia.com/wiki/wcsOS) -- linux based distribution
 
-Layers:
+__Layers__:
+
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system (dfsWcs)
 1. Nodes are Servers
@@ -324,8 +332,10 @@ __Topology__: Flower or Tree-of-Life (sacred geometry star 1:N, N:=6)
 __Nodes__:
 
 ```
-Full-nodes: store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
-Light-nodes: store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+Full-nodes:
+ - store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
+Light-nodes:
+ - store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
 ```
 ### Local File-system
 
@@ -371,18 +381,19 @@ Status: OK
 
 - [apps](/apps) - Local commands, services and tools
 - [dapps](/dapps) - Distributed (Remote) User-services
+
 #### Digital signatures
 ```
-98b26c87b00660ea619e96fdb6a67885  ./arch/README.md
+50eef34cb1ede218c189b74a8b377cda  ./arch/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 98b26c87b00660ea619e96fdb6a67885 arch/README.md |
+| README.md | 50eef34cb1ede218c189b74a8b377cda arch/README.md |
 
-Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:18:51 CET 2020 
 ## 2020 (CC) Creative Common License
-c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
+4e864ba55264b662e2e27a071d69264f  ./whitepaper/README.md
+Whitepaper
+-- WCS - published by: wcs:root : Sat Jan 18 19:23:09 CET 2020 
 #### Digital signatures
 ```
 d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
@@ -394,7 +405,7 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-bd0ed4afb7475480b68972ab08accdae  ./whitepaper/README.md
+b11874b3a3621a24c1f289543bc60c32  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 48c685a2b7ba37bae2978555f0faac77  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
@@ -405,7 +416,7 @@ f16bab90fe5bf837c86b04e89f7dbb86  ./lang/README.md
 2eaaf2bbe0e2dae25cbc17345d4ba75a  ./lang/c/README.md
 bdb604d4b1a062ad395e255c5fe46ca6  ./arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
-98b26c87b00660ea619e96fdb6a67885  ./arch/README.md
+50eef34cb1ede218c189b74a8b377cda  ./arch/README.md
 beb28c51736bf8eb435fbc02654657f6  ./arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ./users/README.md
 edf88082867feb04d7cd8796b39561a3  ./commands/README.md

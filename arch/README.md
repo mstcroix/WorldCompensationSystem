@@ -4,11 +4,13 @@
 
 Create a World Compensation Ecosystem based on Decentralised Financial Applications.
 
-Implementation: Operation System (including fs, dfs, time-shared applications)
+__Implementation__:
+* Operation System (including fs, dfs, time-shared applications)
 
 [wcsOS](http://wikipedia.com/wiki/wcsOS) -- linux based distribution
 
-Layers:
+__Layers__:
+
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system (dfsWcs)
 1. Nodes are Servers
@@ -36,8 +38,10 @@ __Topology__: Flower or Tree-of-Life (sacred geometry star 1:N, N:=6)
 __Nodes__:
 
 ```
-Full-nodes: store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
-Light-nodes: store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+Full-nodes:
+ - store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
+Light-nodes:
+ - store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
 ```
 ### Local File-system
 
