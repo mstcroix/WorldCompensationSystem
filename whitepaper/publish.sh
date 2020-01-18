@@ -4,7 +4,7 @@
 # ../commit.sh
 
 # Headerecho
- published by: user : $(date) $(time) > README.md
+echo published by: user : $(date) $(time) > README.md
 
 # User-story
 cat ../README.md >> README.md
