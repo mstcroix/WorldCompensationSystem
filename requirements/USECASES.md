@@ -29,7 +29,7 @@ homeland$
 ```
 
 #### View use-case description manual
-`help`, `man` or check [our documentation](documentation).
+`help`, `man` or check [our documentation](../documentation).
 
 ```
 homeland$man
