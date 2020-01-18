@@ -107,10 +107,16 @@ Please read our [Project](/project) [Contribution Guide](/project/CONTRIBUTING.m
       1. User-management
    1. User-Application development
       1. DApplication development help
-   1. Returning home
-   1. Lend User-service
-   1. Claim lend User-service
+   1. User management
+      1. Returning home
+   1. Financial services
+      1. Lend User-service
+      1. Claim lend User-service
+1. Application Notes
    1. Borrow service
+   1. Service production and consumption
+   1. Wallet
+   1. Snapshot
 
 ## (Eco-)System Application notes
 ```
@@ -170,6 +176,9 @@ homeland$share dapp1 user1 2
 homeland$lend dapp1
 homeland$claim dapp1
 homeland$read ebook1 1
+homeland$read ebook1 1
+homeland$man wallet
+homeland$wallet create
 ```
 ### Applications
 /apps:
@@ -348,6 +357,16 @@ Full-nodes:
  - store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
 Light-nodes:
  - store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+
+
+ (light-Node) User : reads, modifies and stores state in Blockchain
+ - In browser (js Linux machine)
+ - Web App
+ - Mobile App
+
+ full-Node (service provider server) : offers (shares) execution time
+ - USB live CD
+ - Floppy disk
 ```
 ### Local File-system
 
@@ -396,28 +415,28 @@ Status: OK
 
 #### Digital signatures
 ```
-da435fd2fb426d1087a3ff9b0b11f80d  ./arch/README.md
+aa4209ef73003fc5ed561c333358fa92  ./arch/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | da435fd2fb426d1087a3ff9b0b11f80d arch/README.md |
+| README.md | aa4209ef73003fc5ed561c333358fa92 arch/README.md |
 
 ## 2020 (CC) Creative Common License
 ```
-eabf8454caae070e7a9dfcb6a01208e6  ./whitepaper/README.md
+792e294176e410cca7d0d746f6bd4d91  ./whitepaper/README.md
 ```
 #### Digital signatures
 ```
 d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 2002ca1741c76f6377bbeeee61871f2c  ./dbin/README.md
 6eec0042d8bf26b963570b205d79b536  ./bin/README.md
-280c5c21a52eb71acd378440842d4242  ./networking/README.md
+7641cae0c8a83ae31000144d576289e2  ./networking/README.md
 3582056e21f163e556a92a29f26da4bc  ./GLOSSARY.md
 8bac8aaca025fbaed5d9753a66a1b7cd  ./dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
-ea7ccf6120a0e29cb8473cbb7e1cc7f7  ./whitepaper/wcsOES.md
+f3e1a225f485559ca93e0f04f41002fe  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-67ff86b5304c00dc0476e1297742e727  ./whitepaper/README.md
+6e355b4ba038ba8c72015b900c61bc41  ./whitepaper/README.md
 227488574263a442dfc666513ef23f0c  ./operations/README.md
 7d680ccb57804e34622b8d066bbd4fbe  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
@@ -428,7 +447,7 @@ f16bab90fe5bf837c86b04e89f7dbb86  ./lang/README.md
 2eaaf2bbe0e2dae25cbc17345d4ba75a  ./lang/c/README.md
 bdb604d4b1a062ad395e255c5fe46ca6  ./arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
-da435fd2fb426d1087a3ff9b0b11f80d  ./arch/README.md
+aa4209ef73003fc5ed561c333358fa92  ./arch/README.md
 beb28c51736bf8eb435fbc02654657f6  ./arch/fs/README.md
 e598ee8dfcac71c6efdc5a3c56954ac0  ./users/README.md
 edf88082867feb04d7cd8796b39561a3  ./commands/README.md
@@ -436,7 +455,7 @@ edf88082867feb04d7cd8796b39561a3  ./commands/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
 ```
-Whitepaper. WCS - published by: wcs:root : Sat Jan 18 20:05:36 CET 2020 
+Whitepaper. WCS - published by: wcs:root : Sat Jan 18 20:22:33 CET 2020 
 
 # Glossary
 

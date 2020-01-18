@@ -43,6 +43,16 @@ Full-nodes:
  - store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
 Light-nodes:
  - store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+
+
+ (light-Node) User : reads, modifies and stores state in Blockchain
+ - In browser (js Linux machine)
+ - Web App
+ - Mobile App
+
+ full-Node (service provider server) : offers (shares) execution time
+ - USB live CD
+ - Floppy disk
 ```
 ### Local File-system
 

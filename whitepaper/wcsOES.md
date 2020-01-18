@@ -487,7 +487,8 @@ me@homeland$publish myapp1
 }
 ```
 
-## Returning home
+## User management
+### Returning home
 ```console
 me@homeland$exit
 homeland$
@@ -527,7 +528,8 @@ Hey! Check '/homeland/dapp1' out. You are going to loooove it!
 Timeout set to 2 hours
 ```
 
-## Lend User-service
+## Financial services
+### Lend User-service
 ```
 homeland$lend dapp1
 offering dapp1 -> /node/lapland/dapps/dapp1
@@ -535,7 +537,7 @@ waiting for acceptance
 accepted (node75)
 ```
 
-## Claim lend User-service
+### Claim lend User-service
 ```
 homeland$claim dapp1
 claming dapp1 -> /node/node75/dapps/dapp1
@@ -544,11 +546,64 @@ restored (homeland)
 dapp1 -> /node/lapland/dapps/dapp1
 ```
 
+# Application Notes
 ## Borrow service
-````
-````
+```
+homeland$read ebook1 1
+1 Credits for read-right granted
+```
+
+## Service production and consumption
+
+Use case:
+I want to know the outside temperature, but I don’t have a thermometer
+
+Neighbour offers has a temperature sensor
+
+__Solution__:
 
 ```
 homeland$read ebook1 1
 1 Credits for read-right granted
 ```
+
+## Wallet
+
+````
+homeland$man wallet
+
+- Wallet
+
+/wallet
+````
+
+````
+homeland$wallet create
+Generating SHA-256 public key
+Calculating computer power
+Calculating fix cost based on geographical location
+
+Choose Private key
+a) picture
+b) pass-phrase
+c) certificate
+d) Security Question
+User: a
+Picture path: /users/foto.jpeg
+````
+
+## Snapshot
+````
+- snap
+````
+
+/DApps/snap: (120,34)
+/DApps/snap/plugin (80, 12)
+/DApps/snap/plugin/twitter (40, 22)
+
+$ls -al
+Date Cost Market-value Reputation
+/snap Corp:snapped 120 34
+
+$lend 3 user1 2020-06-31 0.001
+$gift 3 user3 /user3/birthday
