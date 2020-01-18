@@ -4,7 +4,7 @@
 # ../commit.sh
 
 # Headerecho
-echo published by: user : $(date) $(time) > README.md
+echo Withepaper. WCS - published by: user : $(date) $(time) > README.md
 
 # User-story
 cat ../README.md >> README.md
