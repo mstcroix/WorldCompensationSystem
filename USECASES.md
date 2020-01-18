@@ -1,7 +1,16 @@
 # wcsOS
+
+Linux based. Minimal distribution
+__Target__: Raspberry Pi, x386,
+
 __Workflow__: 
 1. Power On->wcsOS Startup (linux based)
-2. Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
+1. Establish TCP/IP connection (ethernet, modem)
+1. Mount Distributed File-system
+1. Publish local User-Services
+
+__Transactions__:
+1. Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
 
 ## Use-cases
 
