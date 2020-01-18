@@ -1,64 +1,64 @@
 #/usr/bin/bash
 ## Usage:
-# ./publish.sh && cat README.md
-# && ../commit.sh
+# ./whitepaper/publish.sh && cat ./whitepaper/./whitepaper/README.md
+# && ./commit.sh
 
 # Header
-echo \[Whitepaper\] - WCS - published by: wcs:root : $(date) $(time) > README.md
+echo \[Whitepaper\] - WCS - published by: wcs:root : $(date) $(time) > ./whitepaper/README.md
 
 # User-story
-cat ../README.md >> README.md
+cat ./README.md >> ./whitepaper/README.md
 
 # Table-of-contents
-echo "# Whitepaper" >> README.md
-echo "## Table-of-contents" >> README.md
+echo "# Whitepaper" >> ./whitepaper/README.md
+echo "## Table-of-contents" >> ./whitepaper/README.md
 
-echo '' >> README.md
-#find .. -regex '.*/*.md' | sort >> README.md
-for f in $(find .. -regex '.*/README.md | sort' )
+echo '' >> ./whitepaper/README.md
+#find . -regex '.*/*.md' | sort >> ./whitepaper/README.md
+for f in $(find . -regex '.*/./whitepaper/README.md | sort' )
 do
-    echo \[`dirname $f`\]\(`basename $f`\) - `head -n 1 $f` >> README.md
-    echo '' >> README.md
+    echo \[`dirname $f`\]\(`basename $f`\) - `head -n 1 $f` >> ./whitepaper/README.md
+    echo '' >> ./whitepaper/README.md
 done
 
 # Body
-echo "## Operating (Eco-)System Concept" >> README.md
-grep "^#" wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> README.md
+echo "## Operating (Eco-)System Concept" >> ./whitepaper/README.md
+grep "^#" ./whitepaper/wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> ./whitepaper/README.md
 
 ## examples
-echo "## (Eco-)System Application notes" >> README.md
-echo '```' >> README.md
-grep "^homeland" wcsOES.md >> README.md
-echo '```' >> README.md
+echo "## (Eco-)System Application notes" >> ./whitepaper/README.md
+echo '```' >> ./whitepaper/README.md
+grep "^homeland" ./whitepaper/wcsOES.md >> ./whitepaper/README.md
+echo '```' >> ./whitepaper/README.md
 
 ## Implementation Architecture
-cat ../arch/README.md >> README.md
+cat ./arch/README.md >> ./whitepaper/README.md
 
-echo '#### Digital signatures' >> README.md
-echo '```' >> README.md
-md5sum ../arch/*.md >> README.md
-echo '```' >> README.md
+echo '#### Digital signatures' >> ./whitepaper/README.md
+echo '```' >> ./whitepaper/README.md
+md5sum ./arch/*.md >> ./whitepaper/README.md
+echo '```' >> ./whitepaper/README.md
 
-echo '\| Document \| Checksum-hash \|' >> README.md
-echo '\| -- \| -- \|' >> README.md
+echo '\| Document \| Checksum-hash \|' >> ./whitepaper/README.md
+echo '\| -- \| -- \|' >> ./whitepaper/README.md
 for f in *.md
 do
-    echo '\|' basename $f '\|' `md5sum $f` '\|' >> README.md
+    echo '\|' basename $f '\|' `md5sum $f` '\|' >> ./whitepaper/README.md
 done
 
 ## Footer
-echo "## 2020 (CC) Creative Common License" >> README.md
+echo "## 2020 (CC) Creative Common License" >> ./whitepaper/README.md
 
-md5sum wcsOES.md >> README.md
+md5sum ./whitepaper/wcsOES.md >> ./whitepaper/README.md
 
 ## Fingerprinting
-echo '#### Digital signatures' >> README.md
-echo '```' >> README.md
-for f in $(find .. -regex '.*/*.md' )
+echo '#### Digital signatures' >> ./whitepaper/README.md
+echo '```' >> ./whitepaper/README.md
+for f in $(find . -regex '.*/*.md' )
 do
-    md5sum $f >> README.md
+    md5sum $f >> ./whitepaper/README.md
 done
-echo '```' >> README.md
+echo '```' >> ./whitepaper/README.md
 
 # Export Whitepaper as PDF
-pandoc -o whitepaper.pdf README.md
+pandoc -o whitepaper.pdf ./whitepaper/README.md
