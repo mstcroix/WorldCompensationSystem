@@ -1,3 +1,3 @@
 # Languages 
 
-## Environment
+## Supported languages & development environment
