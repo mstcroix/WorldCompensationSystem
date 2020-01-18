@@ -175,7 +175,7 @@ user1 -> /neighborhood/nod35/user1
 ```
 homeland$ls nations
 local-nation
-nation1 -> /federation/ethereum/ETH
+nation1 -> /federation/ethereum/ethnation1
 bitcoin -> /bitcoin/BTC
 rsk -> /rif_os/rsk/Rootstock
 
@@ -205,6 +205,12 @@ OK service-connection established. Hello homequarters (#WCS00.org)
 1 requests
 ```
 
+## Get Idle Task (according to current citizenship)
+```
+homeland$idle federation1
+scientific.phsychedelics (945 Users)
+```
+
 ## Creating value (out-of-thin-air)
 ```
 homeland$donate -idle federation1
@@ -225,15 +231,15 @@ completed (8 Credits)
 ```
 
 ```
-homeland$offer 8
+homeland$offer 8 
 offer local-resources for 8hrs full-time
 rejected (not enough resources)
-timeout (no available)
+```
 
 ```
 homeland$offer 6
 accepted
-thank you (6 Credits granted)
+completed. thank you (6 Credits granted)
 ```
 
 ```
@@ -246,7 +252,6 @@ homeland$tetris
 running tetris..
 ..
 exiting tetris
-goodbye
 ```
 
 ```
@@ -261,7 +266,7 @@ homeland$invest kernel 2
 
 ```
 homeland$assets --all
-3 assetts
+3 assets
 
 borrowed/leasing
 tetris - (0 Leasing Credits left:16:company:gameco:*)
@@ -282,10 +287,13 @@ community1
 
 homeland$greetings community1 me --verbose
 $greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
-me>greetings community1
-me>credentials me{pubkey:address:nodeuuid:useralias:mail}
-community1>greetings me
-community1>here our credentials community1{pubkey:address:nodeuuid:useralias:mail}
+>>me:greetings community1
+>>me:credentials me{pubkey:address:nodeuuid:useralias:mail}
+>>community1:greetings me
+>>community1:here our credentials
+>>{
+>>  credentials: "community1{pubkey:address:nodeuuid:useralias:mail}"
+>>}
 ```
 
 ```
@@ -294,28 +302,40 @@ homeland$offers
 ```
 
 ```
-homeland$accept
+homeland$accept 1
 accepted top-priority offer (3 miners working in parallel)
+completed (1 Credit granted)
 ```
 
-### Running in debug-mode
+```
+homeland$credits
+3 Credits
+```
+
+```
+homeland$value dapp1
+1 Credit
+```
+
+### Running DApplication in debug-mode
 ```
 homeland$dapp1 --verbose --debug
-running dapp1@lapland
-address: 0xc5..000
--
-```
+connection established (lapland @address: 0xc5..000:1234)
 
-```
-homeland$man app
-
-json app(arg1, arg2){
- return json;
-}
+DEBUG: Exchange pubkey:me@homeland
+DEBUG: 1 Debit Credit to me@homeland (-1 Debit Credit, 2 Remaining Credits in Total)
+DEBUG: License key received (privatekey)
+DEBUG: run dapp1@lapland using privatekey 
+running dapp1@lapland --key privatekey
+...
+exiting dapp1@lapland 
+DEBUG: 1 Credit granted to dapp1 (12463 in Total)
+goodbye. connection closed (dapp1@lapland)
+DEBUG: 2 Local Credits left (me@homeland)
 ```
 
 ### User-management
-```
+```console
 homeland$login
 homeland: me
 Password: *** *
@@ -323,9 +343,82 @@ Password: *** *
 me@homeland$
 ```
 
-## Returning home
+## User-Application development
+### DApplication development help
+```console
+me@homeland$man app
+
+json app(arg1, arg2){
+ return json;
+}
 ```
+
+```console
+me@homeland$publish myapp1
+{
+ namespace : "me@homeland"
+ name : "myapp1"
+ return : "1"
+}
+```
+
+## Returning home
+```console
 me@homeland$exit
 homeland$
 *** Welcome homeland
+
+homeland$ls
+local services
+app1 -> /node/homeland/apps/app1
+cmd1 -> /node/homeland/commands/cmd1
+tool1 -> /node/homeland/tools/tool1
+
+remote services
+myapp1 -> /node/homeland/me:/myapp1
+dapp1 -> /node/lapland/dapps/dapp1
+
+local-users
+me -> /users/me
+
+neighborhood
+user1 -> /neighborhood/nod35/user1 (light-consumer)
+lapland -> /neighborhood/lapland/root (full-provider)
 ```
+
+```
+homeland$rate dapp1 ***
+Awesome tool. Thank you!
+```
+
+```
+homeland$SMS user1
+Just tried '/homeland/dapp1' out. Is worth taking a look.
+```
+
+```
+homeland$share dapp1 user1 2
+Hey! Check '/homeland/dapp1' out. You are going to loooove it!
+Timeout set to 2 hours
+```
+
+## Lend User-service
+```
+homeland$lend dapp1
+offering dapp1 -> /node/lapland/dapps/dapp1
+waiting for acceptance
+accepted (node75)
+```
+
+## Claim lend User-service
+```
+homeland$claim dapp1
+claming dapp1 -> /node/node75/dapps/dapp1
+waiting for timeout
+restored (homeland)
+dapp1 -> /node/lapland/dapps/dapp1
+```
+
+## Borrow service
+````
+````
