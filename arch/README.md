@@ -41,11 +41,11 @@ Light-nodes: store, validate and reconstruct environment from all nodes in local
 ```
 ### Local File-system
 
-Refer to [/arch/fs](fs)
+Refer to [/arch/fs](/arch/fs)
 
 ### Remote (distributed) File-system
 
-Refer to [/arch/dfs](dfs)
+Refer to [/arch/dfs](/arch/dfs)
 
 ### Realisation
 
