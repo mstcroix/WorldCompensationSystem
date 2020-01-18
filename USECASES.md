@@ -1,7 +1,8 @@
 # wcsOS
 
 Linux based. Minimal distribution
-__Target__: Raspberry Pi, x386,
+
+__Target__: Raspberry Pi, x386, Pentium
 
 __Workflow__: 
 1. Power On->
