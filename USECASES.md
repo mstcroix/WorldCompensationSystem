@@ -1,24 +1,31 @@
-# Use-cases
+# wcsOS
+__Workflow__: 
+1. Power On->wcsOS Startup (linux based)
+2. Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
+
+## Use-cases
 
 __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stories
 
-
-Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
-
-## Welcome home
+### Welcome home
 ```
 ** Welcome homeland
-homeland$whoami
-homeland
+homeland$
 ```
 
-## Present working directory (pwd)
+### User management
+```
+homeland$home
+```
+
+### File-System (Minimum commands)
+#### Present working directory (pwd)
 ```
 homeland$pwd
 /node/homeland --> {nodeuuid}
 ```
 
-## Listing files (ls)
+#### Listing files (ls)
 ```
 homeland$ls
 local services
@@ -35,19 +42,27 @@ me -> /users/me
 remote-users
 ```
 
-## Running local user-application
+### Applications, Services, Commands and Tools
+#### Running local tool system-service
 ```
-homeland$app1 --verbose
-running app1@localhost (127.0.0.1)
+homeland$stat
+connection OK
+0 services running
 ```
 
-## Running local system-service
+#### Running local command system-service
 ```
 homeland$cmd1 --verbose
 running cmd1
 ```
 
-## Running remote user-application
+#### Running local user-application
+```
+homeland$app1 --verbose
+running app1@localhost (127.0.0.1)
+```
+
+#### Running remote user-application
 ```
 homeland$dapp1 --verbose
 running dapp1@lapland
@@ -60,6 +75,7 @@ use '$commands' for a listing of available operation commands
 use '$apps' for a listing of currently available user-services
 ```
 
+#### Commands
 ```
 homeland$commands
 operations
@@ -86,6 +102,7 @@ reputation - get/set reputation-value (quadratic-voting) to given asset
 
 ```
 
+#### Tools
 ```
 homeland$tools
 2 tools
@@ -96,7 +113,7 @@ telnet - (1 credit:institute:fraunhofer)
 hash - (1 credit:university:berlin)
 ```
 
-````
+```
 homeland$apps           ($ls /apps)
 3 apps, 1 local
 
@@ -106,6 +123,7 @@ doomclone - (872355 times:user:girx34:*****)
 xyz - (4 times:local)
 ```
 
+### Value Operations
 ```
 homeland$credits
 0 credits
@@ -170,8 +188,9 @@ me -> /users/me
 
 neighborhood
 user1 -> /neighborhood/nod35/user1
-``
+```
 
+### Group citizenship
 ```
 homeland$ls nations
 local-nation
@@ -205,48 +224,51 @@ OK service-connection established. Hello homequarters (#WCS00.org)
 1 requests
 ```
 
-## Get Idle Task (according to current citizenship)
+### Work -- Get Idle Task (according to current citizenship)
 ```
 homeland$idle federation1
 scientific.phsychedelics (945 Users)
 ```
 
-## Creating value (out-of-thin-air)
-```
-homeland$donate -idle federation1
-donating local idle-time for federation1
-```
-
-## Donate
+### Donate
 ```
 homeland$donate -idle neighborhood
 thank you
 ```
 
-## Contribute to Nation's taxes
+### Contribute to Nation's taxes
 ```
 homeland$tax 8
 contribute to local nation 8hrs full-time
 completed (8 Credits)
 ```
 
+### Value Creation (out-of-thin-air)
+```
+homeland$offer -idle federation1
+offering local idle-time for federation1
+```
+
 ```
 homeland$offer 8 
-offer local-resources for 8hrs full-time
+offering local-resources for 8hrs nation (default)
 rejected (not enough resources)
 ```
 
 ```
 homeland$offer 6
+offering local-resources for 6hrs nation (default)
 accepted
 completed. thank you (6 Credits granted)
 ```
 
+### Credits
 ```
 homeland$credits
 6 Credits
 ```
 
+### Value Transfer - Request for service
 ```
 homeland$tetris
 running tetris..
@@ -259,8 +281,9 @@ homeland$credits
 4 Credits
 ```
 
+### Value Transfer - Investment
 ```
-homeland$invest kernel 2
+homeland$invest kernel.org 2
 2 Credits left
 ```
 
@@ -275,11 +298,12 @@ licensed
 doomclone - (34 Credits licensed:1564355:user:girx34:****)
 
 invested
-kernel - (2 Credits invested:0 earned:6463872355:community:linux:*****)
+kernel - (2 Credits invested:0.0000 earned:6463872355:community:linux.org:*****)
 
 membership
 ```
 
+#### Communities
 ```
 homeland$ls communities
 communities
