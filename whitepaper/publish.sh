@@ -12,7 +12,7 @@ find .. -regex '.*/*.md' | sort >> whitepaper.md
 
 # body
 echo "# Concept" >> whitepaper.md
-grep "^#" wcsOES.md | sed 's/## /   /g' | sed 's/#/1./g' >> whitepaper.md
+grep "^#" wcsOES.md | sed 's/## /   1./g' | sed 's/# /1./g' >> whitepaper.md
 
 # examples
 echo "# Examples" >> whitepaper.md
@@ -20,12 +20,14 @@ grep "$" wcsOES.md >> whitepaper.md
 
 
 #footer
+echo "# Footer" >> whitepaper.md
+echo "## 2020 (CC) Creative Common LIcense" >> whitepaper.md
+
 md5sum wcsOES.md >> whitepaper.md
-echo date >> whitepaper
-echo published by: user >> whitepaper
+echo published by: user : $(date) $(time) >> whitepaper
 
 #
-for f in *.md
+for f in $(find .. -regex '.*/*.md' )
 do
-    echo $f
+    md5sum $f
 done

@@ -80,45 +80,45 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 ../whitepaper/wcsOES.md
 ../whitepaper/whitepaper.md
 # Concept
-1. wcsO(E)S - WCS Operating Eco-System
-   Platform
-   Transactions
-   Use-cases
-1.   Notation
-1.   Welcome home
-1.1.   View use-case description manual
-1.   User management
-1.   File-System (Minimum commands)
-1.1.   Present working directory (pwd)
-1.1.   Listing files (ls)
-1.   Applications, Services, Commands and Tools
-1.1.   Running local tool system-service
-1.1.   Running local command system-service
-1.1.   Running local user-application
-1.1.   Running remote user-application
-1.1.   Commands
-1.1.   Tools
-1.   Local Services
-1.1.   Financial
-1.   Value Operations
-1.   Distributed Services
-1.   Group citizenship
-1.   Work -- Get Idle Task (according to current citizenship)
-1.   Donate
-1.   Contribute to Nation's taxes
-1.   Value Creation (out-of-thin-air)
-1.   Credits
-1.   Value Transfer - Request for service
-1.   Value Transfer - Investment
-1.1.   Communities
-1.   Running DApplication in debug-mode
-1.   User-management
-   User-Application development
-1.   DApplication development help
-   Returning home
-   Lend User-service
-   Claim lend User-service
-   Borrow service
+1.wcsO(E)S - WCS Operating Eco-System
+   1.Platform
+   1.Transactions
+   1.Use-cases
+1.  1.Notation
+1.  1.Welcome home
+#1.  1.View use-case description manual
+1.  1.User management
+1.  1.File-System (Minimum commands)
+#1.  1.Present working directory (pwd)
+#1.  1.Listing files (ls)
+1.  1.Applications, Services, Commands and Tools
+#1.  1.Running local tool system-service
+#1.  1.Running local command system-service
+#1.  1.Running local user-application
+#1.  1.Running remote user-application
+#1.  1.Commands
+#1.  1.Tools
+1.  1.Local Services
+#1.  1.Financial
+1.  1.Value Operations
+1.  1.Distributed Services
+1.  1.Group citizenship
+1.  1.Work -- Get Idle Task (according to current citizenship)
+1.  1.Donate
+1.  1.Contribute to Nation's taxes
+1.  1.Value Creation (out-of-thin-air)
+1.  1.Credits
+1.  1.Value Transfer - Request for service
+1.  1.Value Transfer - Investment
+#1.  1.Communities
+1.  1.Running DApplication in debug-mode
+1.  1.User-management
+   1.User-Application development
+1.  1.DApplication development help
+   1.Returning home
+   1.Lend User-service
+   1.Claim lend User-service
+   1.Borrow service
 # Examples
 # wcsO(E)S - WCS Operating Eco-System
 
@@ -626,4 +626,6 @@ dapp1 -> /node/lapland/dapps/dapp1
 ## Borrow service
 ````
 ````
+# Footer
+## 2020 (CC) Creative Common LIcense
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
