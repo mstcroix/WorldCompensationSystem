@@ -34,7 +34,7 @@ echo "## 2020 (CC) Creative Common LIcense" >> whitepaper.md
 md5sum wcsOES.md >> whitepaper.md
 echo published by: user : $(date) $(time) >> whitepaper
 
-#
+# Fingerprinting (Signature)
 for f in $(find .. -regex '.*/*.md' )
 do
     md5sum $f
