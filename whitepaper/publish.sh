@@ -36,7 +36,7 @@ echo '```' >> ./whitepaper/README.md
 ### Element (z.B. Architecture)
 for d in apps dapps commands operations tools services arch ;
   do
-    echo Refer to `$d` >> ./whitepaper/README.md
+    echo 'Refer to `$d`' >> ./whitepaper/README.md
     cat $d/README.md >> ./whitepaper/README.md
 
     echo '#### Digital signatures' >> ./whitepaper/README.md
