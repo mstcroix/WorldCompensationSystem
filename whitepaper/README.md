@@ -1,5 +1,5 @@
 Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:06:49 CET 2020 
+-- WCS - published by: wcs:root : Sat Jan 18 19:07:10 CET 2020 
 ## 2020 (CC) Creative Common License
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 #### Digital signatures
@@ -13,7 +13,7 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-fe8dc17f519a3e20f29d9dc6adcf158f  ./whitepaper/README.md
+4f4850032f8117943322bee87403fe24  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 e7628ed2655ae8735f1f0b9afb7fa61e  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
