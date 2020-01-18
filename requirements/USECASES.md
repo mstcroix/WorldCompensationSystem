@@ -39,6 +39,7 @@ __Debits__:
 
 debit - crediting unit referring the used time during required computation
 - debiting-time - time used during computation * fix cost (internet, electricity)
+- visibility (production cost, service price), e.g. (2,34)
 
 __Services__:
 
