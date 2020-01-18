@@ -57,9 +57,13 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 ## Table-of-contents
 ```
 ```
+
 [README.md](../tools/README.md) -
+
 [README.md](../networking/README.md) - # Networking
+
 [README.md](../dapps/README.md) - ### Distributed Apps (status:*in-work*)
+
 [README.md](../whitepaper/README.md) - # World Compensation System (WCS)
 [README.md](../operations/README.md) - # Operations
 [README.md](../README.md) - # World Compensation System (WCS)
@@ -72,8 +76,11 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 [README.md](../users/README.md) - # Users
 [README.md](../commands/README.md) - ### Commands (status:*in-work*)
 [README.md](../apps/README.md) - ### Applications
+
 [README.md](../services/wcsServer/README.md) - # wcsServer - World Compensation System server
+
 [README.md](../services/README.md) - ### Services
+
 ## Operating (Eco-)System Concept
 1. wcsO(E)S - WCS Operating Eco-System
    1. Platform
