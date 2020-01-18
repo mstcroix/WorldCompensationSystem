@@ -61,7 +61,7 @@ Code is under the [The Unlicensed](LICENSE).
 Documentation is under the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/).
 
 ## Contributing
-Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Conduct]
+Please read our [Project](/project) [Contribution Guide](/project/CONTRIBUTING.md) and [Code of Conduct]
 
 ### Donations
 | BTC-Address: | X1v34..7xKt |

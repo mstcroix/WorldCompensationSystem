@@ -390,10 +390,11 @@ community1
 
 homeland$greetings community1 me --verbose
 $greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
->>me:greetings community1
+>>me:localledger /users/me/localledger/community1
 >>me:credentials me{pubkey:address:nodeuuid:useralias:mail}
+>>me:greetings community1
 
->>community1:validating all-transactions with 'me' credentials
+>>community1:validating all-transactions found (credentials: (community1,'me'))
 
   TX0735 with user1:abc -> via community1:user1
   TX1622 with cool99:xyz -> via community1:cool99
@@ -403,8 +404,7 @@ $greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
 0 Credits
 1 Debts
 
->>community1:greetings me
->>community1:here our credentials
+>>community1:greetings me. Here our credentials
 >>{
 >>  credentials: "community1{pubkey:address:nodeuuid:useralias:mail}"
 >>}
@@ -417,7 +417,7 @@ homeland$offers
 
 ```
 homeland$accept 1
-accepted top-priority offer (3 miners working in parallel)
+accepted top-priority offer (3 Miners working in parallel)
 completed (1 Credit granted)
 ```
 
@@ -428,24 +428,35 @@ homeland$credits
 
 ```
 homeland$value dapp1
-1 Credit
+1 Credit (fixed cost: 0.0124)
 ```
 
 ### Running DApplication in debug-mode
+
+```
+homeland$stat dapp1
+RUNNING (lapland @address: 0xc5..000):7524
+DOWN
+```
+
 ```
 homeland$dapp1 --verbose --debug
-connection established (lapland @address: 0xc5..000:1234)
+connection established (@lapland)
 
 DEBUG: Exchange pubkey:me@homeland
 DEBUG: 1 Debit Credit to me@homeland (-1 Debit Credit, 2 Remaining Credits in Total)
 DEBUG: License key received (privatekey)
 DEBUG: run dapp1@lapland using privatekey
-running dapp1@lapland --key privatekey
+
+running 'dapp1@lapland' with parameters:
+  --key privatekey
+  --in-data-chunk=/users/me/dapp1data
+  --out-data-chunk=NULL
 ...
 exiting dapp1@lapland
 DEBUG: 1 Credit granted to dapp1 (12463 in Total)
 goodbye. connection closed (dapp1@lapland)
-DEBUG: 2 Local Credits left (me@homeland)
+2 Local Credits left (me@homeland)
 ```
 
 ### User-management
@@ -536,3 +547,8 @@ dapp1 -> /node/lapland/dapps/dapp1
 ## Borrow service
 ````
 ````
+
+```
+homeland$read ebook1 1
+1 Credits for read-right granted
+```

@@ -61,7 +61,7 @@ Code is under the [The Unlicensed](LICENSE).
 Documentation is under the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/).
 
 ## Contributing
-Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Conduct]
+Please read our [Project](/project) [Contribution Guide](/project/CONTRIBUTING.md) and [Code of Conduct]
 
 ### Donations
 | BTC-Address: | X1v34..7xKt |
@@ -159,6 +159,7 @@ homeland$offers
 homeland$accept 1
 homeland$credits
 homeland$value dapp1
+homeland$stat dapp1
 homeland$dapp1 --verbose --debug
 homeland$login
 homeland$
@@ -168,6 +169,7 @@ homeland$SMS user1
 homeland$share dapp1 user1 2
 homeland$lend dapp1
 homeland$claim dapp1
+homeland$read ebook1 1
 ```
 ### Applications
 /apps:
@@ -395,7 +397,7 @@ Status: OK
 
 ## 2020 (CC) Creative Common License
 ```
-84e4baef776037c09ee6b2c5c2fb8b31  ./whitepaper/README.md
+70460ea53ca625bac506ffc1b308ce61  ./whitepaper/README.md
 ```
 #### Digital signatures
 ```
@@ -406,11 +408,11 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 3582056e21f163e556a92a29f26da4bc  ./GLOSSARY.md
 8bac8aaca025fbaed5d9753a66a1b7cd  ./dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
-76c4bd4a1e15f9e5ad847e8a12bdbd5d  ./whitepaper/wcsOES.md
+ea7ccf6120a0e29cb8473cbb7e1cc7f7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-4f351bd1f2831c9f96f4bed24cf62b8c  ./whitepaper/README.md
+f28bca07bfb7d765713681eb46862355  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
-a686d54b4189344f3c319da09f25bd0e  ./README.md
+7d680ccb57804e34622b8d066bbd4fbe  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
 68f05ceb68281268217108fb55876082  ./project/deployment.md
 5cd4aa50a1a9f8d1b46b0b63c9d82e27  ./project/CONTRIBUTING.md
@@ -428,4 +430,4 @@ a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
 ```
 Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:43:34 CET 2020 
+-- WCS - published by: wcs:root : Sat Jan 18 19:57:11 CET 2020 
