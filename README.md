@@ -29,3 +29,18 @@ Simple. Eliminate money invisibility.
 > There would be no other negotiable currency. ([source:#CWG, @realNealWealsh](http://ISBN))
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
+
+## Community
+- [@WorldCompensationSystem (Twitter)](https://twitter.com/WorldCompensationSystem)
+
+## License
+Code is under the [The Unlicensed](LICENSE.txt).
+Documentation is under the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/).
+
+## Contributing
+Please read our [Contribution Guide](CONTRIBUTING.md) and [Code of Conduct]
+
+### Donations
+BTC-Address: 0x123..0000
+
+
