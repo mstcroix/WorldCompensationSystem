@@ -7,17 +7,17 @@
 / - root Ecosystem
 ```
 
-###### local-runnables (runtime-environment)
 ```
+local-runnables (runtime-environment)
+---------------
 /commands
 /bin - Local commands, services and tools
 /apps - Local user-services
 /tools - Utility tools
 /lang - implementation language specific files
-```
 
-###### user-management
-```
+user-management
+---------------
 /users/ - connected user addresses (analog to /mnt)
 ```
 
@@ -27,7 +27,7 @@
 /dbin/ - Decentralised System services
 ```
 
-##### /users
+##### User-Management (/users)
 
 ```
 /users/#nodeuuid{publickey:addresshash:alias:inbox}
@@ -48,7 +48,7 @@ for example
 /dapps/DeFi/ - Decentralised Financial Apps
 ```
 
-##### /dapps (Users-Solutions)
+##### Distributed Users-Solutions (/dapps)
 
 ```
 /dapps/alias --> /solutions/dappalias/20200117/dappalias
