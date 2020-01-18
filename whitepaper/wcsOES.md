@@ -38,7 +38,8 @@ First step during implemenation consist of:
 homeland$
 ```
 
-#### View use-case description manual
+### Help
+#### View description manual
 `help`, `man` or check [our documentation](../documentation).
 
 ```

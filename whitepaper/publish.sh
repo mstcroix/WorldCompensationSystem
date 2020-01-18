@@ -1,7 +1,7 @@
 #/usr/bin/bash
 ## Usage:
 # ./publish.sh && cat README.md
-# ../commit.sh
+# && ../commit.sh
 
 # Header
 echo \[Whitepaper\] - WCS - published by: wcs:root : $(date) $(time) > README.md
@@ -25,7 +25,7 @@ done
 
 # Body
 echo "## Operating (Eco-)System Concept" >> README.md
-grep "^#" wcsOES.md | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> README.md
+grep "^#" wcsOES.md | sed 's/#### /         1. /g' | 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> README.md
 
 ## examples
 echo "## Application notes" >> README.md

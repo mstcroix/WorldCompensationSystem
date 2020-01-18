@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 16:35:01 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 16:39:30 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -65,7 +65,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 
 [../dapps](README.md) - ### Distributed Apps (status:*in-work*)
 
-[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 16:35:01 CET 2020
+[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 16:39:30 CET 2020
 
 [../operations](README.md) - # Operations
 
@@ -94,45 +94,6 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 [../services](README.md) - ### Services
 
 ## Operating (Eco-)System Concept
-1. wcsO(E)S - WCS Operating Eco-System
-   1. Platform
-   1. Transactions
-   1. Use-cases
-      1. Notation
-      1. Welcome home
-1.      1. View use-case description manual
-      1. User management
-      1. File-System (Minimum commands)
-1.      1. Present working directory (pwd)
-1.      1. Listing files (ls)
-      1. Applications, Services, Commands and Tools
-1.      1. Running local tool system-service
-1.      1. Running local command system-service
-1.      1. Running local user-application
-1.      1. Running remote user-application
-1.      1. Commands
-1.      1. Tools
-      1. Local Services
-1.      1. Financial
-      1. Value Operations
-      1. Distributed Services
-      1. Group citizenship
-      1. Work -- Get Idle Task (according to current citizenship)
-      1. Donate
-      1. Contribute to Nation's taxes
-      1. Value Creation (out-of-thin-air)
-      1. Credits
-      1. Value Transfer - Request for service
-      1. Value Transfer - Investment
-1.      1. Communities
-      1. Running DApplication in debug-mode
-      1. User-management
-   1. User-Application development
-      1. DApplication development help
-   1. Returning home
-   1. Lend User-service
-   1. Claim lend User-service
-   1. Borrow service
 ## Application notes
 # wcsO(E)S - WCS Operating Eco-System
 
@@ -174,7 +135,8 @@ First step during implemenation consist of:
 homeland$
 ```
 
-#### View use-case description manual
+### Help
+#### View description manual
 `help`, `man` or check [our documentation](../documentation).
 
 ```
@@ -778,22 +740,22 @@ $ps
 /apps/App1 running. 5 users connected
 ```
 50fc328aad939c00fb848432a94943c9  ../arch/README.md
-5d836a70aa539665ab94200c34a62f85  README.md
+393698a6a956cefe194bbbf0038d3ab1  README.md
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
-481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
+2860295f71c884833cec61f44f4c9ccf  wcsOES.md
 70a1947487f1741ee64cb109b8cddc82  whitepaper.md
 ## 2020 (CC) Creative Common License
-481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
+2860295f71c884833cec61f44f4c9ccf  wcsOES.md
 ```
 bc9b4920af19ea249c5e51730a986a9a  ../tools/README.md
 f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 3582056e21f163e556a92a29f26da4bc  ../GLOSSARY.md
 1d4ba0b4f97b65cb239ac157fa453df6  ../dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
-481ff52c1fbf89a439c00b67399cc38e  ../whitepaper/wcsOES.md
+2860295f71c884833cec61f44f4c9ccf  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-8989eb49e24c537c7b8557ca3ceef168  ../whitepaper/README.md
+79ae087c47959d1ee01bd7922e3088f9  ../whitepaper/README.md
 70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
 b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
