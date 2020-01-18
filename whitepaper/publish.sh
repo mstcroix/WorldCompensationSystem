@@ -48,7 +48,7 @@ do
     echo '|' $(basename $f) '|' `md5sum $f` '|' >> ./whitepaper/README.md
 done
 
-for d in arch, tools ;
+for d in arch tools ;
   do
     echo $d
   done
