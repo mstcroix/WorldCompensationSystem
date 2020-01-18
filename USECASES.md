@@ -62,8 +62,8 @@ use '$apps' for a listing of currently available user-services
 
 ```console
 homeland$commands
-opeartions
-credits - credits are gained by certain proof-of-work 
+operations
+credits - credits are gained by certain proof-of-work
 debts - debts are credits debited to the users (to be payed later in time or as part of a loan (see :loans))
 loans - list of available loans (request for asset-transfer (value transfer)
 offers - list of published offers (request for service)
@@ -72,7 +72,7 @@ assets - show local assets (including applications,commands,services,tools and m
 
 actions
 debit -  
-loan - 
+loan -
 value - set 'own' market-value (local cost of service-unit) -- analog to BTC-Network-Fee or ETH-Gas
 cost - update 'own' local (production) cost (fixed costs (including internet + electricity)) based on local average estimation
 income - show current regular income
@@ -90,10 +90,10 @@ reputation - get/set reputation-value (quadratic-voting) to given asset
 homeland$tools
 2 tools
 
-telnet - (0 credit:government:culture) 
-ping - (1 credit:foundation:ibm) 
-telnet - (1 credit:institute:fraunhofer) 
-hash - (1 credit:university:berlin) 
+telnet - (0 credit:government:culture)
+ping - (1 credit:foundation:ibm)
+telnet - (1 credit:institute:fraunhofer)
+hash - (1 credit:university:berlin)
 ```
 
 ````console
@@ -148,9 +148,35 @@ discovering users
 homeland$connect
 connecting with local neighborhood
 1. peer-to-peer connection established. Hello node34
-2. peer-to-peer connection established. Hello 
+2. peer-to-peer connection established. Hello
 3. remote-connection established. Hello server78.google.com
 OK service-connection established. Hello homequarters (#WCS00.org) time:34.251 ms
+```
+
+```
+homeland$ls
+local services
+app1 -> /node/homeland/apps/app1
+cmd1 -> /node/homeland/commands/cmd1
+tool1 -> /node/homeland/tools/tool1
+
+remote services
+dapp1 -> /node/lapland/dapps/dapp1
+
+local-users
+me -> /users/me
+
+neighborhood
+user1 -> /neighborhood/nod35/user1
+``
+
+```
+homeland$ls nations
+local-nation
+nation1 -> /federation/ethereum/ETH
+bitcoin -> /bitcoin/BTC
+rsk -> /rif_os/rsk/Rootstock
+
 ```
 
 ```
@@ -163,6 +189,7 @@ OK service-connection established. Hello homequarters (#WCS00.org)
 0 taxes
 2 messages
 1 requests
+10 offers
 ```
 
 ```
@@ -205,6 +232,10 @@ homeland$credits
 ```
 
 ```
+homeland$ls communities
+communities
+community1
+
 homeland$greetings community1 me --verbose
 $greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
 me>greetings community1
@@ -230,7 +261,7 @@ address: 0xc5..000
 homeland$man app
 
 json app(arg1, arg2){
- return json; 
+ return json;
 }
 ```
 
