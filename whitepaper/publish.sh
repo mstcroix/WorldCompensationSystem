@@ -1,44 +1,47 @@
 #/usr/bin/bash
 ## Usage:
-# ./publish.sh && cat whitepaper.md
+# ./publish.sh && cat README.md
 # ../commit.sh
 
 # User-story
-cat ../README.md > whitepaper.md
+cat ../README.md > README.md
 
 # table-of-contents
-echo "# Whitepaper" >> whitepaper.md
-echo "## Table-of-contents" >> whitepaper.md
-find .. -regex '.*/*.md' | sort >> whitepaper.md
+echo "# Whitepaper" >> README.md
+echo "## Table-of-contents" >> README.md
+
+echo '```' >> README.md
+find .. -regex '.*/*.md' | sort >> README.md
+echo '```' >> README.md
 
 # Body
-echo "## Operating (Eco-)System Concept" >> whitepaper.md
-grep "^#" wcsOES.md | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> whitepaper.md
+echo "## Operating (Eco-)System Concept" >> README.md
+grep "^#" wcsOES.md | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> README.md
 
 ## examples
-echo "## Application notes" >> whitepaper.md
-grep "$" wcsOES.md >> whitepaper.md
+echo "## Application notes" >> README.md
+grep "$" wcsOES.md >> README.md
 
 ## architecture
-cat ../arch/README.md >> whitepaper.md
-md5sum ../arch/*.md >> whitepaper.md
+cat ../arch/README.md >> README.md
+md5sum ../arch/*.md >> README.md
 for f in *.md
 do
-    md5sum $f >> whitepaper.md
+    md5sum $f >> README.md
 done
 
 #footer
-echo "## 2020 (CC) Creative Common License" >> whitepaper.md
+echo "## 2020 (CC) Creative Common License" >> README.md
 
-md5sum wcsOES.md >> whitepaper.md
-echo published by: user : $(date) $(time) >> whitepaper.md
+md5sum wcsOES.md >> README.md
+echo published by: user : $(date) $(time) >> README.md
 
 # Fingerprinting (Signature)
-echo '```' >> whitepaper.md
+echo '```' >> README.md
 for f in $(find .. -regex '.*/*.md' )
 do
-    md5sum $f >> whitepaper.md
+    md5sum $f >> README.md
 done
-echo '```' >> whitepaper.md
+echo '```' >> README.md
 
-cp whitepaper.md README.md
+pandoc -o whitepaper.pdf README.md
