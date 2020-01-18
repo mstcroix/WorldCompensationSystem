@@ -40,3 +40,5 @@ do
     md5sum $f >> whitepaper.md
 done
 echo '```' >> whitepaper.md
+
+cp whitepaper.md README.md
