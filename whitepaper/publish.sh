@@ -4,7 +4,8 @@
 # && ./commit.sh
 
 # Header
-echo \[Whitepaper\] - WCS - published by: wcs:root : $(date) $(time) > ./whitepaper/README.md
+echo "[Whitepaper]" > ./whitepaper/README.md
+echo "-- WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
 
 # User-story
 cat ./README.md >> ./whitepaper/README.md
