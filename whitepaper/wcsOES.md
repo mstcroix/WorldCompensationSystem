@@ -209,7 +209,7 @@ doomclone - (34 Credits licensed:872355:user:girx34:*****)
 invested 0
 ```
 
-##### Transactions
+#### Transactions
 ```
 homeland$send 2 user1
 Sending 2 Credits to /users/user1

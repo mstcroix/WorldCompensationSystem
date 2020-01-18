@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:22:13 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:30:02 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -57,44 +57,6 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 # Whitepaper
 ## Table-of-contents
 
-[../tools](README.md) - ## Tools
-
-[../dbin](README.md) - ## Distributed Commands, Services and Tools
-
-[../bin](README.md) - ## Command, Services and Tools
-
-[../networking](README.md) - # Networking
-
-[../dapps](README.md) - ### Distributed Apps (status:*in-work*)
-
-[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:22:13 CET 2020
-
-[../operations](README.md) - ## Operations
-
-[..](README.md) - # World Compensation System (WCS)
-
-[../lang](README.md) - ## Languages
-
-[../lang/c](README.md) - #### Language C (C99)
-
-[../arch/dfs](README.md) - # Distributed File-System(s)
-
-[../arch/dfs/dFSwcs](README.md) - # Distributed File-System WCS
-
-[../arch](README.md) - ## Architecture
-
-[../arch/fs](README.md) - # File System
-
-[../users](README.md) - # Users
-
-[../commands](README.md) - ## Commands (status:*in-work*)
-
-[../apps](README.md) - ### Applications
-
-[../services/wcsServer](README.md) - # wcsServer - World Compensation System server
-
-[../services](README.md) - ### Services
-
 ## Operating (Eco-)System Concept
 1. wcsO(E)S - WCS Operating Eco-System
    1. Platform
@@ -118,7 +80,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
          1. Financial
          1. Asset Management
       1. Value Operations
-1.         1. Transactions
+         1. Transactions
       1. Distributed Services
       1. Group citizenship
       1. Work -- Get Idle Task (according to current citizenship)
@@ -293,24 +255,24 @@ Status: OK
 - [apps](/apps) - Local commands, services and tools
 - [dapps](/dapps - Distributed (Remote) User-services
 14493c0b4a36cd6a4ea74e903f819f1b  ../arch/README.md
-076ece76af19a2d1f6c4319694dc320b  README.md
+fe7999e68c400e81a15a2b2132196262  README.md
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
-bbf952448806a9465104b3c5895d5356  wcsOES.md
+c5c11bb0d053c683b9c801b36b85f6e7  wcsOES.md
 70a1947487f1741ee64cb109b8cddc82  whitepaper.md
 ## 2020 (CC) Creative Common License
-bbf952448806a9465104b3c5895d5356  wcsOES.md
+c5c11bb0d053c683b9c801b36b85f6e7  wcsOES.md
 ```
 9cadfde7bd7e2d2702a5dbabf8d40d00  ../tools/README.md
 dc2c8698da44a75bdd5c19efd0860213  ../dbin/README.md
 d47693b9acb4e93021125f2c7a3d36f2  ../bin/README.md
-f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
+49a5c547537d2c6a77e17d08d62bd5e2  ../networking/README.md
 3582056e21f163e556a92a29f26da4bc  ../GLOSSARY.md
 1d4ba0b4f97b65cb239ac157fa453df6  ../dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
-bbf952448806a9465104b3c5895d5356  ../whitepaper/wcsOES.md
+c5c11bb0d053c683b9c801b36b85f6e7  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-7d86962065da4f55a2375d14fac29a8a  ../whitepaper/README.md
+fb6dc6918a047a2a8eccc714f9dd6f46  ../whitepaper/README.md
 70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
 88c2dd22668d96cb2232b8c136cbd982  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
@@ -323,10 +285,10 @@ f16bab90fe5bf837c86b04e89f7dbb86  ../lang/README.md
 5fe7603d97b3315406ce7c051f273a3e  ../arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ../arch/dfs/dFSwcs/README.md
 14493c0b4a36cd6a4ea74e903f819f1b  ../arch/README.md
-4ae120d33503361b35768677302e8c75  ../arch/fs/README.md
+c4feafee3b3e1969bc45b3fc9f2575ee  ../arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ../users/README.md
 19378124b967a8ee694fbb7303c7897b  ../commands/README.md
-15fd8a06e94ecf5f079451536356171c  ../apps/README.md
+978b91682d2438804eca5926a8ec176a  ../apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ../services/wcsServer/README.md
 06ae6a9d35733170f372c50e1e6ed749  ../services/README.md
 ```
