@@ -28,6 +28,20 @@ __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stor
 homeland$
 ```
 
+#### View use-case description manual
+`help`, `man` or check [our documentation](documentation).
+
+```
+homeland$man
+wcsOS 0.0.1
+
+home
+whoami
+pwd
+ls <folder>
+```
+
+
 ### User management
 ```
 homeland$home
