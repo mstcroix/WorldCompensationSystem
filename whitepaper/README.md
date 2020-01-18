@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:07:59 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:08:16 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -254,6 +254,104 @@ Status: OK
 
 - [apps](/apps) - Local commands, services and tools
 - [dapps](/dapps) - Distributed (Remote) User-services
+## Architecture
+
+### Concept
+
+Create a World Compensation Ecosystem based on Decentralised Financial Applications.
+
+Implementation: Operation System (including fs, dfs, time-shared applications)
+
+[wcsOS](http://wikipedia.com/wiki/wcsOS) -- linux based distribution
+
+Layers:
+1. Distributed peer-2-peer (P2P) Network (Blockchain based)
+1. Distributed File system (dfsWcs)
+1. Nodes are Servers
+1. Servers
+   1. run System- and Users-services
+   1. route User- and System- interactions (transactions)
+1. Users are Clients
+1. Clients decide to participate or not (mounting/unmounting) as service suppliers in the network
+1. Clients interact with other Clients
+1. Clients request services from Servers (service suppliers)
+   1. Via Remote Procedure Call (RPC) returning values in JSON format
+1. Clients transfer value-assets to single or multiple-users or services
+1. Light-Clients connect and use the network only for short-time (SMS, PPP)
+1. Value-assets are represented via Addresses in the Distributed File system
+1. Clients and Servers interact via read/write file operations with eachother
+1. Servers providing User-services are debted certain agreed amount per-use
+1. Servers providing System-services are debted an agreed amount per-use, daily, monthly or yearly on donation basis
+
+
+### Network
+
+__Topology__: Flower or Tree-of-Life (sacred geometry star 1:N, N:=6)
+* https://en.wikipedia.org/wiki/Overlapping_circles_grid#Modern_usage
+
+__Nodes__:
+
+```
+Full-nodes: store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
+Light-nodes: store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+```
+### Local File-system
+
+```
+/ - WCS root Ecosystem
+/commands
+/dbin/ - Decentralised System services
+/users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
+/apps
+/lang - implementation language specific files
+/tools - Utility tools
+/dapp/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
+```
+
+### Remote (distributed) File-system
+
+[/arch/dfs](dfs)
+
+```
+/dapp/DeFi/ - Decentralised Financial Apps
+```
+
+### Realisation
+
+TCP/IP Server
+ :port
+UNIX's "Everything is a File" -> (name:Address)
+ - Network (distributed) File-System
+
+#### Support Tools
+
+- [neo4j]() - Graph Database
+- [jslinux](https://bellard.org/jslinux/) - Web-Browwer Linux
+- [128-bit OS](https://bellard.org/tinyemu/) - 128-bit RISC OS
+- [quickjs](https://bellard.org/quickjs/) - Embeddable Javascript engine
+
+Refer to [support tools](/tools/).
+
+### Network Startup
+
+```
+$wcsStart &
+World Compensation System server (wcss) running
+Listening on port:280182
+
+$wcsStatus
+Status: OK
+```
+
+### Command, Services and Tools
+
+- [bin](/bin) - Local commands, services and tools
+- [dbin](/dbin) - Distributed (Remote) user-commands and user-tools
+
+### Application Notes
+
+- [apps](/apps) - Local commands, services and tools
+- [dapps](/dapps) - Distributed (Remote) User-services
 #### Digital signatures
 ```
 61c2223045284a14e903089d266c04c6  ./arch/README.md
@@ -261,6 +359,12 @@ Status: OK
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 61c2223045284a14e903089d266c04c6 arch/README.md |
+## Tools
+
+### List of WCS Tool(s) (status:*in-work*)
+/tools/:
+* [wcsUPing](wcsPing) - wcs:Util : Ping
+* [wcsUEcho](wcs) - Echo
 #### Digital signatures
 ```
 9cadfde7bd7e2d2702a5dbabf8d40d00  ./tools/README.md
@@ -281,7 +385,7 @@ d47693b9acb4e93021125f2c7a3d36f2  ./bin/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-44b9deee49faa81dccac015e86c7cef3  ./whitepaper/README.md
+6124e459a8b2ee5dceb79382ab15e0a1  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md

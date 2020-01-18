@@ -38,7 +38,7 @@ cat ./arch/README.md >> ./whitepaper/README.md
 
 for d in arch tools ;
   do
-    cat $d >> ./whitepaper/README.md
+    cat $d/README.md >> ./whitepaper/README.md
 
     echo '#### Digital signatures' >> ./whitepaper/README.md
     echo '```' >> ./whitepaper/README.md
