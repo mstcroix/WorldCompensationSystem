@@ -11,7 +11,11 @@ echo "# Whitepaper" >> README.md
 echo "## Table-of-contents" >> README.md
 
 echo '```' >> README.md
-find .. -regex '.*/*.md' | sort >> README.md
+#find .. -regex '.*/*.md' | sort >> README.md
+for f in $(find .. -regex '.*/README.md' )
+do
+    echo $f - `head -n 1 $f` >> README.md
+done
 echo '```' >> README.md
 
 # Body
