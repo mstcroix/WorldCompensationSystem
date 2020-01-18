@@ -6,6 +6,8 @@ Create a World Compensation Ecosystem based on Decentralised Financial Applicati
 
 Implementation: Operation System (including fs, dfs, time-shared applications)
 
+[wcsOS](wikipedia:wcsOS) -- linux based distribution
+
 Layers:
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system (dfsWcs)
