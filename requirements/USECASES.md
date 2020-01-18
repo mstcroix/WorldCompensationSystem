@@ -14,7 +14,18 @@ __Workflow__:
 1. User login
    1. Mount (Publish) local User-Services
    1. Mount (Subscribe) remote User-Services
-   
+
+```
+Power On
+wcsOS 0.0.1
+booting
+loading
+connecting
+starting local node 'homeland'
+** Welcome homeland
+homeland$
+```
+
 __Transactions__:
 1. Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
 
@@ -33,14 +44,17 @@ homeland$
 
 ```
 homeland$man
-wcsOS 0.0.1
-
 home
 whoami
 pwd
 ls <folder>
+ver
 ```
 
+```
+homeland$ver
+wcsOS 0.0.1
+```
 
 ### User management
 ```
