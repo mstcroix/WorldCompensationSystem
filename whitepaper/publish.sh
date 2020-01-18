@@ -40,7 +40,7 @@ md5sum ./arch/*.md >> ./whitepaper/README.md
 echo '```' >> ./whitepaper/README.md
 
 echo '| Document | Checksum-hash |' >> ./whitepaper/README.md
-echo '| -- \| -- |' >> ./whitepaper/README.md
+echo '| -- | -- |' >> ./whitepaper/README.md
 for f in *.md
 do
     echo '|' $(basename $f) '|' `md5sum $f` '|' >> ./whitepaper/README.md
