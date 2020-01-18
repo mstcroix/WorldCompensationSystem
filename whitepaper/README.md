@@ -37,7 +37,18 @@ __Bibliography__:
 
 ## Use-cases
 
-- Typical [Use-cases](requirements/USECASES.md) and User-workflow
+- Value creation (energy-flow)
+- Development of services
+- Production or products
+- Labour/Work
+
+### Extended Use-cases
+
+-
+#### Decentralised Finances (DeFi)
+
+- Taxation
+- Borrows/Loans
 
 ## Community
 - [@WorldCompensationSystem (Twitter)](https://twitter.com/WorldCompensationSystem)
@@ -367,7 +378,7 @@ Status: OK
 | README.md | 98b26c87b00660ea619e96fdb6a67885 arch/README.md |
 
 Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:07:35 CET 2020 
+-- WCS - published by: wcs:root : Sat Jan 18 19:12:18 CET 2020 
 ## 2020 (CC) Creative Common License
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 #### Digital signatures
@@ -381,9 +392,9 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-e7e620892be4fa0ee8977ac6f94c3e46  ./whitepaper/README.md
+2c2d57ce267d6a59a8c73a214c5fc35e  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
-e7628ed2655ae8735f1f0b9afb7fa61e  ./README.md
+e420a557db163b2b254611c6800adcdc  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
 68f05ceb68281268217108fb55876082  ./project/deployment.md
 5cd4aa50a1a9f8d1b46b0b63c9d82e27  ./project/CONTRIBUTING.md

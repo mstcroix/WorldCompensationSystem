@@ -37,7 +37,18 @@ __Bibliography__:
 
 ## Use-cases
 
-- Typical [Use-cases](requirements/USECASES.md) and User-workflow
+- Value creation (energy-flow)
+- Development of services
+- Production or products
+- Labour/Work
+
+### Extended Use-cases
+
+-
+#### Decentralised Finances (DeFi)
+
+- Taxation
+- Borrows/Loans
 
 ## Community
 - [@WorldCompensationSystem (Twitter)](https://twitter.com/WorldCompensationSystem)
