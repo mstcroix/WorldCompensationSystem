@@ -5,6 +5,7 @@
 Create a World Compensation Ecosystem based on Decentralised Financial Applications.
 
 __Implementation__:
+
 * Operation System (including fs, dfs, time-shared applications)
 
 [wcsOS](http://wikipedia.com/wiki/wcsOS) -- linux based distribution

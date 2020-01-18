@@ -304,6 +304,7 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 Create a World Compensation Ecosystem based on Decentralised Financial Applications.
 
 __Implementation__:
+
 * Operation System (including fs, dfs, time-shared applications)
 
 [wcsOS](http://wikipedia.com/wiki/wcsOS) -- linux based distribution
@@ -389,15 +390,15 @@ Status: OK
 
 #### Digital signatures
 ```
-50eef34cb1ede218c189b74a8b377cda  ./arch/README.md
+da435fd2fb426d1087a3ff9b0b11f80d  ./arch/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 50eef34cb1ede218c189b74a8b377cda arch/README.md |
+| README.md | da435fd2fb426d1087a3ff9b0b11f80d arch/README.md |
 
 ## 2020 (CC) Creative Common License
 ```
-70460ea53ca625bac506ffc1b308ce61  ./whitepaper/README.md
+35ace05251726df3c549b642e1419716  ./whitepaper/README.md
 ```
 #### Digital signatures
 ```
@@ -410,7 +411,7 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 ea7ccf6120a0e29cb8473cbb7e1cc7f7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-f28bca07bfb7d765713681eb46862355  ./whitepaper/README.md
+5f2ad43b00ce75d91095d138d37b32ec  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 7d680ccb57804e34622b8d066bbd4fbe  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
@@ -421,7 +422,7 @@ f16bab90fe5bf837c86b04e89f7dbb86  ./lang/README.md
 2eaaf2bbe0e2dae25cbc17345d4ba75a  ./lang/c/README.md
 bdb604d4b1a062ad395e255c5fe46ca6  ./arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
-50eef34cb1ede218c189b74a8b377cda  ./arch/README.md
+da435fd2fb426d1087a3ff9b0b11f80d  ./arch/README.md
 beb28c51736bf8eb435fbc02654657f6  ./arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ./users/README.md
 edf88082867feb04d7cd8796b39561a3  ./commands/README.md
@@ -430,4 +431,4 @@ a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
 ```
 Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:57:11 CET 2020 
+-- WCS - published by: wcs:root : Sat Jan 18 19:58:02 CET 2020 
