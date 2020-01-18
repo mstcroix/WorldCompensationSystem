@@ -27,17 +27,32 @@ __Keywords__: Executable specification, user-story
 
 | Release | Requirements  | Content | Work-Product |  |
 | --- | --- | --- | --- | --- |
-| DV1 | REQ1, REQ2 | | wcsServer | testnet |
+| DV1 | REQ1, REQ2 | | testnet |
 | DV2 | REQ3 |  |
+| *Alpha* | |
+| RK1 | |
+| *Beta*  | mainnet |
+| __R1__  | mainnet |
+
+### Work-products
+
+services
+[wcsServer](/services/wcsServer) - World Compensation System server
+
+commands
+
+tools
+
+## Integration Plan
+
+| Release | Work-Product |
+| --- | --- | --- | 
+| DV1 | wcsServer | 
+| DV2 |  |
 | *Alpha* | |
 | RK1 | |
 | *Beta*  | |
 | __R1__  | |
-
-
-### Work-products
-
-wcsServer - World Compensation System server
 
 
 
