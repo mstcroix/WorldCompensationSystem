@@ -1,1 +1,1 @@
-c
+# Language C (C99)
