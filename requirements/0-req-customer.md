@@ -46,19 +46,10 @@ tools
 ## Integration Plan
 
 | Release | Work-Product |
-| --- | --- | --- | 
+| --- | --- | 
 | DV1 | wcsServer | 
 | DV2 |  |
 | *Alpha* | |
 | RK1 | |
 | *Beta*  | |
 | __R1__  | |
-
-
-
-### Disclaimer
-
-All quoted phrases are verbatim copies found at Conversations with God. Book Two (siehe Bibliography unten)
-
-## Bibliography
-- Conversations with God (c) 1997 Neale Donald Walsch. ISBN 978 0 340 76544 9
