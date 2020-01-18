@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:18:48 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:19:36 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -156,7 +156,7 @@ homeland$share dapp1 user1 2
 homeland$lend dapp1
 homeland$claim dapp1
 ```
-Refer to `$d`
+Refer to `$(d)`
 ### Applications
 
 ```
@@ -181,7 +181,7 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | c2bf4fc7bf438106c12f307afd337811 apps/README.md |
-Refer to `$d`
+Refer to `$(d)`
 ### Distributed Apps (status:*in-work*)
 
 ```
@@ -204,7 +204,7 @@ Refer to `$d`
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 2dfccc42d70768a23f6464cb7940915a dapps/README.md |
-Refer to `$d`
+Refer to `$(d)`
 ## Commands (status:*in-work*)
 
 ```
@@ -226,7 +226,7 @@ Refer to `$d`
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 19378124b967a8ee694fbb7303c7897b commands/README.md |
-Refer to `$d`
+Refer to `$(d)`
 ## Operations
 #### Digital signatures
 ```
@@ -235,7 +235,7 @@ Refer to `$d`
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 88c2dd22668d96cb2232b8c136cbd982 operations/README.md |
-Refer to `$d`
+Refer to `$(d)`
 ## Tools
 
 ### List of off-the-shelf Admin Tool(s) (status:*in-work*)
@@ -249,7 +249,7 @@ ac9c232097bd812a82d4717c2298f6eb  ./tools/README.md
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | ac9c232097bd812a82d4717c2298f6eb tools/README.md |
-Refer to `$d`
+Refer to `$(d)`
 ### Services
 
 #### List of wcsOS System-Service(s) (status:*in-work*)
@@ -263,7 +263,7 @@ Refer to `$d`
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 06ae6a9d35733170f372c50e1e6ed749 services/README.md |
-Refer to `$d`
+Refer to `$(d)`
 ## Architecture
 
 ### Concept
@@ -382,7 +382,7 @@ d47693b9acb4e93021125f2c7a3d36f2  ./bin/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-143ccff8eaba9ffec7ffc0be74c88298  ./whitepaper/README.md
+d06213f585fcf044e48f45f08e00e6bc  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
