@@ -391,9 +391,11 @@ Status: OK
 | README.md | 50eef34cb1ede218c189b74a8b377cda arch/README.md |
 
 ## 2020 (CC) Creative Common License
-4e864ba55264b662e2e27a071d69264f  ./whitepaper/README.md
+```
+a687e6811fadd6425482688f4f48f7a5  ./whitepaper/README.md
+```
 Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:23:09 CET 2020 
+-- WCS - published by: wcs:root : Sat Jan 18 19:24:07 CET 2020 
 #### Digital signatures
 ```
 d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
@@ -405,7 +407,7 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-b11874b3a3621a24c1f289543bc60c32  ./whitepaper/README.md
+042548830912c396b76529123383f718  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 48c685a2b7ba37bae2978555f0faac77  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md

@@ -59,8 +59,9 @@ for d in apps dapps commands operations tools services arch ;
 
 ## Footer
 echo "## 2020 (CC) Creative Common License" >> ./whitepaper/README.md
-
+echo '```' >> ./whitepaper/README.md
 md5sum ./whitepaper/README.md >> ./whitepaper/README.md
+echo '```' >> ./whitepaper/README.md
 
 echo "Whitepaper" >> ./whitepaper/README.md
 echo "-- WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
