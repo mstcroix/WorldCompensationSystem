@@ -63,10 +63,7 @@ echo '```' >> ./whitepaper/README.md
 md5sum ./whitepaper/README.md >> ./whitepaper/README.md
 echo '```' >> ./whitepaper/README.md
 
-echo "Whitepaper" >> ./whitepaper/README.md
-echo "-- WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
-
-## Fingerprinting
+## Finger-printing
 echo '#### Digital signatures' >> ./whitepaper/README.md
 echo '```' >> ./whitepaper/README.md
 for f in $(find . -regex '.*/*.md' )
@@ -74,6 +71,9 @@ do
     md5sum $f >> ./whitepaper/README.md
 done
 echo '```' >> ./whitepaper/README.md
+
+echo "Whitepaper" >> ./whitepaper/README.md
+echo "-- WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
 
 # Export Whitepaper as PDF
 pandoc -o whitepaper.pdf ./whitepaper/README.md
