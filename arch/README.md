@@ -1,6 +1,6 @@
 ## Architecture
 
-## Concept
+### Concept
 
 Create a World Compensation Ecosystem based on Decentralised Financial Applications.
 
@@ -42,20 +42,14 @@ Light-nodes: store, validate and reconstruct environment from all nodes in local
 ### Local File-system
 
 ```
-RK1.0
 / - WCS root Ecosystem
 /commands
 /dbin/ - Decentralised System services
 /users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
-
-RK1.1
 /apps
 /lang - implementation language specific files
 /tools - Utility tools
-
-RK1.2
 /dapp/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
-
 ```
 
 ### Remote (distributed) File-system
@@ -63,9 +57,7 @@ RK1.2
 [/arch/dfs](dfs)
 
 ```
-RK2
 /dapp/DeFi/ - Decentralised Financial Apps
-
 ```
 
 ### Realisation
@@ -76,13 +68,7 @@ UNIX's "Everything is a File" -> (name:Address)
  - Network (distributed) File-System
 
 #### Support Tools
-```
-neo4.js - Graph Database
-```
-
-### Common Use-cases
-
-* transfer value-assets
+Refer to [support tools](/tools/).
 
 ### Network Startup
 
