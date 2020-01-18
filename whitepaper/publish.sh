@@ -36,9 +36,11 @@ echo '```' >> ./whitepaper/README.md
 ### Element (z.B. Architecture)
 cat ./arch/README.md >> ./whitepaper/README.md
 
-echo '#### Digital signatures' >> ./whitepaper/README.md
 for d in arch tools ;
   do
+    cat $d >> ./whitepaper/README.md
+
+    echo '#### Digital signatures' >> ./whitepaper/README.md
     echo '```' >> ./whitepaper/README.md
     echo $d
     md5sum ./$d/*.md >> ./whitepaper/README.md
