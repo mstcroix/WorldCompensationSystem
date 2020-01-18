@@ -55,6 +55,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 
 # Whitepaper
 ## Table-of-contents
+```
 ../GLOSSARY.md
 ../README.md
 ../apps/README.md
@@ -81,6 +82,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 ../whitepaper/platform.md
 ../whitepaper/wcsOES.md
 ../whitepaper/whitepaper.md
+```
 ## Operating (Eco-)System Concept
 1. wcsO(E)S - WCS Operating Eco-System
    1. Platform
@@ -766,14 +768,14 @@ $ps
 /apps/App1 running. 5 users connected
 ```
 50fc328aad939c00fb848432a94943c9  ../arch/README.md
-1df4a3d6d488b1a2ff0060aad4fc8ab3  README.md
+09dd7ce3e53188fa6ab68ad222703c11  README.md
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
-f3e54533f84ad37d8fc76c340e8928bd  whitepaper.md
+70a1947487f1741ee64cb109b8cddc82  whitepaper.md
 ## 2020 (CC) Creative Common License
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
-published by: user : Sat Jan 18 15:49:49 CET 2020
+published by: user : Sat Jan 18 16:17:07 CET 2020
 ```
 bc9b4920af19ea249c5e51730a986a9a  ../tools/README.md
 f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
@@ -782,13 +784,13 @@ f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 481ff52c1fbf89a439c00b67399cc38e  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-1df4a3d6d488b1a2ff0060aad4fc8ab3  ../whitepaper/README.md
-68cc4c8fe6f3acc7d698b13c187c905b  ../whitepaper/whitepaper.md
+ba50d31e9697710931aff7aedb48a68a  ../whitepaper/README.md
+70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
 b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
 94063115eb82858ccfd15ef5a3b21814  ../project/integration.md
 68f05ceb68281268217108fb55876082  ../project/deployment.md
-5cfe1ac24119c28d4667d3beddbe9d53  ../project/CONTRIBUTING.md
+5cd4aa50a1a9f8d1b46b0b63c9d82e27  ../project/CONTRIBUTING.md
 9c060f1741bc37163838ead55b73c8ab  ../project/workproducts.md
 68b329da9893e34099c7d8ad5cb9c940  ../lang/README.md
 2cd6ee2c70b0bde53fbe6cac3c8b8bb1  ../lang/c/README.md
