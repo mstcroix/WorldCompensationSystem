@@ -33,7 +33,7 @@ __Credits__:
 
 credit - a given amount granted in exchange of local-resource-time (normally computing power or manual labour) consumption/usage
 - run a service in a remote:node
-- basic unit of credit: cost (node operation cost)
+- *universal* unit of credit: cost (node operation cost)
 
 __Debits__:
 
