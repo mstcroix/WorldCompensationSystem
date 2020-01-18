@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:06:02 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:13:26 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -59,11 +59,15 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 
 [../tools](README.md) -
 
+[../dbin](README.md) - ## Distributed Commands, Sercvices and Tools
+
+[../bin](README.md) -
+
 [../networking](README.md) - # Networking
 
 [../dapps](README.md) - ### Distributed Apps (status:*in-work*)
 
-[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:06:02 CET 2020
+[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:13:26 CET 2020
 
 [../operations](README.md) - # Operations
 
@@ -192,7 +196,7 @@ homeland$claim dapp1
 ```
 ## Architecture
 
-## Concept
+### Concept
 
 Create a World Compensation Ecosystem based on Decentralised Financial Applications.
 
@@ -234,20 +238,14 @@ Light-nodes: store, validate and reconstruct environment from all nodes in local
 ### Local File-system
 
 ```
-RK1.0
 / - WCS root Ecosystem
 /commands
 /dbin/ - Decentralised System services
 /users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
-
-RK1.1
 /apps
 /lang - implementation language specific files
 /tools - Utility tools
-
-RK1.2
 /dapp/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
-
 ```
 
 ### Remote (distributed) File-system
@@ -255,9 +253,7 @@ RK1.2
 [/arch/dfs](dfs)
 
 ```
-RK2
 /dapp/DeFi/ - Decentralised Financial Apps
-
 ```
 
 ### Realisation
@@ -268,13 +264,7 @@ UNIX's "Everything is a File" -> (name:Address)
  - Network (distributed) File-System
 
 #### Support Tools
-```
-neo4.js - Graph Database
-```
-
-### Common Use-cases
-
-* transfer value-assets
+Refer to [support tools](/tools/).
 
 ### Network Startup
 
@@ -288,47 +278,16 @@ Status: OK
 ```
 
 ### Command, Services and Tools
-```
-mount - loads/unloads foreign WCS Networks
-ls - show current Users in the Ecosystem
-mv - allocate users in different sub-network
-whoami -
-ps - process
-ping - ping
-telnet - establish connection and echo server
-mailto - use mail-alies to transfer transfer value-assets in the network
-```
+
+- [bin](/bin) - Local commands, services and tools
+- [dbin](/dbin) - Distributed (Remote) user-commands and user-tools
 
 ### Application Notes
-```
-$whoami
-{0x123456:mstcroix:mstcroix@protonmail.com}
 
-$pwd
-/
-
-$ls
-/apps
-/commands
-/dapps
-/services
-/users
-
-$ls /users
-/users/{0x123456:mstcroix:mstcroix@protonmail.com}
-/users/{0x423456:mstcroix:none}
-/users/{0x223456:anonymous:none}
-/users/{0x723456:mstcroix:mstcroix@protonmail.com}
-
-$ps
-0 applications running
-
-$/apps/App1 &
-$ps
-/apps/App1 running. 5 users connected
-```
-50fc328aad939c00fb848432a94943c9  ../arch/README.md
-856227b6ba8be28ee97e25f18b276666  README.md
+- [apps](/apps) - Local commands, services and tools
+- [dapps](/dapps - Distributed (Remote) User-services
+7a68893e0f7f207337c4a5d2043464b6  ../arch/README.md
+1127ecc163f29b8abf85ef53310b1e85  README.md
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
 bbf952448806a9465104b3c5895d5356  wcsOES.md
@@ -337,13 +296,15 @@ bbf952448806a9465104b3c5895d5356  wcsOES.md
 bbf952448806a9465104b3c5895d5356  wcsOES.md
 ```
 bc9b4920af19ea249c5e51730a986a9a  ../tools/README.md
+4326cd0a8745db011cd1acfe325eda40  ../dbin/README.md
+62efa85d6e162c8d0630c0671ad57875  ../bin/README.md
 f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 3582056e21f163e556a92a29f26da4bc  ../GLOSSARY.md
 1d4ba0b4f97b65cb239ac157fa453df6  ../dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 bbf952448806a9465104b3c5895d5356  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-56617f7fb9a1beca7fc7fb4135a2d9a6  ../whitepaper/README.md
+16f2f0b2961cbdf4d0221905726a3842  ../whitepaper/README.md
 70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
 b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
@@ -355,7 +316,7 @@ f16bab90fe5bf837c86b04e89f7dbb86  ../lang/README.md
 2eaaf2bbe0e2dae25cbc17345d4ba75a  ../lang/c/README.md
 5fe7603d97b3315406ce7c051f273a3e  ../arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ../arch/dfs/dFSwcs/README.md
-50fc328aad939c00fb848432a94943c9  ../arch/README.md
+7a68893e0f7f207337c4a5d2043464b6  ../arch/README.md
 4ae120d33503361b35768677302e8c75  ../arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ../users/README.md
 41990a8f6b22e6e1b72009ca47b6ffc7  ../commands/README.md
