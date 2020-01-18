@@ -31,7 +31,9 @@ echo '```' >> ./whitepaper/README.md
 grep "^homeland" ./whitepaper/wcsOES.md >> ./whitepaper/README.md
 echo '```' >> ./whitepaper/README.md
 
-## Implementation Architecture
+## Implementation
+
+### Element (z.B. Architecture)
 cat ./arch/README.md >> ./whitepaper/README.md
 
 echo '#### Digital signatures' >> ./whitepaper/README.md
@@ -39,12 +41,19 @@ echo '```' >> ./whitepaper/README.md
 md5sum ./arch/*.md >> ./whitepaper/README.md
 echo '```' >> ./whitepaper/README.md
 
-echo '| Document | Checksum-hash |' >> ./whitepaper/README.md
+echo '| Document | MD5-Checksum |' >> ./whitepaper/README.md
 echo '| -- | -- |' >> ./whitepaper/README.md
 for f in *.md
 do
     echo '|' $(basename $f) '|' `md5sum $f` '|' >> ./whitepaper/README.md
 done
+
+for d in arch, tools ;
+  do
+    echo $d
+  done
+
+### ----------------------------------------------------------------------
 
 ## Footer
 echo "## 2020 (CC) Creative Common License" >> ./whitepaper/README.md
