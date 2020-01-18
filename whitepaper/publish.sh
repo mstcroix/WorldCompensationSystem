@@ -25,6 +25,7 @@ echo "## Operating (Eco-)System Concept" >> ./whitepaper/README.md
 grep "^#" ./whitepaper/wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> ./whitepaper/README.md
 
 ## examples
+echo '' >> ./whitepaper/README.md
 echo "## (Eco-)System Application notes" >> ./whitepaper/README.md
 echo '```' >> ./whitepaper/README.md
 grep "^homeland" ./whitepaper/wcsOES.md >> ./whitepaper/README.md

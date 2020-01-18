@@ -108,6 +108,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
    1. Lend User-service
    1. Claim lend User-service
    1. Borrow service
+
 ## (Eco-)System Application notes
 ```
 homeland$
@@ -379,7 +380,7 @@ Status: OK
 | README.md | 98b26c87b00660ea619e96fdb6a67885 arch/README.md |
 
 Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:13:05 CET 2020 
+-- WCS - published by: wcs:root : Sat Jan 18 19:18:51 CET 2020 
 ## 2020 (CC) Creative Common License
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 #### Digital signatures
@@ -393,7 +394,7 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-d543aeb6f75da906128901d27842090b  ./whitepaper/README.md
+bd0ed4afb7475480b68972ab08accdae  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 48c685a2b7ba37bae2978555f0faac77  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
