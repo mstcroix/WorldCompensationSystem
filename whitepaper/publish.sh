@@ -9,7 +9,7 @@ echo \[Whitepaper\] - WCS - published by: wcs:root : $(date) $(time) > README.md
 # User-story
 cat ../README.md >> README.md
 
-# table-of-contents
+# Table-of-contents
 echo "# Whitepaper" >> README.md
 echo "## Table-of-contents" >> README.md
 
@@ -28,10 +28,10 @@ echo "## Operating (Eco-)System Concept" >> README.md
 grep "^#" wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> README.md
 
 ## examples
-echo "## Application notes" >> README.md
-grep "$" wcsOES.md >> README.md
+echo "## (Eco-)System Application notes" >> README.md
+grep "^homeland" wcsOES.md >> README.md
 
-## architecture
+## Implementation Architecture
 cat ../arch/README.md >> README.md
 md5sum ../arch/*.md >> README.md
 for f in *.md
@@ -39,12 +39,12 @@ do
     md5sum $f >> README.md
 done
 
-#footer
+## Footer
 echo "## 2020 (CC) Creative Common License" >> README.md
 
 md5sum wcsOES.md >> README.md
 
-# Fingerprinting (Signature)
+## Fingerprinting (Signature)
 echo '```' >> README.md
 for f in $(find .. -regex '.*/*.md' )
 do
@@ -52,4 +52,5 @@ do
 done
 echo '```' >> README.md
 
+# Export Whitepaper as PDF
 pandoc -o whitepaper.pdf README.md

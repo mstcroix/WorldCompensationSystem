@@ -5,16 +5,6 @@
 [realisation platform](platform.md) - wcsOS Linux based. Minimal distribution
 
 
-## Transactions
-```
-homeland$send 2 user1
-Sending 2 Credits to /users/user1
-TX: Send pubkey
-RX:
-TX:
-RX:
-```
-
 ## Use-cases
 
 __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stories
@@ -43,12 +33,23 @@ homeland$
 `help`, `man` or check [our documentation](../documentation).
 
 ```
-homeland$man
-home
-whoami
-pwd
+homeland$help
+home - return home
+whoami - who am I
+pwd - present working directory
 ls <folder>
-ver
+ver - current version
+```
+
+```
+homeland$man ver
+NAME
+  ver -- display current platform version
+
+SYNTAX
+   ver
+
+USE-CASES
 ```
 
 ```
@@ -163,7 +164,8 @@ hash - (1 credit:university:berlin)
 ```
 
 ```
-homeland$apps           ($ls /apps)
+homeland$apps
+INFO: alias to ($ls /apps)
 3 apps, 1 local
 
 tetris - (16 times:company:gameco:*)
@@ -181,6 +183,8 @@ Address: 0xc50..000
 0 Debits
 ```
 
+#### Asset Management
+
 ### Value Operations
 ```
 homeland$credits
@@ -194,7 +198,7 @@ homeland$debts
 
 ```
 homeland$assets
-2 assetts, 1 leasing, 1 licensed, 0 invested
+2 assets, 1 leasing, 1 licensed, 0 invested
 
 leasing
 tetris - (2 Leasing Credits left:16:company:gameco:*)
@@ -203,6 +207,17 @@ licensed
 doomclone - (34 Credits licensed:872355:user:girx34:*****)
 
 invested 0
+```
+
+##### Transactions
+```
+homeland$send 2 user1
+Sending 2 Credits to /users/user1
+TX: Send pubkey
+RX:
+TX:
+RX:
+Rejectred . 0 Credits found
 ```
 
 ```
@@ -420,7 +435,7 @@ DEBUG: 2 Local Credits left (me@homeland)
 ### User-management
 ```console
 homeland$login
-homeland: me
+longin@homeland:me
 Password: *** *
 
 me@homeland$
