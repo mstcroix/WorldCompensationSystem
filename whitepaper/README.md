@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:17:56 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:22:13 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -59,17 +59,17 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 
 [../tools](README.md) - ## Tools
 
-[../dbin](README.md) - ## Distributed Commands, Sercvices and Tools
+[../dbin](README.md) - ## Distributed Commands, Services and Tools
 
-[../bin](README.md) -
+[../bin](README.md) - ## Command, Services and Tools
 
 [../networking](README.md) - # Networking
 
 [../dapps](README.md) - ### Distributed Apps (status:*in-work*)
 
-[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:17:56 CET 2020
+[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:22:13 CET 2020
 
-[../operations](README.md) - # Operations
+[../operations](README.md) - ## Operations
 
 [..](README.md) - # World Compensation System (WCS)
 
@@ -87,7 +87,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 
 [../users](README.md) - # Users
 
-[../commands](README.md) - ### Commands (status:*in-work*)
+[../commands](README.md) - ## Commands (status:*in-work*)
 
 [../apps](README.md) - ### Applications
 
@@ -293,7 +293,7 @@ Status: OK
 - [apps](/apps) - Local commands, services and tools
 - [dapps](/dapps - Distributed (Remote) User-services
 14493c0b4a36cd6a4ea74e903f819f1b  ../arch/README.md
-46fa90b707db9b63139775128a9b64e2  README.md
+076ece76af19a2d1f6c4319694dc320b  README.md
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
 bbf952448806a9465104b3c5895d5356  wcsOES.md
@@ -302,17 +302,17 @@ bbf952448806a9465104b3c5895d5356  wcsOES.md
 bbf952448806a9465104b3c5895d5356  wcsOES.md
 ```
 9cadfde7bd7e2d2702a5dbabf8d40d00  ../tools/README.md
-4326cd0a8745db011cd1acfe325eda40  ../dbin/README.md
-62efa85d6e162c8d0630c0671ad57875  ../bin/README.md
+dc2c8698da44a75bdd5c19efd0860213  ../dbin/README.md
+d47693b9acb4e93021125f2c7a3d36f2  ../bin/README.md
 f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 3582056e21f163e556a92a29f26da4bc  ../GLOSSARY.md
 1d4ba0b4f97b65cb239ac157fa453df6  ../dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 bbf952448806a9465104b3c5895d5356  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-ef498f0e30fdc26fc60f3ecc7895df33  ../whitepaper/README.md
+7d86962065da4f55a2375d14fac29a8a  ../whitepaper/README.md
 70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
-b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
+88c2dd22668d96cb2232b8c136cbd982  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
 94063115eb82858ccfd15ef5a3b21814  ../project/integration.md
 68f05ceb68281268217108fb55876082  ../project/deployment.md
@@ -325,7 +325,7 @@ b6a84991d4f8957e69ccfd6d3e935e02  ../arch/dfs/dFSwcs/README.md
 14493c0b4a36cd6a4ea74e903f819f1b  ../arch/README.md
 4ae120d33503361b35768677302e8c75  ../arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ../users/README.md
-41990a8f6b22e6e1b72009ca47b6ffc7  ../commands/README.md
+19378124b967a8ee694fbb7303c7897b  ../commands/README.md
 15fd8a06e94ecf5f079451536356171c  ../apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ../services/wcsServer/README.md
 06ae6a9d35733170f372c50e1e6ed749  ../services/README.md
