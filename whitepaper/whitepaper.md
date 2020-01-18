@@ -628,7 +628,6 @@ dapp1 -> /node/lapland/dapps/dapp1
 ````
 ````
 ## Architecture
-## Architecture
 
 ## Concept
 
@@ -769,6 +768,31 @@ $ps
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
-ec0d6befdee4eed533044f0d62cea2b3  whitepaper.md
+3e7953409c1664de4ef0d76fee5889b1  whitepaper.md
 ## 2020 (CC) Creative Common LIcense
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
+bc9b4920af19ea249c5e51730a986a9a  ../tools/README.md
+f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
+3582056e21f163e556a92a29f26da4bc  ../GLOSSARY.md
+1d4ba0b4f97b65cb239ac157fa453df6  ../dapps/README.md
+ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
+481ff52c1fbf89a439c00b67399cc38e  ../whitepaper/wcsOES.md
+d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
+a82fb9f1adffb829790034d06c337bbf  ../whitepaper/whitepaper.md
+b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
+4e57eedfde6cb02c52aec8be79b015c9  ../README.md
+94063115eb82858ccfd15ef5a3b21814  ../project/integration.md
+68f05ceb68281268217108fb55876082  ../project/deployment.md
+5cfe1ac24119c28d4667d3beddbe9d53  ../project/CONTRIBUTING.md
+9c060f1741bc37163838ead55b73c8ab  ../project/workproducts.md
+68b329da9893e34099c7d8ad5cb9c940  ../lang/README.md
+2cd6ee2c70b0bde53fbe6cac3c8b8bb1  ../lang/c/README.md
+5fe7603d97b3315406ce7c051f273a3e  ../arch/dfs/README.md
+b6a84991d4f8957e69ccfd6d3e935e02  ../arch/dfs/dFSwcs/README.md
+50fc328aad939c00fb848432a94943c9  ../arch/README.md
+4ae120d33503361b35768677302e8c75  ../arch/fs/README.md
+1c309bf14fbd49d5afcfac8da0635b5b  ../users/README.md
+41990a8f6b22e6e1b72009ca47b6ffc7  ../commands/README.md
+15fd8a06e94ecf5f079451536356171c  ../apps/README.md
+a3c6c1e9fbc0dd9e6723f73f7402b08a  ../services/wcsServer/README.md
+06ae6a9d35733170f372c50e1e6ed749  ../services/README.md

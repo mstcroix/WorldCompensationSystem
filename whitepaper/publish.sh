@@ -20,7 +20,6 @@ echo "## Application notes" >> whitepaper.md
 grep "$" wcsOES.md >> whitepaper.md
 
 ## architecture
-echo "## Architecture" >> whitepaper.md
 cat ../arch/README.md >> whitepaper.md
 md5sum ../arch/*.md >> whitepaper.md
 for f in *.md
@@ -35,7 +34,9 @@ md5sum wcsOES.md >> whitepaper.md
 echo published by: user : $(date) $(time) >> whitepaper
 
 # Fingerprinting (Signature)
+echo ```
 for f in $(find .. -regex '.*/*.md' )
 do
-    md5sum $f
+    md5sum $f >> whitepaper.md
 done
+echo ```
