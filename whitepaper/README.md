@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:38:33 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:42:42 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -181,7 +181,7 @@ homeland$claim dapp1
 | -- | -- |
 | README.md | 49bf9fabbb31ca80119c72109b914708 apps/README.md |
 
-### Distributed Apps (status:*in-work*)
+### Distributed Apps
 /dapps:
 
 ```
@@ -191,22 +191,25 @@ homeland$claim dapp1
 /dapps/<Domain>/DApp1/test -- test
 ```
 
-#### List of supported DFApp(s)
+#### List of native DFApp(s)
 
 * [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst (status:*planned*)
 
 * [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template (status:*planned*)
 
+#### List of registered third-party DFApp(s)
+
+
 #### Application Notes
 #### Digital signatures
 ```
-3fc0fe773d635f35b8a1e972903696fe  ./dapps/README.md
+8bac8aaca025fbaed5d9753a66a1b7cd  ./dapps/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 3fc0fe773d635f35b8a1e972903696fe dapps/README.md |
+| README.md | 8bac8aaca025fbaed5d9753a66a1b7cd dapps/README.md |
 
-## Commands (status:*in-work*)
+## Commands
 /commands:
 
 ```
@@ -223,11 +226,11 @@ homeland$claim dapp1
 ### Application Notes
 #### Digital signatures
 ```
-8e8e60dc6bfe46a07542d61124419a6e  ./commands/README.md
+edf88082867feb04d7cd8796b39561a3  ./commands/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 8e8e60dc6bfe46a07542d61124419a6e commands/README.md |
+| README.md | edf88082867feb04d7cd8796b39561a3 commands/README.md |
 
 ## Operations
 /operations:
@@ -259,16 +262,16 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ### Services
 /services:
 
-#### List of wcsOS System-Service(s) (status:*in-work*)
+#### List of supported System-Service(s)
 
-* [wcsServer](wcsServer) - World Compensation System server
+* [wcsServer](wcsServer) - World Compensation System server (status:*planned*)
 #### Digital signatures
 ```
-7c604d049c674a6ef8ff531ebcdc7191  ./services/README.md
+086f662610232b3d3c823e5af2138bce  ./services/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 7c604d049c674a6ef8ff531ebcdc7191 services/README.md |
+| README.md | 086f662610232b3d3c823e5af2138bce services/README.md |
 
 ## Architecture
 /arch:
@@ -382,15 +385,15 @@ c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 #### Digital signatures
 ```
 d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
-dc2c8698da44a75bdd5c19efd0860213  ./dbin/README.md
-d47693b9acb4e93021125f2c7a3d36f2  ./bin/README.md
-49a5c547537d2c6a77e17d08d62bd5e2  ./networking/README.md
+2002ca1741c76f6377bbeeee61871f2c  ./dbin/README.md
+6eec0042d8bf26b963570b205d79b536  ./bin/README.md
+280c5c21a52eb71acd378440842d4242  ./networking/README.md
 3582056e21f163e556a92a29f26da4bc  ./GLOSSARY.md
-3fc0fe773d635f35b8a1e972903696fe  ./dapps/README.md
+8bac8aaca025fbaed5d9753a66a1b7cd  ./dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-c5b25a737be3f374d2f7c46493189cea  ./whitepaper/README.md
+e6f2d9f1cf8300d9c724f1315068b5d1  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 e7628ed2655ae8735f1f0b9afb7fa61e  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
@@ -404,8 +407,8 @@ b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
 61c2223045284a14e903089d266c04c6  ./arch/README.md
 c4feafee3b3e1969bc45b3fc9f2575ee  ./arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ./users/README.md
-8e8e60dc6bfe46a07542d61124419a6e  ./commands/README.md
+edf88082867feb04d7cd8796b39561a3  ./commands/README.md
 49bf9fabbb31ca80119c72109b914708  ./apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
-7c604d049c674a6ef8ff531ebcdc7191  ./services/README.md
+086f662610232b3d3c823e5af2138bce  ./services/README.md
 ```

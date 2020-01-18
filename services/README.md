@@ -1,5 +1,5 @@
 ### Services
 
-#### List of wcsOS System-Service(s) (status:*in-work*)
+#### List of supported System-Service(s)
 
-* [wcsServer](wcsServer) - World Compensation System server
+* [wcsServer](wcsServer) - World Compensation System server (status:*planned*)

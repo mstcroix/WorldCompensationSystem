@@ -1,4 +1,4 @@
-## Commands (status:*in-work*)
+## Commands
 
 ```
 /commands/Cmd1 -- Command1 executable

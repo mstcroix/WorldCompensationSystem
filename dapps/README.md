@@ -1,4 +1,4 @@
-### Distributed Apps (status:*in-work*)
+### Distributed Apps
 
 ```
 /dapps/DApp1 -- Distributed App1 executable
@@ -7,10 +7,13 @@
 /dapps/<Domain>/DApp1/test -- test
 ```
 
-#### List of supported DFApp(s)
+#### List of native DFApp(s)
 
 * [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst (status:*planned*)
 
 * [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template (status:*planned*)
+
+#### List of registered third-party DFApp(s)
+
 
 #### Application Notes
