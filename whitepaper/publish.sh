@@ -7,20 +7,23 @@
 cat ../README.md > whitepaper.md
 
 # table-of-contents
-echo "# Table-of-contents" >> whitepaper.md
+echo "# Whitepaper" >> whitepaper.md
+echo "## Table-of-contents" >> whitepaper.md
 find .. -regex '.*/*.md' | sort >> whitepaper.md
 
-# body
-echo "# Concept" >> whitepaper.md
-grep "^#" wcsOES.md | sed 's/## /   1./g' | sed 's/# /1./g' >> whitepaper.md
+# Body
+echo "## Operating (Eco-)System Concept" >> whitepaper.md
+grep "^#" wcsOES.md | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> whitepaper.md
 
-# examples
-echo "# Examples" >> whitepaper.md
+## examples
+echo "## Application notes" >> whitepaper.md
 grep "$" wcsOES.md >> whitepaper.md
 
+## architecture
+echo "## Architecture" >> whitepaper.md
+md5sum /arch/*.md >> whitepaper.md
 
 #footer
-echo "# Footer" >> whitepaper.md
 echo "## 2020 (CC) Creative Common LIcense" >> whitepaper.md
 
 md5sum wcsOES.md >> whitepaper.md
