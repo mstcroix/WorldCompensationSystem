@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -799,3 +800,6 @@ b6a84991d4f8957e69ccfd6d3e935e02  ../arch/dfs/dFSwcs/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ../services/wcsServer/README.md
 06ae6a9d35733170f372c50e1e6ed749  ../services/README.md
 ```
+=======
+
+>>>>>>> 708b88be91cbb3d0d957a3aaf4bba18233f404f2
