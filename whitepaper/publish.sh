@@ -12,11 +12,12 @@ echo "## Table-of-contents" >> README.md
 
 echo '```' >> README.md
 echo '```' >> README.md
-
+echo '' >> README.md
 #find .. -regex '.*/*.md' | sort >> README.md
 for f in $(find .. -regex '.*/README.md' )
 do
-    echo \[`basename $f`\]\($f\) - `head -n 1 $f` >> README.md
+    echo \[`dirname $f`\]\(`basename $f`\) - `head -n 1 $f` >> README.md
+    echo '' >> README.md
 done
 
 # Body

@@ -57,23 +57,41 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 ## Table-of-contents
 ```
 ```
-[README.md](../tools/README.md) -
-[README.md](../networking/README.md) - # Networking
-[README.md](../dapps/README.md) - ### Distributed Apps (status:*in-work*)
-[README.md](../whitepaper/README.md) - # World Compensation System (WCS)
-[README.md](../operations/README.md) - # Operations
-[README.md](../README.md) - # World Compensation System (WCS)
-[README.md](../lang/README.md) -
-[README.md](../lang/c/README.md) - c
-[README.md](../arch/dfs/README.md) - # Distributed File-System(s)
-[README.md](../arch/dfs/dFSwcs/README.md) - # Distributed File-System WCS
-[README.md](../arch/README.md) - ## Architecture
-[README.md](../arch/fs/README.md) - # File System
-[README.md](../users/README.md) - # Users
-[README.md](../commands/README.md) - ### Commands (status:*in-work*)
-[README.md](../apps/README.md) - ### Applications
-[README.md](../services/wcsServer/README.md) - # wcsServer - World Compensation System server
-[README.md](../services/README.md) - ### Services
+
+[../tools](README.md) -
+
+[../networking](README.md) - # Networking
+
+[../dapps](README.md) - ### Distributed Apps (status:*in-work*)
+
+[../whitepaper](README.md) - # World Compensation System (WCS)
+
+[../operations](README.md) - # Operations
+
+[..](README.md) - # World Compensation System (WCS)
+
+[../lang](README.md) -
+
+[../lang/c](README.md) - c
+
+[../arch/dfs](README.md) - # Distributed File-System(s)
+
+[../arch/dfs/dFSwcs](README.md) - # Distributed File-System WCS
+
+[../arch](README.md) - ## Architecture
+
+[../arch/fs](README.md) - # File System
+
+[../users](README.md) - # Users
+
+[../commands](README.md) - ### Commands (status:*in-work*)
+
+[../apps](README.md) - ### Applications
+
+[../services/wcsServer](README.md) - # wcsServer - World Compensation System server
+
+[../services](README.md) - ### Services
+
 ## Operating (Eco-)System Concept
 1. wcsO(E)S - WCS Operating Eco-System
    1. Platform
@@ -759,14 +777,14 @@ $ps
 /apps/App1 running. 5 users connected
 ```
 50fc328aad939c00fb848432a94943c9  ../arch/README.md
-273d6c43d9503c80327dd5593520d4a7  README.md
+dd6dce510b7fcfec65fe38a5238c50a1  README.md
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
 70a1947487f1741ee64cb109b8cddc82  whitepaper.md
 ## 2020 (CC) Creative Common License
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
-published by: user : Sat Jan 18 16:23:12 CET 2020
+published by: user : Sat Jan 18 16:29:06 CET 2020
 ```
 bc9b4920af19ea249c5e51730a986a9a  ../tools/README.md
 f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
@@ -775,7 +793,7 @@ f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 481ff52c1fbf89a439c00b67399cc38e  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-44c490637dc2118e60be3db20fed5077  ../whitepaper/README.md
+83c5be9a68dc747333e618a5c1560f66  ../whitepaper/README.md
 70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
 b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
