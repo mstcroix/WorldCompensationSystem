@@ -34,6 +34,15 @@ __Transactions__:
 1. Browser (Peer)-to-(Peer)-Network (Blockchain)
 1. ...
 
+```
+homeland$send 2 user1
+Sending 2 Credits to /users/user1
+TX: Send pubkey
+RX: 
+TX:
+RX:
+```
+
 __Credits__:
 
 credit - a given amount granted in exchange of local-resource-time (normally computing power or manual labour) consumption/usage
