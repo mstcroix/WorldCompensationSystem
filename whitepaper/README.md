@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:34:17 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:38:33 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -51,9 +51,7 @@ Documentation is under the [Creative Commons Attribution license](https://creati
 Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Conduct]
 
 ### Donations
-| BTC-Address: | 0x123..0000 | 
-
-
+| BTC-Address: | 0x123..0000 |
 # Whitepaper
 ## Table-of-contents
 
@@ -160,50 +158,53 @@ homeland$claim dapp1
 /apps:
 
 ```
-/app/App1 -- Local App1 executable
-/app/<Domain>/App1/spec -- (external) interface specification
-/app/<Domain>/App1/src -- source code
-/app/<Domain>/App1/test -- test
+/apps/App1 -- Local App1 executable
+/apps/<Domain>/App1/spec -- (external) interface specification
+/apps/<Domain>/App1/src -- source code
+/apps/<Domain>/App1/test -- test
 ```
 
-#### List of WCS Application(s) (status:*in-work*)
-/apps/:
-* [wcsUTelnet](wcs) - Telnet
-[wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
-[wcsPHtpp](wcs) - HTML eXchanger
+#### List of supported Application(s)
+* [wcsUTelnet](wcs) - Telnet (status:*planned*)
+* [wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer (status:*planned*)
+* [wcsPHtpp](wcs) - HTML eXchanger (status:*planned*)
 
-#### Dependencies
+##### Dependencies
 /lang - implementation language specific files
+
+### Application Notes
 #### Digital signatures
 ```
-c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
+49bf9fabbb31ca80119c72109b914708  ./apps/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | c2bf4fc7bf438106c12f307afd337811 apps/README.md |
+| README.md | 49bf9fabbb31ca80119c72109b914708 apps/README.md |
 
 ### Distributed Apps (status:*in-work*)
 /dapps:
 
 ```
-/dapp/DApp1 -- Distributed App1 executable
-/dapp/<Domain>/DApp1/spec -- (external) interface specification
-/dapp/<Domain>/DApp1/src -- source code
-/dapp/<Domain>/DApp1/test -- test
+/dapps/DApp1 -- Distributed App1 executable
+/dapps/<Domain>/DApp1/spec -- (external) interface specification
+/dapps/<Domain>/DApp1/src -- source code
+/dapps/<Domain>/DApp1/test -- test
 ```
 
-#### List of WCS DFApp(s) (status:*in-work*)
+#### List of supported DFApp(s)
 
-* [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst
+* [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst (status:*planned*)
 
-* [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
+* [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template (status:*planned*)
+
+#### Application Notes
 #### Digital signatures
 ```
-3ca57832b861ca78e7c3abb680411fcb  ./dapps/README.md
+3fc0fe773d635f35b8a1e972903696fe  ./dapps/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 3ca57832b861ca78e7c3abb680411fcb dapps/README.md |
+| README.md | 3fc0fe773d635f35b8a1e972903696fe dapps/README.md |
 
 ## Commands (status:*in-work*)
 /commands:
@@ -214,19 +215,19 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 /commands/Cmd1/src
 ```
 
-### List of WCS Commands(s) (status:*in-work*)
+### List of supported Commands(s)
 
-* [wcsUStatus](wcs) - Echo
+* [wcsUStatus](wcs) - Echo (status:*planned*)
 
 
 ### Application Notes
 #### Digital signatures
 ```
-904c01d929ce8597189d60c971d93641  ./commands/README.md
+8e8e60dc6bfe46a07542d61124419a6e  ./commands/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 904c01d929ce8597189d60c971d93641 commands/README.md |
+| README.md | 8e8e60dc6bfe46a07542d61124419a6e commands/README.md |
 
 ## Operations
 /operations:
@@ -241,17 +242,19 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 ## Tools
 /tools:
 
-### List of off-the-shelf Admin Tool(s) (status:*in-work*)
+### List of native (off-the-shelf) Tool(s)
 
-* [wcsUPing](wcsPing) - wcs:Util : Ping
-* [wcsUEcho](wcs) - Echo
+* [wcsUPing](wcsPing) - wcs:Util : Ping (status:*planned*)
+* [wcsUEcho](wcs) - Echo (status:*planned*)
+
+### Application Notes
 #### Digital signatures
 ```
-aba20cefd0503d8c5efaeac7c77680f5  ./tools/README.md
+d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | aba20cefd0503d8c5efaeac7c77680f5 tools/README.md |
+| README.md | d89cf07d2b13a22deec08c0c4ed9266e tools/README.md |
 
 ### Services
 /services:
@@ -378,18 +381,18 @@ Status: OK
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 #### Digital signatures
 ```
-aba20cefd0503d8c5efaeac7c77680f5  ./tools/README.md
+d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 dc2c8698da44a75bdd5c19efd0860213  ./dbin/README.md
 d47693b9acb4e93021125f2c7a3d36f2  ./bin/README.md
 49a5c547537d2c6a77e17d08d62bd5e2  ./networking/README.md
 3582056e21f163e556a92a29f26da4bc  ./GLOSSARY.md
-3ca57832b861ca78e7c3abb680411fcb  ./dapps/README.md
+3fc0fe773d635f35b8a1e972903696fe  ./dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-fd2e4666c53c15fdb3c2ac5a5113979d  ./whitepaper/README.md
+c5b25a737be3f374d2f7c46493189cea  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
-4e57eedfde6cb02c52aec8be79b015c9  ./README.md
+e7628ed2655ae8735f1f0b9afb7fa61e  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
 68f05ceb68281268217108fb55876082  ./project/deployment.md
 5cd4aa50a1a9f8d1b46b0b63c9d82e27  ./project/CONTRIBUTING.md
@@ -401,8 +404,8 @@ b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
 61c2223045284a14e903089d266c04c6  ./arch/README.md
 c4feafee3b3e1969bc45b3fc9f2575ee  ./arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ./users/README.md
-904c01d929ce8597189d60c971d93641  ./commands/README.md
-c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
+8e8e60dc6bfe46a07542d61124419a6e  ./commands/README.md
+49bf9fabbb31ca80119c72109b914708  ./apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 7c604d049c674a6ef8ff531ebcdc7191  ./services/README.md
 ```

@@ -1,6 +1,8 @@
 ## Tools
 
-### List of off-the-shelf Admin Tool(s) (status:*in-work*)
+### List of native (off-the-shelf) Tool(s)
 
-* [wcsUPing](wcsPing) - wcs:Util : Ping
-* [wcsUEcho](wcs) - Echo
+* [wcsUPing](wcsPing) - wcs:Util : Ping (status:*planned*)
+* [wcsUEcho](wcs) - Echo (status:*planned*)
+
+### Application Notes

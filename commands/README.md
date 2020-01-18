@@ -6,9 +6,9 @@
 /commands/Cmd1/src
 ```
 
-### List of WCS Commands(s) (status:*in-work*)
+### List of supported Commands(s)
 
-* [wcsUStatus](wcs) - Echo
+* [wcsUStatus](wcs) - Echo (status:*planned*)
 
 
 ### Application Notes

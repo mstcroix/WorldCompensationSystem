@@ -50,6 +50,4 @@ Documentation is under the [Creative Commons Attribution license](https://creati
 Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Conduct]
 
 ### Donations
-| BTC-Address: | 0x123..0000 | 
-
-
+| BTC-Address: | 0x123..0000 |

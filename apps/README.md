@@ -1,17 +1,18 @@
 ### Applications
 
 ```
-/app/App1 -- Local App1 executable
-/app/<Domain>/App1/spec -- (external) interface specification
-/app/<Domain>/App1/src -- source code
-/app/<Domain>/App1/test -- test
+/apps/App1 -- Local App1 executable
+/apps/<Domain>/App1/spec -- (external) interface specification
+/apps/<Domain>/App1/src -- source code
+/apps/<Domain>/App1/test -- test
 ```
 
-#### List of WCS Application(s) (status:*in-work*)
-/apps/:
-* [wcsUTelnet](wcs) - Telnet
-[wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer
-[wcsPHtpp](wcs) - HTML eXchanger
+#### List of supported Application(s)
+* [wcsUTelnet](wcs) - Telnet (status:*planned*)
+* [wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer (status:*planned*)
+* [wcsPHtpp](wcs) - HTML eXchanger (status:*planned*)
 
-#### Dependencies
+##### Dependencies
 /lang - implementation language specific files
+
+### Application Notes
