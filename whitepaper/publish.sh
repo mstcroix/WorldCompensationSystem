@@ -3,8 +3,11 @@
 # ./publish.sh && cat README.md
 # ../commit.sh
 
+# Headerecho
+ published by: user : $(date) $(time) > README.md
+
 # User-story
-cat ../README.md > README.md
+cat ../README.md >> README.md
 
 # table-of-contents
 echo "# Whitepaper" >> README.md
@@ -40,7 +43,6 @@ done
 echo "## 2020 (CC) Creative Common License" >> README.md
 
 md5sum wcsOES.md >> README.md
-echo published by: user : $(date) $(time) >> README.md
 
 # Fingerprinting (Signature)
 echo '```' >> README.md
