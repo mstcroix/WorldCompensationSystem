@@ -76,6 +76,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 ../services/wcsServer/README.md
 ../tools/README.md
 ../users/README.md
+../whitepaper/README.md
 ../whitepaper/customer.md
 ../whitepaper/platform.md
 ../whitepaper/wcsOES.md
@@ -765,13 +766,14 @@ $ps
 /apps/App1 running. 5 users connected
 ```
 50fc328aad939c00fb848432a94943c9  ../arch/README.md
+1df4a3d6d488b1a2ff0060aad4fc8ab3  README.md
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
-3e7953409c1664de4ef0d76fee5889b1  whitepaper.md
+f3e54533f84ad37d8fc76c340e8928bd  whitepaper.md
 ## 2020 (CC) Creative Common License
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
-published by: user : Sat Jan 18 15:46:31 CET 2020
+published by: user : Sat Jan 18 15:49:49 CET 2020
 ```
 bc9b4920af19ea249c5e51730a986a9a  ../tools/README.md
 f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
@@ -780,7 +782,8 @@ f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 481ff52c1fbf89a439c00b67399cc38e  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-f7d80dc0b9db984ae76ff5df8f6a3bf1  ../whitepaper/whitepaper.md
+1df4a3d6d488b1a2ff0060aad4fc8ab3  ../whitepaper/README.md
+68cc4c8fe6f3acc7d698b13c187c905b  ../whitepaper/whitepaper.md
 b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
 94063115eb82858ccfd15ef5a3b21814  ../project/integration.md
