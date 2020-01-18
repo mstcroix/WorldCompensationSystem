@@ -93,6 +93,12 @@ wcsOS 0.0.1
 homeland$home
 ```
 
+```
+homeland$user create user1
+New wallet created
+Address: user1:0xc50...0000
+```
+
 ### File-System (Minimum commands)
 #### Present working directory (pwd)
 ```
@@ -198,6 +204,15 @@ doomclone - (872355 times:user:girx34:*****)
 xyz - (4 times:local)
 ```
 
+### Local Services
+#### Financial
+```
+homeland$wallet
+Address: 0xc50..000
+0 Credits
+0 Debits
+```
+
 ### Value Operations
 ```
 homeland$credits
@@ -227,6 +242,7 @@ homeland$credit tetris
 no neighbors found
 ```
 
+### Distributed Services
 ```
 homeland$neighborhood
 0 neighbors
