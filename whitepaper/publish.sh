@@ -14,7 +14,7 @@ echo '```' >> README.md
 #find .. -regex '.*/*.md' | sort >> README.md
 for f in $(find .. -regex '.*/README.md' )
 do
-    echo $f - `head -n 1 $f` >> README.md
+    echo \[`basename $f`\]\($f\) - `head -n 1 $f` >> README.md
 done
 echo '```' >> README.md
 
