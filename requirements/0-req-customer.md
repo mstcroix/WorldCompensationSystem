@@ -25,16 +25,19 @@ __Keywords__: Executable specification, user-story
 
 ## Releases
 
-| Release | Requirements  | Content | Work-Product |  |
+| Release | Requirements  | Network|  |
 | --- | --- | --- | --- | --- |
-| DV1 | REQ1, REQ2 | | testnet |
-| DV2 | REQ3 |  |
-| *Alpha* | |
-| RK1 | |
+| DV1 | REQ1, REQ2 | localhost |
+| DV2 | REQ3 | WLAN |
+| *Alpha* | testnet |
+| RK1 | testnet |
 | *Beta*  | mainnet |
 | __R1__  | mainnet |
 
 ### Work-products
+
+operating Eco-system
+[wcsOS](/arch) - World Compensation Ecosystem
 
 services
 [wcsServer](/services/wcsServer) - World Compensation System server
