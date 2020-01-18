@@ -41,24 +41,11 @@ Light-nodes: store, validate and reconstruct environment from all nodes in local
 ```
 ### Local File-system
 
-```
-/ - WCS root Ecosystem
-/commands
-/dbin/ - Decentralised System services
-/users/ - connected user addresses {publickey:addresshash:alias:inbox} (analog to /mnt)
-/apps
-/lang - implementation language specific files
-/tools - Utility tools
-/dapp/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
-```
+Refer to [/arch/fs](fs)
 
 ### Remote (distributed) File-system
 
-[/arch/dfs](dfs)
-
-```
-/dapp/DeFi/ - Decentralised Financial Apps
-```
+Refer to [/arch/dfs](dfs)
 
 ### Realisation
 
