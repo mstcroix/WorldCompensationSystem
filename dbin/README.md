@@ -1,3 +1,3 @@
-## Distributed Commands, Sercvices and Tools
+## Distributed Commands, Services and Tools
 
 ### Application Notes
