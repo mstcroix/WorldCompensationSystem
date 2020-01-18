@@ -37,6 +37,7 @@ cat ../arch/README.md >> README.md
 echo '#### Digital signatures' >> README.md
 echo '```' >> README.md
 md5sum ../arch/*.md >> README.md
+echo '```' >> README.md
 
 echo '\| Document \| Checksum-hash \|' >> README.md
 echo '\| -- \| -- \|' >> README.md
@@ -44,7 +45,6 @@ for f in *.md
 do
     echo '\|' basename $f '\|' `md5sum $f` '\|' >> README.md
 done
-echo '```' >> README.md
 
 ## Footer
 echo "## 2020 (CC) Creative Common License" >> README.md
