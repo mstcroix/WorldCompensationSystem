@@ -72,8 +72,8 @@ do
 done
 echo '```' >> ./whitepaper/README.md
 
-echo "Whitepaper" >> ./whitepaper/README.md
-echo "-- WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
+echo "Whitepaper. WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
+echo "" >> ./whitepaper/README.md
 
 cat ./GLOSSARY.md >> ./whitepaper/README.md
 

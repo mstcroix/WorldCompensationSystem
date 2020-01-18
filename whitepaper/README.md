@@ -436,8 +436,8 @@ edf88082867feb04d7cd8796b39561a3  ./commands/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
 ```
-Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 20:03:51 CET 2020 
+Whitepaper. WCS - published by: wcs:root : Sat Jan 18 20:05:36 CET 2020 
+
 # Glossary
 
 - [term](definition) - short explanation
