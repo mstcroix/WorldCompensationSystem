@@ -29,6 +29,19 @@ homeland$
 __Transactions__:
 1. Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
 
+__Credits__:
+credit - a given amount granted in exchange of local-resource-time (normally computing power or manual labour) consumption/usage
+- run a service in a remote:node
+
+__Debits__:
+debit - crediting unit referring the used time during required computation
+- debiting-time - time used during computation * fix cost (internet, electricity)
+
+__Services__:
+service - an action executed virtually (software) or physically (hardware)
+   eg. (software:x386:server) hashvalueof bigfile.bin
+       (hardware:raspberrypi:io) getoutsidetemp
+
 ## Use-cases
 
 __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stories
