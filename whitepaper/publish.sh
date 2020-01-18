@@ -25,7 +25,7 @@ done
 
 # Body
 echo "## Operating (Eco-)System Concept" >> README.md
-grep "^#" wcsOES.md | sed 's/#### /         1. /g' | 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> README.md
+grep "^#" wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> README.md
 
 ## examples
 echo "## Application notes" >> README.md
