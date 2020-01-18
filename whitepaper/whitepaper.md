@@ -771,7 +771,8 @@ ca8f6611e7334b5878a412f6908fab36  platform.md
 3e7953409c1664de4ef0d76fee5889b1  whitepaper.md
 ## 2020 (CC) Creative Common License
 481ff52c1fbf89a439c00b67399cc38e  wcsOES.md
-published by: user : Sat Jan 18 15:42:48 CET 2020
+published by: user : Sat Jan 18 15:44:42 CET 2020
+```
 bc9b4920af19ea249c5e51730a986a9a  ../tools/README.md
 f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 3582056e21f163e556a92a29f26da4bc  ../GLOSSARY.md
@@ -779,7 +780,7 @@ f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 481ff52c1fbf89a439c00b67399cc38e  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-e7a9e672208863d7b9411e2d2b630298  ../whitepaper/whitepaper.md
+30bd16cf333b0003362c312742d8ad6e  ../whitepaper/whitepaper.md
 b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
 94063115eb82858ccfd15ef5a3b21814  ../project/integration.md
@@ -797,4 +798,4 @@ b6a84991d4f8957e69ccfd6d3e935e02  ../arch/dfs/dFSwcs/README.md
 15fd8a06e94ecf5f079451536356171c  ../apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ../services/wcsServer/README.md
 06ae6a9d35733170f372c50e1e6ed749  ../services/README.md
-
+```

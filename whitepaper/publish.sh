@@ -34,9 +34,9 @@ md5sum wcsOES.md >> whitepaper.md
 echo published by: user : $(date) $(time) >> whitepaper.md
 
 # Fingerprinting (Signature)
-echo ``` >> whitepaper.md
+echo '```' >> whitepaper.md
 for f in $(find .. -regex '.*/*.md' )
 do
     md5sum $f >> whitepaper.md
 done
-echo ``` >> whitepaper.md
+echo '```' >> whitepaper.md
