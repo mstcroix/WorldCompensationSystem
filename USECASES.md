@@ -6,7 +6,7 @@ __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stor
 Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
 
 ## Welcome home
-```console
+```
 ** Welcome homeland
 homeland$whoami
 homeland
@@ -60,7 +60,7 @@ use '$commands' for a listing of available operation commands
 use '$apps' for a listing of currently available user-services
 ```
 
-```console
+```
 homeland$commands
 operations
 credits - credits are gained by certain proof-of-work
@@ -96,7 +96,7 @@ telnet - (1 credit:institute:fraunhofer)
 hash - (1 credit:university:berlin)
 ```
 
-````console
+````
 homeland$apps           ($ls /apps)
 3 apps, 1 local
 
@@ -118,13 +118,15 @@ homeland$debts
 
 ```
 homeland$assets
-2 assetts
+2 assetts, 1 leasing, 1 licensed, 0 invested
 
 leasing
-tetris - (2 Credits:16:company:gameco:*)
+tetris - (2 Leasing Credits left:16:company:gameco:*)
 
 licensed
-doomclone - (34 Credits:872355:user:girx34:*****)
+doomclone - (34 Credits licensed:872355:user:girx34:*****)
+
+invested 0
 ```
 
 ```
@@ -203,19 +205,40 @@ OK service-connection established. Hello homequarters (#WCS00.org)
 1 requests
 ```
 
-
+## Creating value (out-of-thin-air)
 ```
-homeland$donate -idle
+homeland$donate -idle federation1
 donating local idle-time for federation1
+```
 
+## Donate
+```
+homeland$donate -idle neighborhood
+thank you
+```
+
+## Contribute to Nation's taxes
+```
 homeland$tax 8
-donate to local nation 8hrs full-time
+contribute to local nation 8hrs full-time
 completed (8 Credits)
 ```
 
 ```
+homeland$offer 8
+offer local-resources for 8hrs full-time
+rejected (not enough resources)
+timeout (no available)
+
+```
+homeland$offer 6
+accepted
+thank you (6 Credits granted)
+```
+
+```
 homeland$credits
-8 Credits
+6 Credits
 ```
 
 ```
@@ -228,7 +251,28 @@ goodbye
 
 ```
 homeland$credits
-6 Credits
+4 Credits
+```
+
+```
+homeland$invest kernel 2
+2 Credits left
+```
+
+```
+homeland$assets --all
+3 assetts
+
+borrowed/leasing
+tetris - (0 Leasing Credits left:16:company:gameco:*)
+
+licensed
+doomclone - (34 Credits licensed:1564355:user:girx34:****)
+
+invested
+kernel - (2 Credits invested:0 earned:6463872355:community:linux:*****)
+
+membership
 ```
 
 ```
@@ -246,7 +290,12 @@ community1>here our credentials community1{pubkey:address:nodeuuid:useralias:mai
 
 ```
 homeland$offers
-1 offers (1 miners)
+11 offers (1 miners)
+```
+
+```
+homeland$accept
+accepted top-priority offer (3 miners working in parallel)
 ```
 
 ### Running in debug-mode
@@ -257,7 +306,7 @@ address: 0xc5..000
 -
 ```
 
-```console
+```
 homeland$man app
 
 json app(arg1, arg2){
