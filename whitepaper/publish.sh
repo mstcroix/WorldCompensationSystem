@@ -3,8 +3,8 @@
 # ./publish.sh && cat README.md
 # ../commit.sh
 
-# Headerecho
-echo Withepaper. WCS - published by: user : $(date) $(time) > README.md
+# Header
+echo \[Whitepaper\] - WCS - published by: wcs:root : $(date) $(time) > README.md
 
 # User-story
 cat ../README.md >> README.md
