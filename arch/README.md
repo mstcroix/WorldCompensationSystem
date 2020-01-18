@@ -95,4 +95,4 @@ Status: OK
 ### Application Notes
 
 - [apps](/apps) - Local commands, services and tools
-- [dapps](/dapps - Distributed (Remote) User-services
+- [dapps](/dapps) - Distributed (Remote) User-services

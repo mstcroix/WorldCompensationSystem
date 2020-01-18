@@ -1,17 +1,11 @@
-# File System
+#### File System
 
-## Local File-system
+###### Local File-system
 
 / - WCS root Ecosystem
-/commands
-/dbin/ - Decentralised System services
+/bin - Local commands, services and tools
 /users/ - connected user addresses (analog to /mnt)
-/apps
-/lang - implementation language specific files
-/tools - Utility tools
-/dapps/ - Decentralised User or Third-Party Applications (executable -- analog to /usr/bin)
-
-/dapps/DeFi/ - Decentralised Financial Apps
+/apps - Local user-services
 
 ### /users
 
@@ -20,6 +14,12 @@
 for example
 
 /users/{0xdc5..0345:0x1234567:mstcroix:mstcroix@protonmail.com}
+
+###### Distributed (Remote) File-system
+/dbin/ - Decentralised System services
+
+/dapps/ - Decentralised User or Third-Party Applications (executable)
+/dapps/DeFi/ - Decentralised Financial Apps
 
 ### /dapps (Users-Solutions)
 
