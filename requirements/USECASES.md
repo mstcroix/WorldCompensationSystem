@@ -27,7 +27,12 @@ homeland$
 ```
 
 __Transactions__:
-1. Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
+- Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
+
+1. User->Client (Application)
+1. Client->Browser
+1. Browser (Peer)-to-(Peer)-Network (Blockchain)
+1. ...
 
 __Credits__:
 
