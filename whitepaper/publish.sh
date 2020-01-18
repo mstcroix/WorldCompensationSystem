@@ -13,8 +13,6 @@ cat ../README.md >> README.md
 echo "# Whitepaper" >> README.md
 echo "## Table-of-contents" >> README.md
 
-echo '```' >> README.md
-echo '```' >> README.md
 echo '' >> README.md
 #find .. -regex '.*/*.md' | sort >> README.md
 for f in $(find .. -regex '.*/README.md' )
@@ -29,7 +27,9 @@ grep "^#" wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | 
 
 ## examples
 echo "## (Eco-)System Application notes" >> README.md
+echo '```' >> README.md
 grep "^homeland" wcsOES.md >> README.md
+echo '```' >> README.md
 
 ## Implementation Architecture
 cat ../arch/README.md >> README.md

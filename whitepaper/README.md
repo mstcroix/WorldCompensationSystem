@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 16:54:15 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 16:55:26 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -56,8 +56,6 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 
 # Whitepaper
 ## Table-of-contents
-```
-```
 
 [../tools](README.md) -
 
@@ -65,7 +63,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 
 [../dapps](README.md) - ### Distributed Apps (status:*in-work*)
 
-[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 16:54:15 CET 2020
+[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 16:55:26 CET 2020
 
 [../operations](README.md) - # Operations
 
@@ -136,6 +134,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
    1. Claim lend User-service
    1. Borrow service
 ## (Eco-)System Application notes
+```
 homeland$
 homeland$help
 homeland$man ver
@@ -190,6 +189,7 @@ homeland$SMS user1
 homeland$share dapp1 user1 2
 homeland$lend dapp1
 homeland$claim dapp1
+```
 ## Architecture
 
 ## Concept
@@ -328,7 +328,7 @@ $ps
 /apps/App1 running. 5 users connected
 ```
 50fc328aad939c00fb848432a94943c9  ../arch/README.md
-9f62b758277884c1ba1a12ef6be2ca3a  README.md
+9bae92800c260bc6ae79e3cf6344c5b8  README.md
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
 bbf952448806a9465104b3c5895d5356  wcsOES.md
@@ -343,7 +343,7 @@ f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 bbf952448806a9465104b3c5895d5356  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-eb3a20fcc3eccad70e5f77ce8cff8ad8  ../whitepaper/README.md
+a72c36014b9b7e4e576c75d9fe206159  ../whitepaper/README.md
 70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
 b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
