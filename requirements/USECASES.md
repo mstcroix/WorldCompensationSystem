@@ -26,7 +26,28 @@ starting local node 'homeland'
 homeland$
 ```
 
-__Transactions__:
+__Networking__:
+```
+homeland$discover
+homeland$connect
+homeland$
+```
+
+__Assets__:
+
+Work-product (document, software application, drawing (diagram), picture) that was created and can be:
+- stored, 
+- used (executed, applied to), or 
+- exchanged (ownership transfer: lend/borrow, inheritance, etc.)
+
+__Value__:
+
+The intrisict 'cost' of producing and using a given asset 
+- *universal* unit of credit: cost (node operation cost)
+- present value: (development + production cost)
+- future value: (service cost) -- reputation based
+
+__Transactions (Asset (Credits or Debts)-value Transfer)__:
 - Blockchain->Browser->Distributed File-System->Local File-System->Blockchain->Remote File-System
 
 1. User->Client (Application)
@@ -47,7 +68,6 @@ __Credits__:
 
 credit - a given amount granted in exchange of local-resource-time (normally computing power or manual labour) consumption/usage
 - run a service in a remote:node
-- *universal* unit of credit: cost (node operation cost)
 
 __Debits__:
 
