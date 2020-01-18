@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:30:02 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:36:09 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -253,15 +253,19 @@ Status: OK
 ### Application Notes
 
 - [apps](/apps) - Local commands, services and tools
-- [dapps](/dapps - Distributed (Remote) User-services
-14493c0b4a36cd6a4ea74e903f819f1b  ../arch/README.md
-fe7999e68c400e81a15a2b2132196262  README.md
-d3777eb628218cf79d50e576d5c95bbd  customer.md
-ca8f6611e7334b5878a412f6908fab36  platform.md
-c5c11bb0d053c683b9c801b36b85f6e7  wcsOES.md
-70a1947487f1741ee64cb109b8cddc82  whitepaper.md
+- [dapps](/dapps) - Distributed (Remote) User-services
+#### Digital signatures
+```
+61c2223045284a14e903089d266c04c6  ../arch/README.md
+\| basename README.md \| 1396d519ef451d0c09feeb8ca775117d README.md \|
+\| basename customer.md \| d3777eb628218cf79d50e576d5c95bbd customer.md \|
+\| basename platform.md \| ca8f6611e7334b5878a412f6908fab36 platform.md \|
+\| basename wcsOES.md \| c5c11bb0d053c683b9c801b36b85f6e7 wcsOES.md \|
+\| basename whitepaper.md \| 70a1947487f1741ee64cb109b8cddc82 whitepaper.md \|
+```
 ## 2020 (CC) Creative Common License
 c5c11bb0d053c683b9c801b36b85f6e7  wcsOES.md
+#### Digital signatures
 ```
 9cadfde7bd7e2d2702a5dbabf8d40d00  ../tools/README.md
 dc2c8698da44a75bdd5c19efd0860213  ../dbin/README.md
@@ -272,7 +276,7 @@ d47693b9acb4e93021125f2c7a3d36f2  ../bin/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-fb6dc6918a047a2a8eccc714f9dd6f46  ../whitepaper/README.md
+6a7487a93b9dfa01b40343d4d66e9a55  ../whitepaper/README.md
 70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
 88c2dd22668d96cb2232b8c136cbd982  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
@@ -284,7 +288,7 @@ f16bab90fe5bf837c86b04e89f7dbb86  ../lang/README.md
 2eaaf2bbe0e2dae25cbc17345d4ba75a  ../lang/c/README.md
 5fe7603d97b3315406ce7c051f273a3e  ../arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ../arch/dfs/dFSwcs/README.md
-14493c0b4a36cd6a4ea74e903f819f1b  ../arch/README.md
+61c2223045284a14e903089d266c04c6  ../arch/README.md
 c4feafee3b3e1969bc45b3fc9f2575ee  ../arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ../users/README.md
 19378124b967a8ee694fbb7303c7897b  ../commands/README.md
