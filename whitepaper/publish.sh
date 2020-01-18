@@ -37,11 +37,12 @@ echo '```' >> ./whitepaper/README.md
 cat ./arch/README.md >> ./whitepaper/README.md
 
 echo '#### Digital signatures' >> ./whitepaper/README.md
-echo '```' >> ./whitepaper/README.md
 for d in arch tools ;
   do
+    echo '```' >> ./whitepaper/README.md
     echo $d
     md5sum ./$d/*.md >> ./whitepaper/README.md
+    echo '```' >> ./whitepaper/README.md
 
     echo '| Document | MD5-Checksum |' >> ./whitepaper/README.md
     echo '| -- | -- |' >> ./whitepaper/README.md
@@ -49,7 +50,6 @@ for d in arch tools ;
     do
         echo '|' $(basename $f) '|' `md5sum $f` '|' >> ./whitepaper/README.md
     done
-    echo '```' >> ./whitepaper/README.md
   done
 
 ### ----------------------------------------------------------------------
