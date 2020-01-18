@@ -38,7 +38,7 @@ for d in apps dapps commands operations tools services arch ;
   do
     echo `head -n 1 $d/README.md` >> ./whitepaper/README.md
     echo "/$d:" >> ./whitepaper/README.md
-    cat $d/README.md >> ./whitepaper/README.md
+    tail -n +1 $d/README.md >> ./whitepaper/README.md
 
     echo '#### Digital signatures' >> ./whitepaper/README.md
     echo '```' >> ./whitepaper/README.md
