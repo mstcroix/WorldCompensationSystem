@@ -44,7 +44,8 @@ __Bibliography__:
 
 ### Extended Use-cases
 
--
+- Energy eXchange
+
 #### Decentralised Finances (DeFi)
 
 - Taxation
@@ -378,7 +379,7 @@ Status: OK
 | README.md | 98b26c87b00660ea619e96fdb6a67885 arch/README.md |
 
 Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:12:18 CET 2020 
+-- WCS - published by: wcs:root : Sat Jan 18 19:13:05 CET 2020 
 ## 2020 (CC) Creative Common License
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 #### Digital signatures
@@ -392,9 +393,9 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-2c2d57ce267d6a59a8c73a214c5fc35e  ./whitepaper/README.md
+d543aeb6f75da906128901d27842090b  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
-e420a557db163b2b254611c6800adcdc  ./README.md
+48c685a2b7ba37bae2978555f0faac77  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
 68f05ceb68281268217108fb55876082  ./project/deployment.md
 5cd4aa50a1a9f8d1b46b0b63c9d82e27  ./project/CONTRIBUTING.md

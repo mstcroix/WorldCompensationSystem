@@ -44,7 +44,8 @@ __Bibliography__:
 
 ### Extended Use-cases
 
--
+- Energy eXchange
+
 #### Decentralised Finances (DeFi)
 
 - Taxation
