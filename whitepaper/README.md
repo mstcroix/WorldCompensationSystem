@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:13:43 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:18:25 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -156,7 +156,15 @@ homeland$share dapp1 user1 2
 homeland$lend dapp1
 homeland$claim dapp1
 ```
+Refer to
 ### Applications
+
+```
+/app/App1 -- Local App1 executable
+/app/<Domain>/App1/spec -- (external) interface specification
+/app/<Domain>/App1/src -- source code
+/app/<Domain>/App1/test -- test
+```
 
 #### List of WCS Application(s) (status:*in-work*)
 /apps/:
@@ -168,11 +176,12 @@ homeland$claim dapp1
 /lang - implementation language specific files
 #### Digital signatures
 ```
-978b91682d2438804eca5926a8ec176a  ./apps/README.md
+c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 978b91682d2438804eca5926a8ec176a apps/README.md |
+| README.md | c2bf4fc7bf438106c12f307afd337811 apps/README.md |
+Refer to
 ### Distributed Apps (status:*in-work*)
 
 ```
@@ -185,15 +194,17 @@ homeland$claim dapp1
 #### List of WCS DFApp(s) (status:*in-work*)
 
 /dapps:/
-* [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst 
-[wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
+* [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst
+
+* [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template
 #### Digital signatures
 ```
-1d4ba0b4f97b65cb239ac157fa453df6  ./dapps/README.md
+2dfccc42d70768a23f6464cb7940915a  ./dapps/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 1d4ba0b4f97b65cb239ac157fa453df6 dapps/README.md |
+| README.md | 2dfccc42d70768a23f6464cb7940915a dapps/README.md |
+Refer to
 ## Commands (status:*in-work*)
 
 ```
@@ -215,6 +226,7 @@ homeland$claim dapp1
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 19378124b967a8ee694fbb7303c7897b commands/README.md |
+Refer to
 ## Operations
 #### Digital signatures
 ```
@@ -223,6 +235,7 @@ homeland$claim dapp1
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 88c2dd22668d96cb2232b8c136cbd982 operations/README.md |
+Refer to
 ## Tools
 
 ### List of off-the-shelf Admin Tool(s) (status:*in-work*)
@@ -236,6 +249,7 @@ ac9c232097bd812a82d4717c2298f6eb  ./tools/README.md
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | ac9c232097bd812a82d4717c2298f6eb tools/README.md |
+Refer to
 ### Services
 
 #### List of wcsOS System-Service(s) (status:*in-work*)
@@ -249,6 +263,7 @@ ac9c232097bd812a82d4717c2298f6eb  ./tools/README.md
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 06ae6a9d35733170f372c50e1e6ed749 services/README.md |
+Refer to i386
 ## Architecture
 
 ### Concept
@@ -363,11 +378,11 @@ dc2c8698da44a75bdd5c19efd0860213  ./dbin/README.md
 d47693b9acb4e93021125f2c7a3d36f2  ./bin/README.md
 49a5c547537d2c6a77e17d08d62bd5e2  ./networking/README.md
 3582056e21f163e556a92a29f26da4bc  ./GLOSSARY.md
-1d4ba0b4f97b65cb239ac157fa453df6  ./dapps/README.md
+2dfccc42d70768a23f6464cb7940915a  ./dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-f6a81c0dd5a555cf225d9453734e2d76  ./whitepaper/README.md
+eb0f7eb40521c563cdb95a642ef69845  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
@@ -382,7 +397,7 @@ b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
 c4feafee3b3e1969bc45b3fc9f2575ee  ./arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ./users/README.md
 19378124b967a8ee694fbb7303c7897b  ./commands/README.md
-978b91682d2438804eca5926a8ec176a  ./apps/README.md
+c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 06ae6a9d35733170f372c50e1e6ed749  ./services/README.md
 ```
