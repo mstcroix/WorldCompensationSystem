@@ -34,9 +34,7 @@ echo '```' >> ./whitepaper/README.md
 ## Implementation
 
 ### Element (z.B. Architecture)
-cat ./arch/README.md >> ./whitepaper/README.md
-
-for d in arch tools ;
+for d in apps dapps commands operations tools services arch ;
   do
     cat $d/README.md >> ./whitepaper/README.md
 
