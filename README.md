@@ -30,7 +30,7 @@ Simple. Eliminate money invisibility.
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
-__Disclaimer__: All quoted phrases are verbatim copies found at Conversations with God. Book Two (siehe Bibliography unten)
+__Disclaimer__: All quoted phrases are verbatim copies found at Conversations with God. Book Two (see Bibliography)
 
 __Bibliography__:
 - Conversations with God (c) 1997 Neale Donald Walsch. ISBN 978 0 340 76544 9
