@@ -21,7 +21,12 @@ grep "$" wcsOES.md >> whitepaper.md
 
 ## architecture
 echo "## Architecture" >> whitepaper.md
-md5sum /arch/*.md >> whitepaper.md
+cat ../arch/README.md >> whitepaper.md
+md5sum ../arch/*.md >> whitepaper.md
+for f in *.md
+do
+    md5sum $f >> whitepaper.md
+done
 
 #footer
 echo "## 2020 (CC) Creative Common LIcense" >> whitepaper.md
