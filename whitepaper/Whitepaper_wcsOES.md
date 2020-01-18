@@ -19,9 +19,22 @@ RX:
 
 __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stories
 
+### Notation
+The following `code` sections provide the main use-case description.
+First step during implemenation consist of:
+1. Copy Use-case description as /dst/test.expected
+1. Replace old section and include new created file (/dst/test.expected) here instead
+1. Implement required functionality
+1. Implement test.sh
+   1. tool arg1 --arg-2 > test.result
+   1. diff test.result test.expected
+1. Implement build.sh
+   1. build
+   1. /test.sh
+
 ### Welcome home
 ```
-** Welcome homeland
+** Welcome @homeland
 homeland$
 ```
 
@@ -215,7 +228,7 @@ connecting with local neighborhood
 1. peer-to-peer connection established. Hello node34
 2. peer-to-peer connection established. Hello
 3. remote-connection established. Hello server78.google.com
-OK service-connection established. Hello homequarters (#WCS00.org) time:34.251 ms
+OK service-connection established. Hello homequarters (@WCS00.org) time:34.251 ms
 ```
 
 ```
@@ -250,7 +263,7 @@ homeland$citizen
 connecting with local nation
 1. remote-connection established. Hello finance.gov
 2. remote-connection established. Hello congress.EU
-OK service-connection established. Hello homequarters (#WCS00.org)
+OK service-connection established. Hello homequarters (@WCS00.org)
 
 0 taxes
 2 messages
@@ -262,7 +275,7 @@ OK service-connection established. Hello homequarters (#WCS00.org)
 homeland$citizen federation1
 connecting with local federation1
 1. remote-connection established. Hello finance.gov
-OK service-connection established. Hello homequarters (#WCS00.org)
+OK service-connection established. Hello homequarters (@WCS00.org)
 
 0 taxes
 2 messages
