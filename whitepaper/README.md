@@ -403,9 +403,9 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 3582056e21f163e556a92a29f26da4bc  ./GLOSSARY.md
 8bac8aaca025fbaed5d9753a66a1b7cd  ./dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
-c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
+76c4bd4a1e15f9e5ad847e8a12bdbd5d  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-89f4d4890fea60c8ddddb98fbf4dfd7a  ./whitepaper/README.md
+6a8bbfe1a76db2c9f79f20a3ad51fc79  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 48c685a2b7ba37bae2978555f0faac77  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
@@ -425,4 +425,4 @@ a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
 ```
 Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:24:49 CET 2020 
+-- WCS - published by: wcs:root : Sat Jan 18 19:40:57 CET 2020 

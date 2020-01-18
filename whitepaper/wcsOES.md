@@ -238,8 +238,10 @@ discovering users
 3 communities found
 ```
 
-```
+```console
 homeland$connect
+```
+```
 connecting with local neighborhood
 1. peer-to-peer connection established. Hello node34
 2. peer-to-peer connection established. Hello
@@ -281,10 +283,12 @@ connecting with local nation
 2. remote-connection established. Hello congress.EU
 OK service-connection established. Hello homequarters (@WCS00.org)
 
-0 taxes
-2 messages
-1 requests
-10 offers
+0 Taxes
+2 Messages
+1 Requests
+3 Donations
+10 Offers
+1 Labour-request (default)
 ```
 
 ```
@@ -293,9 +297,10 @@ connecting with local federation1
 1. remote-connection established. Hello finance.gov
 OK service-connection established. Hello homequarters (@WCS00.org)
 
-0 taxes
-2 messages
-1 requests
+0 Membership
+2 Messages
+1 Requests
+1 Labour-request (default)
 ```
 
 ### Work -- Get Idle Task (according to current citizenship)
@@ -387,6 +392,17 @@ homeland$greetings community1 me --verbose
 $greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
 >>me:greetings community1
 >>me:credentials me{pubkey:address:nodeuuid:useralias:mail}
+
+>>community1:validating all-transactions with 'me' credentials
+
+  TX0735 with user1:abc -> via community1:user1
+  TX1622 with cool99:xyz -> via community1:cool99
+
+>>community1:validation OK
+>>community1:welcome back me
+0 Credits
+1 Debts
+
 >>community1:greetings me
 >>community1:here our credentials
 >>{
