@@ -35,6 +35,8 @@ __Disclaimer__: All quoted phrases are verbatim copies found at Conversations wi
 __Bibliography__:
 - Conversations with God (c) 1997 Neale Donald Walsch. ISBN 978 0 340 76544 9
 
+# World Compensation Operating (Eco-)System
+
 ## Use-cases
 
 - Value creation (energy-flow)
@@ -62,4 +64,5 @@ Documentation is under the [Creative Commons Attribution license](https://creati
 Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Conduct]
 
 ### Donations
-| BTC-Address: | 0x123..0000 |
+| BTC-Address: | X1v34..7xKt |
+| ETH-Address: | 0x123..0000 |

@@ -35,6 +35,8 @@ __Disclaimer__: All quoted phrases are verbatim copies found at Conversations wi
 __Bibliography__:
 - Conversations with God (c) 1997 Neale Donald Walsch. ISBN 978 0 340 76544 9
 
+# World Compensation Operating (Eco-)System
+
 ## Use-cases
 
 - Value creation (energy-flow)
@@ -62,7 +64,8 @@ Documentation is under the [Creative Commons Attribution license](https://creati
 Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Conduct]
 
 ### Donations
-| BTC-Address: | 0x123..0000 |
+| BTC-Address: | X1v34..7xKt |
+| ETH-Address: | 0x123..0000 |
 # Whitepaper
 ## Table-of-contents
 
@@ -392,7 +395,7 @@ Status: OK
 
 ## 2020 (CC) Creative Common License
 ```
-a687e6811fadd6425482688f4f48f7a5  ./whitepaper/README.md
+84e4baef776037c09ee6b2c5c2fb8b31  ./whitepaper/README.md
 ```
 #### Digital signatures
 ```
@@ -405,9 +408,9 @@ d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 76c4bd4a1e15f9e5ad847e8a12bdbd5d  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-6a8bbfe1a76db2c9f79f20a3ad51fc79  ./whitepaper/README.md
+4f351bd1f2831c9f96f4bed24cf62b8c  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
-48c685a2b7ba37bae2978555f0faac77  ./README.md
+a686d54b4189344f3c319da09f25bd0e  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
 68f05ceb68281268217108fb55876082  ./project/deployment.md
 5cd4aa50a1a9f8d1b46b0b63c9d82e27  ./project/CONTRIBUTING.md
@@ -425,4 +428,4 @@ a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
 ```
 Whitepaper
--- WCS - published by: wcs:root : Sat Jan 18 19:40:57 CET 2020 
+-- WCS - published by: wcs:root : Sat Jan 18 19:43:34 CET 2020 
