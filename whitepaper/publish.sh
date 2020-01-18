@@ -38,8 +38,8 @@ echo '#### Digital signatures' >> README.md
 echo '```' >> README.md
 md5sum ../arch/*.md >> README.md
 
-echo '\| Document \| Checksum-hash \|'
-echo '\| -- \| -- \|'
+echo '\| Document \| Checksum-hash \|' >> README.md
+echo '\| -- \| -- \|' >> README.md
 for f in *.md
 do
     echo '\|' basename $f '\|' `md5sum $f` '\|' >> README.md

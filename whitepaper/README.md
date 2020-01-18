@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:36:09 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:36:50 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -257,7 +257,9 @@ Status: OK
 #### Digital signatures
 ```
 61c2223045284a14e903089d266c04c6  ../arch/README.md
-\| basename README.md \| 1396d519ef451d0c09feeb8ca775117d README.md \|
+\| Document \| Checksum-hash \|
+\| -- \| -- \|
+\| basename README.md \| dd4728d728a3d2314d50d397ec108f9e README.md \|
 \| basename customer.md \| d3777eb628218cf79d50e576d5c95bbd customer.md \|
 \| basename platform.md \| ca8f6611e7334b5878a412f6908fab36 platform.md \|
 \| basename wcsOES.md \| c5c11bb0d053c683b9c801b36b85f6e7 wcsOES.md \|
@@ -276,7 +278,7 @@ d47693b9acb4e93021125f2c7a3d36f2  ../bin/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-6a7487a93b9dfa01b40343d4d66e9a55  ../whitepaper/README.md
+037e4f9e84e8b1eef4c2a42727befeca  ../whitepaper/README.md
 70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
 88c2dd22668d96cb2232b8c136cbd982  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
