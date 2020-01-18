@@ -4,11 +4,9 @@
 # && ./commit.sh
 
 # Header
-echo "Whitepaper" > ./whitepaper/README.md
-echo "-- WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
 
 # User-story
-cat ./README.md >> ./whitepaper/README.md
+cat ./README.md > ./whitepaper/README.md
 
 # Table-of-contents
 echo "# Whitepaper" >> ./whitepaper/README.md
@@ -58,6 +56,9 @@ for d in apps dapps commands operations tools services arch ;
 ### ----------------------------------------------------------------------
 
 ## Footer
+echo "Whitepaper" > ./whitepaper/README.md
+echo "-- WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
+
 echo "## 2020 (CC) Creative Common License" >> ./whitepaper/README.md
 
 md5sum ./whitepaper/wcsOES.md >> ./whitepaper/README.md
