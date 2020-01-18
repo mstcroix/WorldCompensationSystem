@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:21:33 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 18:22:39 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -181,6 +181,7 @@ c2bf4fc7bf438106c12f307afd337811  ./apps/README.md
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | c2bf4fc7bf438106c12f307afd337811 apps/README.md |
+
 dapps
 ### Distributed Apps (status:*in-work*)
 
@@ -204,6 +205,7 @@ dapps
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 2dfccc42d70768a23f6464cb7940915a dapps/README.md |
+
 commands
 ## Commands (status:*in-work*)
 
@@ -226,6 +228,7 @@ commands
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 19378124b967a8ee694fbb7303c7897b commands/README.md |
+
 operations
 ## Operations
 #### Digital signatures
@@ -235,6 +238,7 @@ operations
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 88c2dd22668d96cb2232b8c136cbd982 operations/README.md |
+
 tools
 ## Tools
 
@@ -249,6 +253,7 @@ ac9c232097bd812a82d4717c2298f6eb  ./tools/README.md
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | ac9c232097bd812a82d4717c2298f6eb tools/README.md |
+
 services
 ### Services
 
@@ -263,6 +268,7 @@ services
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 06ae6a9d35733170f372c50e1e6ed749 services/README.md |
+
 arch
 ## Architecture
 
@@ -369,6 +375,7 @@ Status: OK
 | Document | MD5-Checksum |
 | -- | -- |
 | README.md | 61c2223045284a14e903089d266c04c6 arch/README.md |
+
 ## 2020 (CC) Creative Common License
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 #### Digital signatures
@@ -382,7 +389,7 @@ d47693b9acb4e93021125f2c7a3d36f2  ./bin/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 c5c11bb0d053c683b9c801b36b85f6e7  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-5ef39c7dbe0e9a0a55bb396d9eacd2eb  ./whitepaper/README.md
+33354cd7f9d2422a46430b44bf43b4eb  ./whitepaper/README.md
 88c2dd22668d96cb2232b8c136cbd982  ./operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ./README.md
 94063115eb82858ccfd15ef5a3b21814  ./project/integration.md

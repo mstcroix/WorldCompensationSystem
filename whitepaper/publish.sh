@@ -50,6 +50,7 @@ for d in apps dapps commands operations tools services arch ;
     do
         echo '|' $(basename $f) '|' `md5sum $f` '|' >> ./whitepaper/README.md
     done
+    echo '' >> ./whitepaper/README.md
   done
 
 ### ----------------------------------------------------------------------
