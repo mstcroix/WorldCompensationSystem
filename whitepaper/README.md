@@ -1,4 +1,4 @@
-[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:13:26 CET 2020
+[Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:17:56 CET 2020
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 
@@ -57,7 +57,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 # Whitepaper
 ## Table-of-contents
 
-[../tools](README.md) -
+[../tools](README.md) - ## Tools
 
 [../dbin](README.md) - ## Distributed Commands, Sercvices and Tools
 
@@ -67,7 +67,7 @@ Please read our [Contribution Guide](project/CONTRIBUTING.md) and [Code of Condu
 
 [../dapps](README.md) - ### Distributed Apps (status:*in-work*)
 
-[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:13:26 CET 2020
+[../whitepaper](README.md) - [Whitepaper] - WCS - published by: wcs:root : Sat Jan 18 17:17:56 CET 2020
 
 [../operations](README.md) - # Operations
 
@@ -264,6 +264,12 @@ UNIX's "Everything is a File" -> (name:Address)
  - Network (distributed) File-System
 
 #### Support Tools
+
+- [neo4j]() - Graph Database
+- [jslinux](https://bellard.org/jslinux/) - Web-Browwer Linux
+- [128-bit OS](https://bellard.org/tinyemu/) - 128-bit RISC OS
+- [quickjs](https://bellard.org/quickjs/) - Embeddable Javascript engine
+
 Refer to [support tools](/tools/).
 
 ### Network Startup
@@ -286,8 +292,8 @@ Status: OK
 
 - [apps](/apps) - Local commands, services and tools
 - [dapps](/dapps - Distributed (Remote) User-services
-7a68893e0f7f207337c4a5d2043464b6  ../arch/README.md
-1127ecc163f29b8abf85ef53310b1e85  README.md
+14493c0b4a36cd6a4ea74e903f819f1b  ../arch/README.md
+46fa90b707db9b63139775128a9b64e2  README.md
 d3777eb628218cf79d50e576d5c95bbd  customer.md
 ca8f6611e7334b5878a412f6908fab36  platform.md
 bbf952448806a9465104b3c5895d5356  wcsOES.md
@@ -295,7 +301,7 @@ bbf952448806a9465104b3c5895d5356  wcsOES.md
 ## 2020 (CC) Creative Common License
 bbf952448806a9465104b3c5895d5356  wcsOES.md
 ```
-bc9b4920af19ea249c5e51730a986a9a  ../tools/README.md
+9cadfde7bd7e2d2702a5dbabf8d40d00  ../tools/README.md
 4326cd0a8745db011cd1acfe325eda40  ../dbin/README.md
 62efa85d6e162c8d0630c0671ad57875  ../bin/README.md
 f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
@@ -304,7 +310,7 @@ f92f6755c1f6c83858630cb4d4c419aa  ../networking/README.md
 ca8f6611e7334b5878a412f6908fab36  ../whitepaper/platform.md
 bbf952448806a9465104b3c5895d5356  ../whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ../whitepaper/customer.md
-16f2f0b2961cbdf4d0221905726a3842  ../whitepaper/README.md
+ef498f0e30fdc26fc60f3ecc7895df33  ../whitepaper/README.md
 70a1947487f1741ee64cb109b8cddc82  ../whitepaper/whitepaper.md
 b85f6f905757b8a0d3f75430e13c47ad  ../operations/README.md
 4e57eedfde6cb02c52aec8be79b015c9  ../README.md
@@ -316,7 +322,7 @@ f16bab90fe5bf837c86b04e89f7dbb86  ../lang/README.md
 2eaaf2bbe0e2dae25cbc17345d4ba75a  ../lang/c/README.md
 5fe7603d97b3315406ce7c051f273a3e  ../arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ../arch/dfs/dFSwcs/README.md
-7a68893e0f7f207337c4a5d2043464b6  ../arch/README.md
+14493c0b4a36cd6a4ea74e903f819f1b  ../arch/README.md
 4ae120d33503361b35768677302e8c75  ../arch/fs/README.md
 1c309bf14fbd49d5afcfac8da0635b5b  ../users/README.md
 41990a8f6b22e6e1b72009ca47b6ffc7  ../commands/README.md
