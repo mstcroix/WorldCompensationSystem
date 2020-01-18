@@ -29,6 +29,9 @@ Simple. Eliminate money invisibility.
 > There would be no other negotiable currency. ([source:#CWG, @realNealWealsh](http://ISBN))
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
+__Disclaimer__: All quoted phrases are verbatim copies found at Conversations with God. Book Two (siehe Bibliography unten)
+__Bibliography__:
+- Conversations with God (c) 1997 Neale Donald Walsch. ISBN 978 0 340 76544 9
 
 ## Use-cases
 
