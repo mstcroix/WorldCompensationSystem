@@ -373,6 +373,7 @@ bdb604d4b1a062ad395e255c5fe46ca6  ./arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
 7641cae0c8a83ae31000144d576289e2  ./arch/networking/README.md
 93224d53add26ee895587864ebdf3c00  ./arch/agreement/README.md
+5f5763428b097bebeee966cb45a39be1  ./arch/citizen/README.md
 227488574263a442dfc666513ef23f0c  ./arch/operations/README.md
 aa4209ef73003fc5ed561c333358fa92  ./arch/README.md
 f16bab90fe5bf837c86b04e89f7dbb86  ./arch/lang/README.md
@@ -384,14 +385,14 @@ c15908d22552696e8d67679f60717794  ./users/user1/README.md
 49bf9fabbb31ca80119c72109b914708  ./apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
-d451b44eda485c542e3454913de0744d  ./whitepaper.md
+dc45d393ffbb66020d91ddf6f4fc2da5  ./whitepaper.md
 ```
 
 
 real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
-Whitepaper. WCS - published by: wcs:root : Sun Jan 19 23:18:36 CET 2020 
+Whitepaper. WCS - published by: wcs:root : Sun Jan 19 23:22:54 CET 2020 
 
 # Glossary
 
