@@ -3,79 +3,94 @@
 # ./whitepaper/publish.sh && cat ./whitepaper/./whitepaper/README.md
 # && ./commit.sh
 
-# Header
+# Configuration
+## redirect stdout/stderr to a file
+#exec &> ./whitepaper/README.md.txt
 
-# User-story
+# Local f(x)s
+
+function echo_newline() {
+  #add new line \n\r at output file
+  echo ''
+}
+function echo_code_tag() {
+  #add code tag
+  echo '```'
+}
+
+
+# Introduction
+## User-story
 cat ./README.md > ./whitepaper/README.md
 
-# Table-of-contents
-echo "# Whitepaper" >> ./whitepaper/README.md
-echo "## Table-of-contents" >> ./whitepaper/README.md
+# Header
+## Table-of-contents
+echo "# Whitepaper"
+echo "## Table-of-contents"
 
-echo '' >> ./whitepaper/README.md
-#find . -regex '.*/*.md' | sort >> ./whitepaper/README.md
+echo_newline
 for f in $(find . -regex '.*/./whitepaper/README.md | sort' )
 do
-    echo \[`dirname $f`\]\(`basename $f`\) -- `head -n 1 $f` >> ./whitepaper/README.md
-    echo '' >> ./whitepaper/README.md
+    echo \[`dirname $f`\]\(`basename $f`\) -- `head -n 1 $f`
+    echo_newline
 done
 
 # Body
-echo "## Operating (Eco-)System Concept" >> ./whitepaper/README.md
-grep "^#" ./whitepaper/wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g' >> ./whitepaper/README.md
+echo "## Operating (Eco-)System Concept"
+grep "^#" ./whitepaper/wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g'
 
-## examples
-echo '' >> ./whitepaper/README.md
-echo "## (Eco-)System Application notes" >> ./whitepaper/README.md
-echo '```' >> ./whitepaper/README.md
-grep "^homeland" ./whitepaper/wcsOES.md >> ./whitepaper/README.md
-echo '```' >> ./whitepaper/README.md
+## Examples
+echo_newline
+echo "## (Eco-)System Application notes"
+echo_code_tag
+grep "^homeland" ./whitepaper/wcsOES.md
+echo_code_tag
 
 ## Implementation
 
 ### Element (z.B. Architecture)
 for d in apps dapps commands operations tools services arch ;
   do
-    echo `head -n 1 $d/README.md` >> ./whitepaper/README.md
-    echo "/$d:" >> ./whitepaper/README.md
-    tail -n +2 $d/README.md >> ./whitepaper/README.md
+    echo `head -n 1 $d/README.md`
+    echo "/$d:"
+    tail -n +2 $d/README.md
 
-    echo '' >> ./whitepaper/README.md
-    echo '#### Digital signatures' >> ./whitepaper/README.md
-    echo '```' >> ./whitepaper/README.md
-    md5sum ./$d/*.md >> ./whitepaper/README.md
-    echo '```' >> ./whitepaper/README.md
+    echo_newline
+    echo '#### Digital signatures'
+    echo_code_tag
+    md5sum ./$d/*.md
+    echo_code_tag
 
-    echo '| Document | MD5-Checksum |' >> ./whitepaper/README.md
-    echo '| -- | -- |' >> ./whitepaper/README.md
+    echo '| Document | MD5-Checksum |'
+    echo '| -- | -- |'
     for f in $d/*.md
     do
-        echo '|' $(basename $f) '|' `md5sum $f` '|' >> ./whitepaper/README.md
+        echo '|' $(basename $f) '|' `md5sum $f` '|'
     done
-    echo '' >> ./whitepaper/README.md
+    echo_newline
   done
 
 ### ----------------------------------------------------------------------
 
 ## Footer
-echo "## 2020 (CC) Creative Common License" >> ./whitepaper/README.md
-echo '```' >> ./whitepaper/README.md
-md5sum ./whitepaper/README.md >> ./whitepaper/README.md
-echo '```' >> ./whitepaper/README.md
+echo "## 2020 (CC) Creative Common License"
+echo_code_tag
+md5sum ./whitepaper/README.md
+echo_code_tag
 
 ## Finger-printing
-echo '#### Digital signatures' >> ./whitepaper/README.md
-echo '```' >> ./whitepaper/README.md
+echo '#### Digital signatures'
+echo_code_tag
 for f in $(find . -regex '.*/*.md' )
 do
-    md5sum $f >> ./whitepaper/README.md
+    md5sum $f
 done
-echo '```' >> ./whitepaper/README.md
+echo_code_tag
 
-echo "Whitepaper. WCS - published by: wcs:root : $(date) $(time)" >> ./whitepaper/README.md
-echo "" >> ./whitepaper/README.md
+echo "Whitepaper. WCS - published by: wcs:root : $(date) $(time)"
+echo ""
 
-cat ./GLOSSARY.md >> ./whitepaper/README.md
+cat ./GLOSSARY.md
 
 # Export Whitepaper as PDF
 pandoc -o whitepaper.pdf ./whitepaper/README.md
