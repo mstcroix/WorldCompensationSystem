@@ -1,5 +1,6 @@
 # World Compensation System (WCS)
 __Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
+#Unbanked
 
 __Classification__: DeFi : EcoSystem : @rif_os :
 __Version__: 0.0.1 (2020-01-15)
@@ -117,6 +118,7 @@ Please read our [Project](/project) [Contribution Guide](/project/CONTRIBUTING.m
    1. Service production and consumption
    1. Wallet
    1. Snapshot
+   1. Application management
 
 ## (Eco-)System Application notes
 ```
@@ -179,6 +181,10 @@ homeland$read ebook1 1
 homeland$read ebook1 1
 homeland$man wallet
 homeland$wallet create
+homeland$man snap
+homeland$ls -al /dapps
+homeland$lend 3 user1 2020-06-31 0.001
+homeland$gift 3 user3 /user3/birthday
 ```
 ### Applications
 /apps:
@@ -237,46 +243,25 @@ homeland$wallet create
 | -- | -- |
 | README.md | 8bac8aaca025fbaed5d9753a66a1b7cd dapps/README.md |
 
-## Commands
+
 /commands:
 
-```
-/commands/Cmd1 -- Command1 executable
-/commands/Cmd1/spec
-/commands/Cmd1/src
-```
-
-### List of supported Commands(s)
-
-* [wcsUStatus](wcs) - Echo (status:*planned*)
-
-
-### Application Notes
-
 #### Digital signatures
 ```
-edf88082867feb04d7cd8796b39561a3  ./commands/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | edf88082867feb04d7cd8796b39561a3 commands/README.md |
+| GLOSSARY.md README.md | |
 
-## Operations
+
 /operations:
 
-### List of native (off-the-shelf) Operation(s)
-
-* [operation](/operations/operation) - Echo (status:*planned*)
-
-### Application Notes
-
 #### Digital signatures
 ```
-227488574263a442dfc666513ef23f0c  ./operations/README.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 227488574263a442dfc666513ef23f0c operations/README.md |
+| GLOSSARY.md README.md | |
 
 ## Tools
 /tools:
@@ -423,39 +408,44 @@ aa4209ef73003fc5ed561c333358fa92  ./arch/README.md
 
 ## 2020 (CC) Creative Common License
 ```
-792e294176e410cca7d0d746f6bd4d91  ./whitepaper/README.md
+59631d4266e7bb2116db1f7c09b6f47a  ./whitepaper/README.md
 ```
 #### Digital signatures
 ```
 d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
 2002ca1741c76f6377bbeeee61871f2c  ./dbin/README.md
 6eec0042d8bf26b963570b205d79b536  ./bin/README.md
-7641cae0c8a83ae31000144d576289e2  ./networking/README.md
+94063115eb82858ccfd15ef5a3b21814  ./development/integration.md
+4c5388669c4868fb9a92f0e8cef58327  ./development/README.md
+68f05ceb68281268217108fb55876082  ./development/deployment.md
+5cd4aa50a1a9f8d1b46b0b63c9d82e27  ./development/CONTRIBUTING.md
+9c060f1741bc37163838ead55b73c8ab  ./development/workproducts.md
 3582056e21f163e556a92a29f26da4bc  ./GLOSSARY.md
 8bac8aaca025fbaed5d9753a66a1b7cd  ./dapps/README.md
 ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
-f3e1a225f485559ca93e0f04f41002fe  ./whitepaper/wcsOES.md
+35610a8fc82e44c38b636eb7a8c4403f  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-6e355b4ba038ba8c72015b900c61bc41  ./whitepaper/README.md
-227488574263a442dfc666513ef23f0c  ./operations/README.md
-7d680ccb57804e34622b8d066bbd4fbe  ./README.md
-94063115eb82858ccfd15ef5a3b21814  ./project/integration.md
-68f05ceb68281268217108fb55876082  ./project/deployment.md
-5cd4aa50a1a9f8d1b46b0b63c9d82e27  ./project/CONTRIBUTING.md
-9c060f1741bc37163838ead55b73c8ab  ./project/workproducts.md
-f16bab90fe5bf837c86b04e89f7dbb86  ./lang/README.md
-2eaaf2bbe0e2dae25cbc17345d4ba75a  ./lang/c/README.md
+f80bb3d6110f0bb9d5b829e1c45b0fd0  ./whitepaper/ecosystem.md
+ff424f581783a3931c1c6f8b67e60a8c  ./whitepaper/README.md
+8bdd07641a7f2ad579cc6ab27cc90147  ./README.md
+cabaa25d0481b17f4fe563869c86a467  ./arch/ledger/README.md
 bdb604d4b1a062ad395e255c5fe46ca6  ./arch/dfs/README.md
 b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
+7641cae0c8a83ae31000144d576289e2  ./arch/networking/README.md
+93224d53add26ee895587864ebdf3c00  ./arch/agreement/README.md
+227488574263a442dfc666513ef23f0c  ./arch/operations/README.md
 aa4209ef73003fc5ed561c333358fa92  ./arch/README.md
+f16bab90fe5bf837c86b04e89f7dbb86  ./arch/lang/README.md
+2eaaf2bbe0e2dae25cbc17345d4ba75a  ./arch/lang/c/README.md
+626a048f9af6cb0a4326140a20f61c35  ./arch/commands/README.md
 beb28c51736bf8eb435fbc02654657f6  ./arch/fs/README.md
 e598ee8dfcac71c6efdc5a3c56954ac0  ./users/README.md
-edf88082867feb04d7cd8796b39561a3  ./commands/README.md
+c15908d22552696e8d67679f60717794  ./users/user1/README.md
 49bf9fabbb31ca80119c72109b914708  ./apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
 ```
-Whitepaper. WCS - published by: wcs:root : Sat Jan 18 20:22:33 CET 2020 
+Whitepaper. WCS - published by: wcs:root : Sun Jan 19 16:45:29 CET 2020 
 
 # Glossary
 

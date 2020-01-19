@@ -571,10 +571,14 @@ homeland$read ebook1 1
 
 ````
 homeland$man wallet
-
-- Wallet
-
-/wallet
+NAME
+    Wallet
+SYNTAX
+    $wallet create  -
+            delete  -
+            donate  -
+USE-CASES
+    1.
 ````
 
 ````
@@ -594,16 +598,26 @@ Picture path: /users/foto.jpeg
 
 ## Snapshot
 ````
+homeland$man snap
 - snap
 ````
 
+````
 /DApps/snap: (120,34)
 /DApps/snap/plugin (80, 12)
 /DApps/snap/plugin/twitter (40, 22)
+````
 
-$ls -al
-Date Cost Market-value Reputation
-/snap Corp:snapped 120 34
+## Application management
+````
+homeland$ls -al /dapps
+Date                      Cost:Market-value Reputation
+      /snap Corp:snapped  120:34            *** (736)
+````
 
-$lend 3 user1 2020-06-31 0.001
-$gift 3 user3 /user3/birthday
+````
+homeland$lend 3 user1 2020-06-31 0.001
+````
+````
+homeland$gift 3 user3 /user3/birthday
+````
