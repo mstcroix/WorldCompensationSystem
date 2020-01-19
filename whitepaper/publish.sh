@@ -5,7 +5,7 @@
 
 # Configuration
 ## redirect stdout/stderr to a file
-#exec &> ./whitepaper/README.md.txt
+exec &> ./whitepaper/README.md.txt
 
 # Local f(x)s
 

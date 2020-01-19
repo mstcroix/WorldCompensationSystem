@@ -1,6 +1,7 @@
 # World Compensation System (WCS)
-__Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
-#Unbanked
+__Keywords__: #2020, #Blockchain, #InternetOfValue, #Unbanked
+__Platform__: #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
+
 
 __Classification__: DeFi : EcoSystem : @rif_os :
 __Version__: 0.0.1 (2020-01-15)
@@ -27,7 +28,7 @@ Simple. Eliminate money invisibility.
 > Everyone in the society would be able to observe who was choosing to offer the 10 percent for the general good of all, and who was not.
 > And everyone's records would be open to everyone else.
 > And nothing could be purchased without Credits.
-> There would be no other negotiable currency. ([source:#CWG, @realNealWealsh](http://ISBN))
+> There would be no other negotiable currency. ([source:#CWG, @realNDWalsch](http://nealedonaldwalsch.com))
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
