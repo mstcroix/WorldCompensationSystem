@@ -19,10 +19,6 @@ function echo_code_tag() {
 }
 
 
-# Introduction
-## User-story
-cat ./README.md > ./whitepaper/README.md
-
 # Header
 ## Table-of-contents
 echo "# Whitepaper"
@@ -88,9 +84,13 @@ done
 echo_code_tag
 
 echo "Whitepaper. WCS - published by: wcs:root : $(date) $(time)"
-echo ""
+echo_newline
 
 cat ./GLOSSARY.md
 
 # Export Whitepaper as PDF
-pandoc -o whitepaper.pdf ./whitepaper/README.md
+# Introduction
+## User-story
+cat ./README.md ./whitepaper/README.md > ./whitepaper.md
+
+pandoc -o whitepaper.pdf ./whitepaper.md
