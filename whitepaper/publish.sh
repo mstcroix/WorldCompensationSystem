@@ -18,6 +18,9 @@ function echo_code_tag() {
   echo '```'
 }
 
+function sed_get_toc() {
+  sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g'
+}
 
 # Header
 ## Table-of-contents
@@ -33,7 +36,7 @@ done
 
 # Body
 grep "^#" ./whitepaper/ecosystem.md
-grep "^#" ./whitepaper/wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g'
+grep "^#" ./whitepaper/wcsOES.md | sed_get_toc
 
 ## Examples
 echo_newline
@@ -85,6 +88,7 @@ echo_code_tag
 echo_code_tag
 
 # Footer
+echo_newline
 echo "Whitepaper. WCS - published by: wcs:root : $(date) $(time)"
 echo_newline
 
