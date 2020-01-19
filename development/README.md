@@ -1,2 +1,8 @@
-# Project organisation
+## Development
+
+### Project organisation
+
+### Work-products
+
+### Integration
 
