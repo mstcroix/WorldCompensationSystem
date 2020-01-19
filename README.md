@@ -1,6 +1,7 @@
 # World Compensation System (WCS)
-__Keywords__: #2020, #Blockchain, #InternetOfValue, #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
-#Unbanked
+__Keywords__: #2020, #Blockchain, #InternetOfValue, #Unbanked
+__Platform__: #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
+
 
 __Classification__: DeFi : EcoSystem : @rif_os :
 __Version__: 0.0.1 (2020-01-15)
