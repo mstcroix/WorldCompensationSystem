@@ -32,10 +32,7 @@ do
 done
 
 # Body
-echo "## (Eco-)System Concept"
 grep "^#" ./whitepaper/ecosystem.md
-
-echo "## Operating (Eco-)System Concept"
 grep "^#" ./whitepaper/wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g'
 
 ## Examples
@@ -92,9 +89,27 @@ echo_newline
 
 cat ./GLOSSARY.md
 
-# Export Whitepaper as PDF
-# Introduction
-## User-story
+# Export
+## User-story + Whitepaper
 cat ./README.md ./whitepaper/README.md > ./whitepaper.md
 
+## Bibliography
+### QR-Code
+echo ▄▄▄▄▄▄▄ ▄  ▄  ▄ ▄ ▄▄▄ ▄▄▄▄▄▄▄
+echo █ ▄▄▄ █ ▄ ▀▀█▄▀ ▀ ▄▄█ █ ▄▄▄ █
+echo █ ███ █ ██  █▀█▄▄█▄▄▀ █ ███ █
+echo █▄▄▄▄▄█ ▄▀▄ ▄▀█ ▄▀▄▀█ █▄▄▄▄▄█
+echo ▄▄▄▄  ▄ ▄▀ ▀█ ▄███▄██▄  ▄▄▄ ▄
+echo █▄███▀▄ ▄▀ █▄█  █▀█▀▀▄▀█▀ ▄▄▀
+echo █▄▀▄ ▄▄▀▀▄ ▀ █▄█▀▄▀█▀▀▀ ▀▄▄ ▀
+echo █▄▄▄▄█ █▀ █   █  █▄ █   ███
+echo ▀███▄▀▄▄█ ▄ █▄▀▀▀ ▄██▀▀▀█▄ █
+echo ▄ ▀██ ▄▀▀ ▄▀▀▀ █ ▀█ ▄ ▄█▄▀█▀
+echo ▄█▄▀ ▄ ▄▀▄ ▄ ▄▄██  ▄▄███▄█
+echo ▄▄▄▄▄▄▄ ▀██▄  ▀ ▀▀█▄█ ▄ ██▀█▀
+echo █ ▄▄▄ █   ▄███▄██ ▀ █▄▄▄█▀▄█
+echo █ ███ █ █▀  ██▀▀▀██▀▄▀ █▀▀▄▀█
+echo █▄▄▄▄▄█ █▄▄▀ ▄▀▄▀ ▄▄██▄▀ ▀ █
+
+## Publish markdown Whitepaper as PDF
 pandoc -o whitepaper.pdf ./whitepaper.md
