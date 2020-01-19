@@ -84,32 +84,36 @@ echo_code_tag
      done
 echo_code_tag
 
+# Footer
 echo "Whitepaper. WCS - published by: wcs:root : $(date) $(time)"
 echo_newline
 
+## Glossary of terms and abbreviations
 cat ./GLOSSARY.md
 
-# Export
+## Bibliography
+### QR-Code (http://asciiqr.com/)
+echo_code_tag
+     #echo ▄▄▄▄▄▄▄ ▄  ▄  ▄ ▄ ▄▄▄ ▄▄▄▄▄▄▄
+     #echo █ ▄▄▄ █ ▄ ▀▀█▄▀ ▀ ▄▄█ █ ▄▄▄ █
+     #echo █ ███ █ ██  █▀█▄▄█▄▄▀ █ ███ █
+     #echo █▄▄▄▄▄█ ▄▀▄ ▄▀█ ▄▀▄▀█ █▄▄▄▄▄█
+     #echo ▄▄▄▄  ▄ ▄▀ ▀█ ▄███▄██▄  ▄▄▄ ▄
+     #echo █▄███▀▄ ▄▀ █▄█  █▀█▀▀▄▀█▀ ▄▄▀
+     #echo █▄▀▄ ▄▄▀▀▄ ▀ █▄█▀▄▀█▀▀▀ ▀▄▄ ▀
+     #echo █▄▄▄▄█ █▀ █   █  █▄ █   ███
+     #echo ▀███▄▀▄▄█ ▄ █▄▀▀▀ ▄██▀▀▀█▄ █
+     #echo ▄ ▀██ ▄▀▀ ▄▀▀▀ █ ▀█ ▄ ▄█▄▀█▀
+     #echo ▄█▄▀ ▄ ▄▀▄ ▄ ▄▄██  ▄▄███▄█
+     #echo ▄▄▄▄▄▄▄ ▀██▄  ▀ ▀▀█▄█ ▄ ██▀█▀
+     #echo █ ▄▄▄ █   ▄███▄██ ▀ █▄▄▄█▀▄█
+     #echo █ ███ █ █▀  ██▀▀▀██▀▄▀ █▀▀▄▀█
+     #echo █▄▄▄▄▄█ █▄▄▀ ▄▀▄▀ ▄▄██▄▀ ▀ █
+echo_code_tag
+
+# Export Whitepaper
 ## User-story + Whitepaper
 cat ./README.md ./whitepaper/README.md > ./whitepaper.md
 
-## Bibliography
-### QR-Code
-echo ▄▄▄▄▄▄▄ ▄  ▄  ▄ ▄ ▄▄▄ ▄▄▄▄▄▄▄
-echo █ ▄▄▄ █ ▄ ▀▀█▄▀ ▀ ▄▄█ █ ▄▄▄ █
-echo █ ███ █ ██  █▀█▄▄█▄▄▀ █ ███ █
-echo █▄▄▄▄▄█ ▄▀▄ ▄▀█ ▄▀▄▀█ █▄▄▄▄▄█
-echo ▄▄▄▄  ▄ ▄▀ ▀█ ▄███▄██▄  ▄▄▄ ▄
-echo █▄███▀▄ ▄▀ █▄█  █▀█▀▀▄▀█▀ ▄▄▀
-echo █▄▀▄ ▄▄▀▀▄ ▀ █▄█▀▄▀█▀▀▀ ▀▄▄ ▀
-echo █▄▄▄▄█ █▀ █   █  █▄ █   ███
-echo ▀███▄▀▄▄█ ▄ █▄▀▀▀ ▄██▀▀▀█▄ █
-echo ▄ ▀██ ▄▀▀ ▄▀▀▀ █ ▀█ ▄ ▄█▄▀█▀
-echo ▄█▄▀ ▄ ▄▀▄ ▄ ▄▄██  ▄▄███▄█
-echo ▄▄▄▄▄▄▄ ▀██▄  ▀ ▀▀█▄█ ▄ ██▀█▀
-echo █ ▄▄▄ █   ▄███▄██ ▀ █▄▄▄█▀▄█
-echo █ ███ █ █▀  ██▀▀▀██▀▄▀ █▀▀▄▀█
-echo █▄▄▄▄▄█ █▄▄▀ ▄▀▄▀ ▄▄██▄▀ ▀ █
-
-## Publish markdown Whitepaper as PDF
+## Convert markdown as PDF
 pandoc -o whitepaper.pdf ./whitepaper.md

@@ -454,13 +454,13 @@ c15908d22552696e8d67679f60717794  ./users/user1/README.md
 49bf9fabbb31ca80119c72109b914708  ./apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
-42166ac2f516b4b31621e2ee21128293  ./whitepaper.md
+5b7dae80a57b8a500c7503439a48d9ac  ./whitepaper.md
 ```
 
 real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
-Whitepaper. WCS - published by: wcs:root : Sun Jan 19 23:11:40 CET 2020 
+Whitepaper. WCS - published by: wcs:root : Sun Jan 19 23:16:26 CET 2020 
 
 # Glossary
 
@@ -506,3 +506,5 @@ __Services__:
 service - an action executed virtually (software) or physically (hardware)
 - eg. (software:x386:server) hashvalueof bigfile.bin
 - (hardware:raspberrypi:io) getoutsidetemp
+```
+```
