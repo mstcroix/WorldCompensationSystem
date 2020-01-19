@@ -71,6 +71,8 @@ Please read our [Project](/project) [Contribution Guide](/project/CONTRIBUTING.m
 # Whitepaper
 ## Table-of-contents
 
+## (Eco-)System Concept
+# World Compensation (Eco-)System
 ## Operating (Eco-)System Concept
 1. wcsO(E)S - WCS Operating Eco-System
    1. Platform
@@ -122,6 +124,7 @@ Please read our [Project](/project) [Contribution Guide](/project/CONTRIBUTING.m
    1. Application management
 
 ## (Eco-)System Application notes
+### Examples
 ```
 homeland$
 homeland$help
@@ -256,7 +259,7 @@ md5sum: stat './commands/*.md': No such file or directory
 | Document | MD5-Checksum |
 | -- | -- |
 md5sum: stat 'commands/*.md': No such file or directory
-| GLOSSARY.md README.md | |
+| GLOSSARY.md README.md whitepaper.md | |
 
 head: operations/README.md: No such file or directory
 
@@ -270,7 +273,7 @@ md5sum: stat './operations/*.md': No such file or directory
 | Document | MD5-Checksum |
 | -- | -- |
 md5sum: stat 'operations/*.md': No such file or directory
-| GLOSSARY.md README.md | |
+| GLOSSARY.md README.md whitepaper.md | |
 
 ## Tools
 /tools:
@@ -417,7 +420,7 @@ aa4209ef73003fc5ed561c333358fa92  ./arch/README.md
 
 ## 2020 (CC) Creative Common License
 ```
-09ec0cd46f43a65712a27db974d1cf42  ./whitepaper/README.md
+5babe5a2f94100420cb1a0c55cd0ae0a  ./whitepaper/README.md
 ```
 #### Digital signatures
 ```
@@ -435,7 +438,7 @@ ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
 35610a8fc82e44c38b636eb7a8c4403f  ./whitepaper/wcsOES.md
 d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
 f80bb3d6110f0bb9d5b829e1c45b0fd0  ./whitepaper/ecosystem.md
-6b5364306061bf37fcb4dd8d109cc2bc  ./whitepaper/README.md
+43e80885ae8ef80e9c4fe5bbc166e096  ./whitepaper/README.md
 549a6e7200570625315f52f47b1b8ffc  ./README.md
 cabaa25d0481b17f4fe563869c86a467  ./arch/ledger/README.md
 bdb604d4b1a062ad395e255c5fe46ca6  ./arch/dfs/README.md
@@ -453,12 +456,13 @@ c15908d22552696e8d67679f60717794  ./users/user1/README.md
 49bf9fabbb31ca80119c72109b914708  ./apps/README.md
 a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
 086f662610232b3d3c823e5af2138bce  ./services/README.md
+07ecabfb05ed4368e8b2c8fa433286c2  ./whitepaper.md
 ```
 
 real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
-Whitepaper. WCS - published by: wcs:root : Sun Jan 19 22:58:13 CET 2020 
+Whitepaper. WCS - published by: wcs:root : Sun Jan 19 23:04:33 CET 2020 
 
 # Glossary
 

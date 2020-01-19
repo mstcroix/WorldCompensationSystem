@@ -32,14 +32,18 @@ do
 done
 
 # Body
+echo "## (Eco-)System Concept"
+grep "^#" ./whitepaper/ecosystem.md
+
 echo "## Operating (Eco-)System Concept"
 grep "^#" ./whitepaper/wcsOES.md | sed 's/#### /         1. /g' | sed 's/### /      1. /g' | sed 's/## /   1. /g' | sed 's/# /1. /g'
 
 ## Examples
 echo_newline
 echo "## (Eco-)System Application notes"
+echo "### Examples"
 echo_code_tag
-grep "^homeland" ./whitepaper/wcsOES.md
+     grep "^homeland" ./whitepaper/wcsOES.md
 echo_code_tag
 
 ## Implementation
@@ -54,7 +58,7 @@ for d in apps dapps commands operations tools services arch ;
     echo_newline
     echo '#### Digital signatures'
     echo_code_tag
-    md5sum ./$d/*.md
+         md5sum ./$d/*.md
     echo_code_tag
 
     echo '| Document | MD5-Checksum |'
@@ -71,16 +75,16 @@ for d in apps dapps commands operations tools services arch ;
 ## Footer
 echo "## 2020 (CC) Creative Common License"
 echo_code_tag
-md5sum ./whitepaper/README.md
+     md5sum ./whitepaper/README.md
 echo_code_tag
 
-## Finger-printing
+## Documentation Finger-printing
 echo '#### Digital signatures'
 echo_code_tag
-for f in $(find . -regex '.*/*.md' )
-do
-    md5sum $f
-done
+     for f in $(find . -regex '.*/*.md' )
+     do
+         md5sum $f
+     done
 echo_code_tag
 
 echo "Whitepaper. WCS - published by: wcs:root : $(date) $(time)"
