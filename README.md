@@ -27,7 +27,7 @@ Simple. Eliminate money invisibility.
 > Everyone in the society would be able to observe who was choosing to offer the 10 percent for the general good of all, and who was not.
 > And everyone's records would be open to everyone else.
 > And nothing could be purchased without Credits.
-> There would be no other negotiable currency. ([source:#CWG, @realNealWealsh](http://ISBN))
+> There would be no other negotiable currency. ([source:#CWG, @realNDWalsch](http://nealedonaldwalsch.com))
 
 __Short-name__: WCS, DeFiApp, wcsDFApp
 
