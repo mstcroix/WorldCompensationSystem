@@ -1,6 +1,5 @@
 # Integration
 
-# Realisation Plan
 ## Integration Plan
 
 | Release | Work-Product |
