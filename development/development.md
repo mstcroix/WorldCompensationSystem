@@ -3,7 +3,7 @@ Plan
 
 ## Platform
 Node Targets:
-- floppy (linux)
+- floppy (linux) -- busybox, ucLib
 - classic x86 (DOS) -- serves as reference benchmark
 - embedded (raspberry pi)
 - smartphone
@@ -23,7 +23,15 @@ Blockchain:
 Compilers
 
 ### Support-Tools
+[] vfsync (https://vfsync.org)
+[] JSLinux
+
+[] incubed in3
+
+[] Geth
+[] coyotelinux
+
 
 ### Community
 [x] Gitter
-Slack
+[] Slack
