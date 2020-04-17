@@ -11,18 +11,8 @@ __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stor
 
 ### Notation
 The following `code` sections provide the main use-case description.
-First step during implemenation consist of:
-1. Copy Use-case description as /dst/test.expected
-1. Replace old section and include new created file (/dst/test.expected) here instead
-1. Implement required functionality
-1. Implement test.sh
-   1. tool arg1 --arg-2 > test.result
-   1. diff test.result test.expected
-1. Implement build.sh
-   1. build
-   1. /test.sh
 
-### Welcome home
+### Welcome screen
 ```
 ** Welcome @homeland
 homeland$
@@ -621,3 +611,25 @@ homeland$lend 3 user1 2020-06-31 0.001
 ````
 homeland$gift 3 user3 /user3/birthday
 ````
+
+# Implementation
+The `code` sections provided at each of the main use-case descriptions specified the required behaviour as seen from the user (client or server) perspective specified before the $ (dollar) sign.
+
+For example:
+````
+usera$
+..
+userb$
+
+````
+
+First step during implemenation consist of:
+1. Copy Use-case description as /dst/test.expected
+1. Replace old section and include new created file (/dst/test.expected) here instead
+1. Implement required functionality
+1. Implement test.sh
+   1. tool arg1 --arg-2 > test.result
+   1. diff test.result test.expected
+1. Implement build.sh
+   1. build
+   1. /test.sh
