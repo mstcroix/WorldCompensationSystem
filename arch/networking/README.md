@@ -1,7 +1,10 @@
 ## Networking
 
-A network of trust and ownership (trust) creation and exchange (transfer)
-*Growth*: organic (Grows as needed) based on demand an resource availability
+A network of 
+- trusted parties and 
+- ownership creation (trust) and/or exchange (transfer)
+
+Network *Growth*: Organic. It grows as needed, based on demand an resource availability (value cannot be created out of nothing)
 
 ### Agreement
 
