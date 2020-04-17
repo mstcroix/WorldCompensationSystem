@@ -118,8 +118,8 @@ dapp1 -> /node/lapland/dapps/dapp1
 
 ### Applications, Services, Commands and Tools
 #### Applications
-Consider a (potentially immensely huge) decentralised repository or Applications (commands, tools, games, etc.) bound to a system of credits and debts 
-Every execution of a given application debts a given amount of credits to the owner (see [users](/users) for for information of possible owners) of the application
+Consider a (potentially immensely huge) decentralised repository or Applications (commands, tools, games, etc.) bound to a system of credits and debts. 
+Every execution of a given application debts a given amount of credits to the owner (see [users](/arch/users) for additional information on available owners) of the application.
 Credits are bound to specific functions of the application and not the the application (as whole) itself.
 This means, for example in a word processing application, the use of the “print” functionality will be only
 debted to the owner only when it’s *used*.
@@ -173,6 +173,7 @@ use '$commands' for a listing of available operation commands
 ```
 homeland$commands
 operations
+----------
 credits - credits are gained by certain proof-of-work
 debts - debts are credits debited to the users (to be payed later in time or as part of a loan (see :loans))
 loans - list of available loans (request for asset-transfer (value transfer)
@@ -181,6 +182,7 @@ assets - show local assets (including applications,commands,services,tools and m
 
 
 actions
+-------
 debit -  
 loan -
 value - set 'own' market-value (local cost of service-unit) -- analog to BTC-Network-Fee or ETH-Gas
@@ -189,6 +191,7 @@ income - show current regular income
 work - produce a work-product (costing local energy (computational power))
 
 transactions
+------------
 credit - credit user for consumed-service (online time + service computer power)
 accept/service - accept offer
 send - transfer asset to otheruser
