@@ -7,13 +7,13 @@ __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stor
 ### Notation
 The following `code` sections provide the main use-case description.
 
-### Welcome screen
+### Welcome user
 ```
 ** Welcome @homeland
 homeland$
 ```
 
-### Help
+### Ask for Help
 #### View description manual
 `help`, `man` or check [our documentation](../documentation).
 
