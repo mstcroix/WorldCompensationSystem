@@ -59,34 +59,49 @@ I send 1 EUR via PayPal to someone so he can pay the required cost of joining th
        * User B selects "pass-phrase" as authentication mechanism option
 
     //Bootstrapping
-    User a: 0 credits
-    User b: 0 credits
+    usera$credits
+    : 0 credits
     
-    //Produce something (for example, take a picture with Mobile-phone, write something on text-editor, draw)
-    $upload picture1.jpeg
-    $upload data.txt (Book, Poem, Notes.txt, Recept, Code, Intellectual-Property (Patent))
-    $upload Diagram
+    userb$credits
+    : 1 credits
 
+### Use-case: Initial Ownership
+    //Produce something (for example, take a picture with Mobile-phone, write something on text-editor, draw)
+    //alias: create:produce:upload
+    usera$upload picture1.jpeg
+    usera$upload data.txt (Book, Poem, Notes.txt, Recept, Code, Intellectual-Property (Patent))
+    usera$upload Diagram
+    usera$credits
+    : 0 credits
+    
+### Use-case: Free Transaction
     //Transfer value (ownership transfer)
     usera$send picture1.jpeg userb
+    Using (default) Local network: 192.23.2.1
+    Transfer complete
+    : 0 credits
 
+    userb$transfer
+    1 incoming Transfert 
+    userb$value 1
+    1 Credit debted (0.0001 Market value)
+    Wait for confirmation
+    
+    usera$accept
+    ownership granted (usera -> userb)
+    : 1 credit in return accepted
 
-    Local network:
-    1 Credit (0.0001 Market value)
+    userb$
+    : 0 credits left
 
+### Use-case: Value Transaction
     Gateway (community, foundation, nation, federation)
     Translates (balances ) local credits into “local prices”
     (Based on calculated internal costs)
 
     —-
-    Store ownership (public key signature) in community ledger
-    (A trusted centralised non-biased “virtual” entity responsible for the community wellbeing (consejo), stored decentralised)
-
     $accept - - private-address=Berlin
-
     Block Chain: all transfers done based on this source of value creation (different sources co-exist
-
-    $consumers create
 
 ## User-Management (/usr)
 
