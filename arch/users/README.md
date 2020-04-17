@@ -3,7 +3,7 @@
 * Consumers
 * Creators
 
-## Types of use
+## User types per 'Use classification'
 ### Commercial use
 1. Foundations
 1. Corporations
@@ -20,7 +20,7 @@
    1. Chat
    1. Messaging
 
-## Ownership
+## User-Ownership
 
 Transfer of 'value' via exchange of ownership
 
