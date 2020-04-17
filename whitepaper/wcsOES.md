@@ -45,16 +45,19 @@ SYNTAX
 USE-CASES
 ```
 
+### Execute ver ('get local version') command
 ```
 homeland$ver
 wcsOS 0.0.1
 ```
 
 ### User management
+#### Return home
 ```
 homeland$home
 ```
 
+#### Create user
 ```
 homeland$user create user1
 New wallet created
