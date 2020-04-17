@@ -5,10 +5,12 @@
 Create a *System* based on Users and its related Files, Executables and Processes.
   * [fs](/arch/fs) -- filesystem
   * [users](/arch/users) -- users
-  * [commands](/arch/commands) -- users
+  * [bin](/arch/bin) -- system binaries (commands, services and tools)
+  
   * lang(/arch/lang) -- Programming Language(s)
 
 Create an *Eco*-system* based on Applications.
+  * [apps](/arch/apps) -- applications (generalization for commands, services and tools)
   * operations(/arch/operations) -- Operations
   * ledger(/arch/ledger) -- Ledger
 
