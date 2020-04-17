@@ -13,10 +13,29 @@ For example, node 'homeland' is described as followin:
 homeland$
 ```
 
+### A Session with wcsOES 
+
+As with classic UNIX systems, let's begin with an "annotated dialog" between an User and the WCS (Operating) Eco-System.
+
+
 ### Welcome user
+
+*Establish a connection. Log-in into local machine. Open Web-site. Boot-up from Floppy, CD or USB image*
+
 ```
+(C) 2020 World Compensation Eco-System
+login: you
+Password:
 ** Welcome @homeland
+You have notifications.
 homeland$
+homeland$date
+Fri Apr 17 21:44 UCT 2020
+homeland$who
+me       tty0  Jan 28 14:30
+you      tty0  Apr 17 21:44
+homeland$whoami
+you       tty0  Apr 17 21:44
 ```
 
 ### Ask for Help
@@ -24,7 +43,6 @@ homeland$
 `help`, `man` or check [our documentation](../documentation).
 
 ```
-//return bin/* - head -n 1 bin/*/README.md
 homeland$help
 home - return home
 whoami - who am I
@@ -32,9 +50,9 @@ pwd - present working directory
 ls - list services
 ver - current version
 ```
+//return bin/* - head -n 1 bin/*/README.md
 
 ```
-//return arg/spec/README.md
 homeland$man ver
 NAME
   ver -- display current platform version
@@ -44,6 +62,7 @@ SYNTAX
 
 USE-CASES
 ```
+//return arg/spec/README.md
 
 ### Execute ver ('get local version') command
 ```
@@ -67,6 +86,12 @@ remote-users
 homeland$user create user1
 New wallet created
 Address: user1:0xc50...0000
+```
+#### Writing other users
+```
+homeland$write me
+Hey dare, care for value exchange?
+^Z
 ```
 
 #### Return home
