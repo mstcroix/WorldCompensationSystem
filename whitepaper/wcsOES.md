@@ -6,6 +6,8 @@
 * [File System](#File-System)
 * [User Management](#User management)
 * [Applications](#Applications)
+* [Services](#Services)
+* [Commands](#Commands)
 
 ### Notation
 The following `code` sections provide the main use-case description.
