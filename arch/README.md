@@ -19,10 +19,10 @@ Create a *World* Ecosystem based on Decentralised Applications.
   * [dfs](/arch/dfs) -- Decentralised (remote and distributed) filesystem
   * [citizen](/arch/citizen) -- Citizenship
   * agreement(/arch/agreement) -- Agreement
+  * dbin(/arch/dbin) -- Decentralised binaries (commands, services and tools)
 
 Create a World *Compensation* Ecosystem based on Decentralised Financial Applications.
-  * [dbin](/arch/dbin) -- Decentralised binaries (commands, services and tools)
-  * [dapps](/arch/dapps) -- Decenralised applications (Client/Server generalization for commands, services and tools)
+  * dfapps(/arch/dfapps) -- Decenralised Financial applications (Client/Server generalization for commands, services and tools)
 
 ## Operating (Eco)-System
 
