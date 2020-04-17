@@ -14,3 +14,16 @@ Agreement by hashing each others compound
 Write state
 Hash with other user’s public key (only receiver user can consume the state)
 Repeat (Write state, Hash)
+
+### Trust
+
+Trust is build up organically.
+Usually only on direct peer/to/peer basis (or reputation based)
+You only need to “know” someone to get started or to create (“produce”) something of value to exchange in the network
+
+#### Verification
+
+State can be always verificated (Turing complete: read tape of Blockchained-ledgers to get current state)
+Easy validation via
+- State storage: Single
+- Root hash (Merkle tree)
