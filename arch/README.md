@@ -111,16 +111,3 @@ UNIX's "Everything is a File" -> (name:Address)
 - [quickjs](https://bellard.org/quickjs/) - Embeddable Javascript engine
 
 Refer to [support tools](/tools/).
-
-### Application Notes
-#### Network Startup
-
-```
-homeland$
-homeland$wcsStart &
-World Compensation System server (wcss) running
-Listening on port:280182
-homeland$
-homeland$wcsStatus
-Status: OK
-```
