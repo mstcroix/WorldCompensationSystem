@@ -19,4 +19,12 @@
 
 ### Application Notes
 
-$
+```
+homeland$
+homeland$wcsUTelnet 192.0.0.1:5001
+(C) 2020 World-Compensation Ecosystem
+Universal Telnet
+Connecting with: 192.0.0.1 Port: 5001
+OK   Connection accepted
+WAIT Waiting for commands
+```
