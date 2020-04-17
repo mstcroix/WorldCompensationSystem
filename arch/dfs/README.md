@@ -1,8 +1,31 @@
-# Distributed File-System(s)
+### Distributed File-System(s)
+
+#### Tree-root (remote-environment)
+```
+/:alias/Path/ - Decentralised Root
+```
+
+#### Distributed (Remote) File-system
 
 ```
-/dapp/DeFi/ - Decentralised Financial Apps
+/dbin/ - Decentralised System services
+
+/dapps/ - Decentralised User or Third-Party Applications (executable)
+/dapps/DeFi/ - Decentralised Financial Apps
 ```
 
-## *current* Implementations
+##### Distributed Users-Solutions (/dapps)
+
+```
+/dapps/alias --> /solutions/dappalias/20200117/dappalias
+```
+
+for example
+
+```
+/solutions/dappalias/date/nodeuuid{publickey:addresshash:serviceid:inbox} --> /lang/python/3.7
+/solutions/dappcmd1/date/nodeuuid{publickey:addresshash:serviceid:inbox} --> /lang/python/3.7
+```
+
+#### *current* Implementations
 [dFSwcs](dFSwcs) - Distributed File-System WCS
