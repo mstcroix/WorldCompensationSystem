@@ -1,2 +1,4 @@
-## Agreement
+## Agreement rules
 
+### Dispute
+### Draw
