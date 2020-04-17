@@ -9,9 +9,9 @@
 
 #### List of native DApp(s)
 
-* [wcsDApp](/dapps/wcsDApp) - Distributed Application
+* [wcsDApp](/dapps/wcsDApp) - WCS remote (network) Distributed Application
 
-* [wcsDAppTemplate](/dapps/wcsDFApp) - WCS network DFApp Template (status:*planned*)
+* [wcsDAppTemplate](/dapps/wcsDAppTemplate) - WCS network DApp Template (status:*in progress*)
 
 
 ##### Dependencies
@@ -21,3 +21,14 @@
 
 
 #### Application Notes
+
+```
+homeland$
+homeland$wcsDAppTemplate
+(C) 2020 World-Compensation Ecosystem
+Remote Application Template
+Local machine is: 127.0.0.1
+Running remotely on 192.14.3.1
+Finished
+homeland$
+```
