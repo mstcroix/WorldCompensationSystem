@@ -52,9 +52,14 @@ wcsOS 0.0.1
 ```
 
 ### User management
-#### Return home
+#### Listing users (ls -u)
 ```
-homeland$home
+local-users
+me -> /usr/me
+user1 -> /usr/user1
+
+remote-users
+: 0
 ```
 
 #### Create user
@@ -64,6 +69,11 @@ New wallet created
 Address: user1:0xc50...0000
 ```
 
+#### Return home
+```
+homeland$home
+```
+
 ### File-System (Minimum commands)
 #### Present working directory (pwd)
 ```
@@ -71,7 +81,7 @@ homeland$pwd
 /node/homeland --> {nodeuuid}
 ```
 
-#### Listing files (ls)
+#### Listing services (ls)
 ```
 homeland$ls
 local services
@@ -81,11 +91,6 @@ tool1 -> /node/homeland/tools/tool1
 
 remote services
 dapp1 -> /node/lapland/dapps/dapp1
-
-local-users
-me -> /users/me
-
-remote-users
 ```
 
 ### Applications, Services, Commands and Tools
