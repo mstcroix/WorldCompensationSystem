@@ -34,20 +34,21 @@ __Layers__:
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system (dfsWcs)
 1. Nodes are Servers
+1. Users are Clients
+1. Clients and Servers interact via read/write file operations with eachother
 1. Servers
    1. run System- and Users-services
    1. route User- and System- interactions (transactions)
-1. Users are Clients
-1. Clients decide to participate or not (mounting/unmounting) as service suppliers in the network
-1. Clients interact with other Clients
-1. Clients request services from Servers (service suppliers)
-   1. Via Remote Procedure Call (RPC) returning values in JSON format
-1. Clients transfer value-assets to single or multiple-users or services
-1. Light-Clients connect and use the network only for short-time (SMS, PPP)
-1. Value-assets are represented via Addresses in the Distributed File system
-1. Clients and Servers interact via read/write file operations with eachother
-1. Servers providing User-services are debted certain agreed amount per-use
-1. Servers providing System-services are debted an agreed amount per-use, daily, monthly or yearly on donation basis
+1. Clients 
+   1. decide to participate or not (mounting/unmounting) as service suppliers in the network
+   1. interact with other Clients
+   1. request services from Servers (service suppliers)
+     1. Via Remote Procedure Call (RPC) returning values in JSON format
+   1. transfer value-assets to single or multiple-users or services
+1. Value / Assets
+    1. Value-assets are represented via Addresses in the Distributed File system
+    1. Servers providing User-services are debted certain agreed amount per-use
+    1. Servers providing System-services are debted an agreed amount per-use, daily, monthly or yearly on donation basis
 
 ## Clients
 ### Command, Services and Tools
@@ -75,6 +76,7 @@ Full-nodes:
 
 Light-nodes:
  - store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+1. Light-Clients connect and use the network only for short-time (SMS, PPP)
 
 User : reads, modifies and stores state in Blockchain (typically a *light-Node*) 
  - In browser (js Linux machine)
