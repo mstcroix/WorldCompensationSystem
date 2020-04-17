@@ -9,13 +9,13 @@
 
 #### List of native DApp(s)
 
-* [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst (status:*planned*)
+* [wcsDApp](/dapps/wcsDApp) - Distributed Application
 
-* [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template (status:*planned*)
+* [wcsDAppTemplate](/dapps/wcsDFApp) - WCS network DFApp Template (status:*planned*)
 
 
 ##### Dependencies
-/lang - implementation language specific files
+/lang(/lang) - implementation language specific files
 
 #### List of registered (third-party) DApp(s)
 
