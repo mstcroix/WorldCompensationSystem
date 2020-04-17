@@ -119,26 +119,28 @@ dapp1 -> /node/lapland/dapps/dapp1
 ```
 
 ### Applications, Services, Commands and Tools
-#### Running local tool system-service
+#### Applications
+use '$apps' for a listing of currently available user-services
+use '$dapps' for a listing of remotely available user-services
+
 ```
-homeland$stat
-connection OK
-0 services running
+homeland$apps
+INFO: alias to ($ls /apps)
+3 apps, 1 local
+
+tetris - (16 times:company:gameco:*)
+doomclone - (872355 times:user:girx34:*****)
+
+xyz - (4 times:local)
 ```
 
-#### Running local command system-service
-```
-homeland$cmd1 --verbose
-running cmd1
-```
-
-#### Running local user-application
+##### Running *local* user-application
 ```
 homeland$app1 --verbose
 running app1@localhost (127.0.0.1)
 ```
 
-#### Running remote user-application
+##### Running *remote* user-application
 ```
 homeland$dapp1 --verbose
 running dapp1@lapland
@@ -146,12 +148,19 @@ address: 0xc5..000
 
 no local credits (use command: credits)
 no local debts (use command: debts)
+```
 
-use '$commands' for a listing of available operation commands
-use '$apps' for a listing of currently available user-services
+#### Services
+##### Running local tool system-service
+```
+homeland$stat
+connection OK
+0 services running
 ```
 
 #### Commands
+use '$commands' for a listing of available operation commands
+
 ```
 homeland$commands
 operations
@@ -178,6 +187,12 @@ reputation - get/set reputation-value (quadratic-voting) to given asset
 
 ```
 
+##### Running local command system-service
+```
+homeland$cmd1 --verbose
+running cmd1
+```
+
 #### Tools
 ```
 homeland$tools
@@ -187,17 +202,6 @@ telnet - (0 credit:government:culture)
 ping - (1 credit:foundation:ibm)
 telnet - (1 credit:institute:fraunhofer)
 hash - (1 credit:university:berlin)
-```
-
-```
-homeland$apps
-INFO: alias to ($ls /apps)
-3 apps, 1 local
-
-tetris - (16 times:company:gameco:*)
-doomclone - (872355 times:user:girx34:*****)
-
-xyz - (4 times:local)
 ```
 
 ### Local Services
@@ -211,7 +215,7 @@ Address: 0xc50..000
 
 #### Asset Management
 
-### Value Operations
+##### Value Operations
 ```
 homeland$credits
 0 credits
@@ -235,7 +239,7 @@ doomclone - (34 Credits licensed:872355:user:girx34:*****)
 invested 0
 ```
 
-#### Transactions
+##### Transactions
 ```
 homeland$send 2 user1
 Sending 2 Credits to /users/user1
