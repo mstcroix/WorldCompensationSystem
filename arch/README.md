@@ -21,6 +21,8 @@ Create a *World* Ecosystem based on Decentralised Applications.
   * agreement(/arch/agreement) -- Agreement
 
 Create a World *Compensation* Ecosystem based on Decentralised Financial Applications.
+  * [dbin](/arch/dbin) -- Decentralised binaries (commands, services and tools)
+  * [dapps](/arch/dapps) -- Decenralised applications (Client/Server generalization for commands, services and tools)
 
 ## Operating (Eco)-System
 
