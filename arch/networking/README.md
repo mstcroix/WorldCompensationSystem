@@ -1,26 +1,32 @@
 ## Networking
 
-### Citizenship
-1. Community
-1. Nation
-1. Federation
-> “: an encompassing political or societal entity formed by uniting smaller or more localized entities”
+A network of trust and ownership (trust) creation and exchange (transfer)
+Growth: organic (Grows as needed) based on demand an resource availability
 
-### Commercial use
-1. Foundations
-1. Corporations
-1. Companies
-1. Establishments
-1. Professionals
-1. Freelancers
-1. Labour/Workers
+### Agreement
 
-### Private use
-1. Communities
-1. Neighbourhoods
-1. Neighbours
-   1. Chat
-   1. Messaging
+--
+We (debited,credited) only need to agree two parties
+I send (transferred the ownership(value)) it, did you receive (accepted) it? I cannot use it anymore (is locked)
+Yes I have it
+No I don’t. Wait for timeOut. Try again
+--
+
+Agreement by hashing each others compound
+Write state
+Hash with other user’s public key (only receiver user can consume the state)
+Repeat (Write state, Hash)
+
+### Trust
+
+Trust is build up organically
+Usually only on direct peer/to/peer basis or reputation based)
+(You only need to “know” someone to get started)
+ or create (“produce”) something of value to exchange in the network
+
+Turing complete: read tape of Blockchained-ledgers
+State storage: Single
+Root hash (Merkle tree)
 
 ### List of native (off-the-shelf) Network Tool(s)
 

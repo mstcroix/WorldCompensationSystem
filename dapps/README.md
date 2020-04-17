@@ -1,4 +1,4 @@
-### Distributed Apps
+### Distributed Applications (DApps)
 
 ```
 /dapps/DApp1 -- Distributed App1 executable
@@ -7,13 +7,28 @@
 /dapps/<Domain>/DApp1/test -- test
 ```
 
-#### List of native DFApp(s)
+#### List of native DApp(s)
 
-* [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst (status:*planned*)
+* [wcsDApp](/dapps/wcsDApp) - WCS remote (network) Distributed Application
 
-* [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template (status:*planned*)
+* [wcsDAppTemplate](/dapps/wcsDAppTemplate) - WCS network DApp Template (status:*in progress*)
 
-#### List of registered third-party DFApp(s)
+
+##### Dependencies
+[/lang](/lang) - implementation language specific files
+
+#### List of registered (third-party) DApp(s)
 
 
 #### Application Notes
+
+```
+homeland$
+homeland$wcsDAppTemplate
+(C) 2020 World-Compensation Ecosystem
+Remote Application Template
+Local machine is: 127.0.0.1
+Running remotely on 192.14.3.1
+Finished
+homeland$
+```
