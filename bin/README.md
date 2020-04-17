@@ -10,7 +10,7 @@
 * [Ser1](/bin/Serv1) - Local Service (daemon) Template
 * [Tool1](/bin/Tool1) - Local Tool Template
 
-#### List of native (Platform-specific) Binaries(s)
+#### List of Platform-specific Binary(-es)
 
 * [mount](/bin/mount) - loads/unloads foreign WCS Networks
 * [ls](/bin/ls) - show (l)ist of (s)ervices or current Users is used together with /usr 
