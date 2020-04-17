@@ -7,8 +7,7 @@ Create a World Compensation Ecosystem based on Decentralised Financial Applicati
 __Implementation__:
 
 * Operation System (including fs, dfs, time-shared applications)
-
-[wcsOS](http://wikipedia.com/wiki/wcsOS) -- linux based distribution
+  * [wcsOS](http://wikipedia.com/wiki/wcsOS) -- linux based distribution
 
 __Layers__:
 
@@ -30,7 +29,18 @@ __Layers__:
 1. Servers providing User-services are debted certain agreed amount per-use
 1. Servers providing System-services are debted an agreed amount per-use, daily, monthly or yearly on donation basis
 
+## Clients
+### Command, Services and Tools
 
+- [bin](/bin) - Local commands, services and tools
+- [dbin](/dbin) - Distributed (Remote) user-commands and user-tools
+
+### Applications
+
+- [apps](/apps) - Local commands, services and tools
+- [dapps](/dapps) - Distributed (Remote) User-services
+
+## Servers
 ### Network
 
 __Topology__: Flower or Tree-of-Life (sacred geometry star 1:N, N:=6)
@@ -78,7 +88,8 @@ UNIX's "Everything is a File" -> (name:Address)
 
 Refer to [support tools](/tools/).
 
-### Network Startup
+### Application Notes
+#### Network Startup
 
 ```
 $wcsStart &
@@ -88,13 +99,3 @@ Listening on port:280182
 $wcsStatus
 Status: OK
 ```
-
-### Command, Services and Tools
-
-- [bin](/bin) - Local commands, services and tools
-- [dbin](/dbin) - Distributed (Remote) user-commands and user-tools
-
-### Application Notes
-
-- [apps](/apps) - Local commands, services and tools
-- [dapps](/dapps) - Distributed (Remote) User-services
