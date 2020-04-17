@@ -79,12 +79,13 @@ wcsOS 0.0.1
 ### User management
 #### Listing users (ls -u)
 ```
+homeland$ls -u
 local-users
+-----------
 me -> /usr/me
-user1 -> /usr/user1
+you -> /usr/you
 
-remote-users
-: 0
+remote-users 0
 ```
 
 #### Create user
@@ -92,11 +93,20 @@ remote-users
 homeland$user create user1
 New wallet created
 Address: user1:0xc50...0000
+homeland$ls /usr
+local-users
+-----------
+me -> /usr/me
+you -> /usr/you
+user1 -> /usr/user1
+
+remote-users 0
 ```
+
 #### Writing other users
 ```
 homeland$write me
-Hey dare, care for value exchange?
+Hey, care for value exchange?
 ^Z
 ```
 
@@ -116,11 +126,13 @@ homeland$pwd
 ```
 homeland$ls
 local services
+--------------
 app1 -> /node/homeland/apps/app1
 cmd1 -> /node/homeland/commands/cmd1
 tool1 -> /node/homeland/tools/tool1
 
 remote services
+---------------
 dapp1 -> /node/lapland/dapps/dapp1
 ```
 
