@@ -10,9 +10,9 @@
 #### List of native (Platform-specific) Binaries(s)
 
 * [mount](/bin/mount) - loads/unloads foreign WCS Networks
-* [ls](/bin/ls) - show list of services or current Users in the Ecosystem
-* [mv](/bin/mv) - allocate users in different sub-network
-* [whoami](/bin/whoami) -
+* [ls](/bin/ls) - show (l)ist of (s)ervices or current Users is used together with /usr 
+* [mv](/bin/mv) - allocate users in different sub-networks
+* [whoami](/bin/whoami) - shows current UUID (Universal-Unique-ID) in the WCS Ecosystem
 * [ps](/bin/ps) - process
 * [ping](/bin/ping) - ping
 * [telnet](/bin/telnet) - establish connection and echo server
