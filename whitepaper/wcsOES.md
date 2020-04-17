@@ -1,10 +1,5 @@
 # wcsO(E)S - WCS Operating Eco-System
 
-## Platform
-
-[realisation platform](platform.md) - wcsOS Linux based. Minimal distribution
-
-
 ## Use-cases
 
 __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stories
@@ -633,3 +628,8 @@ First step during implemenation consist of:
 1. Implement build.sh
    1. build
    1. /test.sh
+
+## Platform
+
+[realisation platform](platform.md) - wcsOS Linux based. Minimal distribution
+
