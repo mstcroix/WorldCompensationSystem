@@ -1,4 +1,4 @@
-## Agreement rules
+## (dis-)Agreement rules
 
 ### Dispute
 ### Draw
