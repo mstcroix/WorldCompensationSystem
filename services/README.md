@@ -14,4 +14,8 @@ Servers are normally executed during boot-up/startup time by system daemon (i.e.
 ```
 homeland$
 homeland$wcsServer &
+(C) 2020 World-Compensation Ecosystem
+Bootstrapping
+Starting-up
+OK Welcome
 ```
