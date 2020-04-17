@@ -2,6 +2,8 @@
 
 ## Use-cases
 
+[Applications](#Applications)
+
 ### Notation
 The following `code` sections provide the main use-case description.
 The current node (client or server) is specified before the $ (dollar) sign.
@@ -118,7 +120,7 @@ dapp1 -> /node/lapland/dapps/dapp1
 
 ### Applications, Services, Commands and Tools
 #### Applications
-Consider a (potentially immensely huge) decentralised repository or Applications (commands, tools, games, etc.) bound to a system of credits and debts. 
+Consider a (potentially immensely huge) decentralised repository of Applications (commands, tools, games, etc.) bound to a system of credits and debts. 
 Every execution of a given application debts a given amount of credits to the owner (see [users](/arch/users) for additional information on available owners) of the application.
 Credits are bound to specific functions of the application and not the the application (as whole) itself.
 This means, for example in a word processing application, the use of the “print” functionality will be only
