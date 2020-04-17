@@ -1,6 +1,7 @@
 # Citizen
 
 > 2a: membership in a community
+
 > b: the quality of an individual's response to membership in a community
 
 [souce:dictionary](https://www.merriam-webster.com/dictionary/citizenship)
