@@ -1,5 +1,9 @@
-## Distributed Commands, Services and Tools
+### Distributed System Binaries (Commands, Services and Tools)
 
-### List of Platform-specific Distributed Command(s)
+#### List of Platform-specific Distributed Binary(-es)
 
 ### Application Notes
+
+```
+homeland$
+```
