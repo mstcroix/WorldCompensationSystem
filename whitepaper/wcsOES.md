@@ -264,7 +264,7 @@ TX: Send pubkey
 RX:
 TX:
 RX:
-Rejectred . 0 Credits found
+Rejected . 0 Credits found
 ```
 
 ```
@@ -287,8 +287,6 @@ discovering users
 
 ```console
 homeland$connect
-```
-```
 connecting with local neighborhood
 1. peer-to-peer connection established. Hello node34
 2. peer-to-peer connection established. Hello
