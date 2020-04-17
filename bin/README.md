@@ -1,4 +1,4 @@
-### Binaries (Commands, Services and Tools)
+### System Binaries (Commands, Services and Tools)
 
 ```
 /bin/Tool1 -- Local Tool1 executable
