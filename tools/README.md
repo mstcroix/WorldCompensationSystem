@@ -15,4 +15,6 @@ Universal Ping
 Pinging 192.14.23.1
 Waiting for response
 OK Pong received after 126 ms
+homeland$
+homeland$
 ```
