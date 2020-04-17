@@ -15,7 +15,7 @@
 * [wcsAppTemplate](/apps/wcsApp) - WCS network DFApp Template (status:*planned*)
 
 ##### Dependencies
-/lang(/lang) - implementation language specific files
+[/lang](/lang) - implementation language specific files
 
 ### Application Notes
 
