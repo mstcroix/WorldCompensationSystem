@@ -2,7 +2,25 @@
 
 ### Concept
 
-Create a World Compensation Ecosystem based on Decentralised Financial Applications.
+Create a *System* based on Users and its related Files, Executables and Processes.
+  * [fs](/arch/fs) -- filesystem
+  * [users](/arch/users) -- users
+  * [commands](/arch/commands) -- users
+  * lang(/arch/lang) -- Programming Language(s)
+
+Create an *Eco*-system* based on Applications.
+  * operations(/arch/operations) -- Operations
+  * ledger(/arch/ledger) -- Ledger
+
+Create a *World* Ecosystem based on Decentralised Applications.
+  * [networking](/arch/networking) -- filesystem
+  * [dfs](/arch/dfs) -- Decentralised (remote and distributed) filesystem
+  * [citizen](/arch/citizen) -- Citizenship
+  * agreement(/arch/agreement) -- Agreement
+
+Create a World *Compensation* Ecosystem based on Decentralised Financial Applications.
+
+## Operating (Eco)-System
 
 __Implementation__:
 
