@@ -120,6 +120,17 @@ dapp1 -> /node/lapland/dapps/dapp1
 
 ### Applications, Services, Commands and Tools
 #### Applications
+Consider a (potentially immensely huge) decentralised repository or Applications (commands, tools, games, etc.) bound to a system of credits and debts 
+Every execution of a given application debts a given amount of credits to the owner (see [users](/users) for for information of possible owners) of the application
+Credits are bound to specific functions of the application and not the the application (as whole) itself.
+This means, for example in a word processing application, the use of the “print” functionality will be only
+debted to the owner only when it’s *used*.
+Transfer of value, from user to owner is foreseen as any of the different schemas:
+- Buy (number of executed unlimited, once 'purchasing cost' is debted once in fully)
+- Rental (number of executions unlimited, time constrained (rental time))
+- Licensing (number of executions unlimited once license cost debted once in fully)
+- Pay as you go (debted if used)
+
 use '$apps' for a listing of currently available user-services
 use '$dapps' for a listing of remotely available user-services
 
