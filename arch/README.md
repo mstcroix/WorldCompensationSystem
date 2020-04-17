@@ -15,7 +15,7 @@ Create an *Eco*-system based on Applications.
   * ledger(/arch/ledger) -- Ledger
 
 Create a *World* Ecosystem based on Decentralised Applications.
-  * [networking](/arch/networking) -- filesystem
+  * [networking](/arch/networking) -- Networking
   * [dfs](/arch/dfs) -- Decentralised (remote and distributed) filesystem
   * [citizen](/arch/citizen) -- Citizenship
   * agreement(/arch/agreement) -- Agreement
