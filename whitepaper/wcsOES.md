@@ -2,10 +2,10 @@
 
 ## Use-cases
 
-[Documentation (Help and Manuals)](#Ask for Help)
-[File System](#File-System)
-[User Management](#User management)
-[Applications](#Applications)
+* [Documentation, Help and Manuals](#Ask for Help)
+* [File System](#File-System)
+* [User Management](#User management)
+* [Applications](#Applications)
 
 ### Notation
 The following `code` sections provide the main use-case description.
