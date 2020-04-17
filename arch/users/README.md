@@ -73,11 +73,3 @@ I send 1 EUR via PayPal to someone so he can pay to consume the network client
     Block Chain: all transfers done based on this source of value creation (different sources co-exist
 
     $consumers create
-
-# User-Management
-
-### List of native (off-the-shelf) User-management Tools(s)
-
-* [tooln](/user/tooln) - Echo (status:*planned*)
-
-### Application Notes
