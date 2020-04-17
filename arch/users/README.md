@@ -22,38 +22,52 @@
 
 ## User-Ownership
 
-Transfer of 'value' via exchange of ownership
+Users have freedom and right of ownership.
+Typical cases of ownership are:
+- self-production
+- transfer (with our without symmetric exchange, for example: a gift)
+- inheritance
+- auction
+- default
+- donation / charity
+- settlement
 
-Store ownership (public key signature) in community ledger
-(A trusted centralised non-biased “virtual” entity responsible for the community wellbeing (consejo), stored decentralised)
+Ownership (public key signature) is stored in the next local community ledger.
+A *community ledger* is an inherent trusted centralised non-biased “virtual” data-structure capable of recording the transactions and accounting of all members in the community for the only purpose of ensuring its perpetuity and wellbeing
 
+## User-Transaction
 
-## New Users -- First point of contact
+Value creation (Transfer of 'value') is generated via exchange of ownership.
+
+>For example, I produce an 'artwork' (I therefore own it), value it (number of credits) and exchange it with someone else for the publicly available amount (value in credits)
+
+## User-Creation
 
 ### Use-case: Monetary Incentive to join
-I send 1 EUR via PayPal to someone so he can pay to consume the network client
+I send 1 EUR via PayPal to someone so he can pay the required cost of joining the #WCS_Network (i.e. consume the network client and/or membership fee)
 
 ### Use-case: Affiliation (initial membership)
-   User A meets User B
-   User A knows about #WCS and invites B to join.
-   	A Downloads its light-client. Address and Wallet is created during first start of Client. User A selected “picture” based as authentication option
-   	A invites B to join via private (SMS) message
-   User B receives messages. Accepts invitation, follows link and download light-client
-   	B has now a wallet and Universal Address. User B selects “pass-phrase” as authentication mechanism option
+   * User A knows about #WCS_Network and becomes a member
+       * A Downloads its light-client.
+           * Address and Wallet is created during first start of Client. 
+           * User A selected “picture” based as authentication option
+   * User A meets User B
+   * User A invites B to join the #WCS_Network.
+       * A invites B to join via private (SMS) message
+   * User B receives message. Accepts invitation, follows link and download light-client
+       * B has now a wallet and Universal Address. 
+       * User B selects "pass-phrase" as authentication mechanism option
 
-    Bootstrapping
+    //Bootstrapping
     User a: 0 credits
     User b: 0 credits
-    Produce something
+    
+    //Produce something (for example, take a picture with Mobile-phone, write something on text-editor, draw)
     $upload picture1.jpeg
-    Book
-    Poem
-    Diagram
-    Notes.txt
-    Recept
-    Patent!!!
+    $upload data.txt (Book, Poem, Notes.txt, Recept, Code, Intellectual-Property (Patent))
+    $upload Diagram
 
-    Transfer value (ownership transfer)
+    //Transfer value (ownership transfer)
     usera$send picture1.jpeg userb
 
 
