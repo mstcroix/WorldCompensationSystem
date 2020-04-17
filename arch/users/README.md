@@ -77,6 +77,11 @@ I send 1 EUR via PayPal to someone so he can pay to consume the network client
 ## User-Management (/usr)
 
 ```
+---------------
+/usr/ - connected user addresses (analog to /mnt)
+```
+
+```
 /usr/#nodeuuid{publickey:addresshash:alias:inbox}
 ```
 
