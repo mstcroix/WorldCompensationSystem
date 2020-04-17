@@ -10,7 +10,7 @@ Create a *System* based on Users and its related Files, Executables and Processe
   * lang(/arch/lang) -- Programming Language(s)
 
 Create an *Eco*-system* based on Applications.
-  * [apps](/arch/apps) -- applications (generalization for commands, services and tools)
+  * [apps](/arch/apps) -- applications (Client/Server generalization for commands, services and tools)
   * operations(/arch/operations) -- Operations
   * ledger(/arch/ledger) -- Ledger
 
