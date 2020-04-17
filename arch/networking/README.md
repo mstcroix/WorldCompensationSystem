@@ -6,17 +6,6 @@ A network of
 
 Network *Growth*: Organic. It grows as needed, based on demand an resource availability (value cannot be created out of nothing)
 
-### Trust
-
-Trust is build up organically
-Usually only on direct peer/to/peer basis (or reputation based)
-(You only need to “know” someone to get started)
- or create (“produce”) something of value to exchange in the network
-
-Turing complete: read tape of Blockchained-ledgers
-State storage: Single
-Root hash (Merkle tree)
-
 ### Discovery
 
 #### 2-Way (P2P)-Messaging
