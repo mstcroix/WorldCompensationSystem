@@ -11,12 +11,16 @@
 * [Tool1](/bin/Tool1) - Local Tool Template
 
 #### List of System Binary(-es) //Platform-specific 
-
+#### Commands
 * [mount](/bin/mount) - loads/unloads foreign WCS Networks
 * [ls](/bin/ls) - show (l)ist of (s)ervices or current Users is used together with /usr 
 * [mv](/bin/mv) - allocate users in different sub-networks
 * [whoami](/bin/whoami) - shows current UUID (Universal-Unique-ID) in the WCS Ecosystem
+
+#### Services
 * [ps](/bin/ps) - process
+
+#### Tools
 * [ping](/bin/ping) - ping
 * [telnet](/bin/telnet) - establish connection and echo server
 * [mailto](/bin/mailto) - use mail-alies to transfer transfer value-assets in the network
