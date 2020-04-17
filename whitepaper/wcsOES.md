@@ -177,6 +177,9 @@ use '$commands' for a listing of available operation commands
 
 ```
 homeland$commands
+INFO: alias to ($ls /commands)
+15 native commands, 0 third-party commands
+
 operations
 ----------
 credits - credits are gained by certain proof-of-work
@@ -202,6 +205,7 @@ accept/service - accept offer
 send - transfer asset to otheruser
 reputation - get/set reputation-value (quadratic-voting) to given asset
 
+commands 0
 ```
 
 ##### Running local command system-service
@@ -213,6 +217,7 @@ running cmd1
 #### Tools
 ```
 homeland$tools
+INFO: alias to ($ls /tools)
 2 tools
 
 telnet - (0 credit:government:culture)
