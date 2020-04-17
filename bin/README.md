@@ -2,7 +2,7 @@
 
 ```
 /bin/Tool1 -- Local Tool1 executable
-/bin/Tool/spec -- (external) interface specification
+/bin/Tool1/spec -- (external) interface specification
 /bin/Tool1/src -- source code
 /bin/Tool1/test -- test
 ```
@@ -17,6 +17,11 @@
 * [ping](/bin/ping) - ping
 * [telnet](/bin/telnet) - establish connection and echo server
 * [mailto](/bin/mailto) - use mail-alies to transfer transfer value-assets in the network
+
+* [Cmd1](/bin/Cmd1) - Local Command1 Template
+* [Ser1](/bin/Serv1) - Local Service (daemon) Template
+* [Tool1](/bin/Tool1) - Local Tool Template
+
 
 ### Application Notes
 
