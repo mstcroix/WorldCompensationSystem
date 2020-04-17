@@ -73,3 +73,15 @@ I send 1 EUR via PayPal to someone so he can pay to consume the network client
     Block Chain: all transfers done based on this source of value creation (different sources co-exist
 
     $consumers create
+
+## User-Management (/usr)
+
+```
+/usr/#nodeuuid{publickey:addresshash:alias:inbox}
+```
+
+for example
+
+```
+/usr/{0xdc5..0345:0x1234567:mstcroix:mstcroix@protonmail.com}
+```
