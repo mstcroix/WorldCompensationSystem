@@ -2,8 +2,6 @@
 
 ## Use-cases
 
-__Keywords__: Socratic thinking, design thinking, Agile methodologies, user stories
-
 ### Notation
 The following `code` sections provide the main use-case description.
 The current node (client or server) is specified before the $ (dollar) sign.
@@ -664,6 +662,9 @@ homeland$gift 3 user3 /user3/birthday
 ````
 
 # Implementation
+
+__Keywords__: Socratic thinking, design thinking, Agile methodologies, user stories
+
 The `code` sections provided at each of the main use-case descriptions specified the required behaviour as seen from the user (client or server) perspective specified before the $ (dollar) sign.
 
 For example:
