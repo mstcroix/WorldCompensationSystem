@@ -15,7 +15,7 @@
 
 
 ##### Dependencies
-/lang(/lang) - implementation language specific files
+[/lang](/lang) - implementation language specific files
 
 #### List of registered (third-party) DApp(s)
 
