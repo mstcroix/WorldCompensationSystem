@@ -8,6 +8,7 @@
 * [Applications](#Applications)
 * [Services](#Services)
 * [Commands](#Commands)
+* [Tools](#Tools)
 
 ### Notation
 The following `code` sections provide the main use-case description.
