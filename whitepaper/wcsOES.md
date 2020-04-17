@@ -2,6 +2,9 @@
 
 ## Use-cases
 
+[Documentation (Help and Manuals)](#Ask for Help)
+[File System](#File-System)
+[User Management](#User management)
 [Applications](#Applications)
 
 ### Notation
@@ -35,7 +38,7 @@ homeland$who
 me       tty0  Jan 28 14:30
 you      tty0  Apr 17 21:44
 homeland$whoami
-you       tty0  Apr 17 21:44
+you      tty0  Apr 17 21:44
 ```
 
 ### Ask for Help
@@ -99,7 +102,7 @@ Hey dare, care for value exchange?
 homeland$home
 ```
 
-### File-System (Minimum commands)
+### File-System
 #### Present working directory (pwd)
 ```
 homeland$pwd
