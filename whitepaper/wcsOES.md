@@ -6,6 +6,12 @@ __Keywords__: Socratic thinking, design thinking, Agile methodologies, user stor
 
 ### Notation
 The following `code` sections provide the main use-case description.
+The current node (client or server) is specified before the $ (dollar) sign.
+
+For example, node 'homeland' is described as followin:
+```
+homeland$
+```
 
 ### Welcome user
 ```
@@ -18,15 +24,17 @@ homeland$
 `help`, `man` or check [our documentation](../documentation).
 
 ```
+//return bin/* - head -n 1 bin/*/README.md
 homeland$help
 home - return home
 whoami - who am I
 pwd - present working directory
-ls <folder>
+ls - list services
 ver - current version
 ```
 
 ```
+//return arg/spec/README.md
 homeland$man ver
 NAME
   ver -- display current platform version
