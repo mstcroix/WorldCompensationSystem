@@ -23,6 +23,7 @@
 
 ### Application Notes
 
+#### Commands
 ```
 homeland$
 homeland$whoami
@@ -46,3 +47,9 @@ homeland$/apps/App1 &
 homeland$ps
 /apps/App1 running. 5 users connected
 ```
+
+#### Tools
+
+#### Services
+
+
