@@ -19,3 +19,13 @@ Bootstrapping
 Starting-up
 OK Welcome
 ```
+
+```
+homeland$
+homeland$wcsStart &
+World Compensation System server (wcss) running
+Listening on port:280182
+homeland$
+homeland$wcsStatus
+Status: OK
+```
