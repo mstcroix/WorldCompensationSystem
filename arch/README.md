@@ -48,22 +48,24 @@ __Topology__: Flower or Tree-of-Life (sacred geometry star 1:N, N:=6)
 
 __Nodes__:
 
-```
 Full-nodes:
- - store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
+ - store the complete history (inputs and the corresponding output) of command-blocks ("command blocks" are a series of interactions (a.k.a transactions) executed between a Client and a Server either as:
+ a) geographically distributed Peers (P2P) or 
+ b) locally adjacent (analog to batch-files)
+
 Light-nodes:
  - store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
 
-
- (light-Node) User : reads, modifies and stores state in Blockchain
+User : reads, modifies and stores state in Blockchain (typically a *light-Node*) 
  - In browser (js Linux machine)
  - Web App
  - Mobile App
 
- full-Node (service provider server) : offers (shares) execution time
- - USB live CD
+Service provider (server) : offers (shares) execution time (typically implemented as  *full-Node*)
+ - USB 
+ - live CD
  - Floppy disk
-```
+
 ### Local File-system
 
 Refer to [/arch/fs](/arch/fs)
@@ -92,10 +94,11 @@ Refer to [support tools](/tools/).
 #### Network Startup
 
 ```
-$wcsStart &
+homeland$
+homeland$wcsStart &
 World Compensation System server (wcss) running
 Listening on port:280182
-
-$wcsStatus
+homeland$
+homeland$wcsStatus
 Status: OK
 ```
