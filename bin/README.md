@@ -9,14 +9,14 @@
 
 #### List of native (Platform-specific) Binaries(s)
 
-[mount](/bin/mount) - loads/unloads foreign WCS Networks
-[ls](/bin/ls) - show list of services or current Users in the Ecosystem
-[mv](/bin/mv) - allocate users in different sub-network
-[whoami](/bin/whoami) -
-[ps](/bin/ps) - process
-[ping](/bin/ping() - ping
-[telnet](/bin/telnet) - establish connection and echo server
-[mailto](/bin/mailto) - use mail-alies to transfer transfer value-assets in the network
+* [mount](/bin/mount) - loads/unloads foreign WCS Networks
+* [ls](/bin/ls) - show list of services or current Users in the Ecosystem
+* [mv](/bin/mv) - allocate users in different sub-network
+* [whoami](/bin/whoami) -
+* [ps](/bin/ps) - process
+* [ping](/bin/ping) - ping
+* [telnet](/bin/telnet) - establish connection and echo server
+* [mailto](/bin/mailto) - use mail-alies to transfer transfer value-assets in the network
 
 ### Application Notes
 
