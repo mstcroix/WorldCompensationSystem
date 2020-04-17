@@ -268,6 +268,10 @@ invested 0
 ```
 homeland$send 2 user1
 Sending 2 Credits to /users/user1
+Rejected . 0 Credits found
+
+homeland$send 2 user1 --verbose
+Sending 2 Credits to /users/user1
 TX: Send pubkey
 RX:
 TX:
@@ -305,17 +309,21 @@ OK service-connection established. Hello homequarters (@WCS00.org) time:34.251 m
 ```
 homeland$ls
 local services
+--------------
 app1 -> /node/homeland/apps/app1
 cmd1 -> /node/homeland/commands/cmd1
 tool1 -> /node/homeland/tools/tool1
 
 remote services
+---------------
 dapp1 -> /node/lapland/dapps/dapp1
 
 local-users
+-----------
 me -> /users/me
 
 neighborhood
+------------
 user1 -> /neighborhood/nod35/user1
 ```
 
@@ -323,10 +331,10 @@ user1 -> /neighborhood/nod35/user1
 ```
 homeland$ls nations
 local-nation
+------------
 nation1 -> /federation/ethereum/ethnation1
 bitcoin -> /bitcoin/BTC
 rsk -> /rif_os/rsk/Rootstock
-
 ```
 
 ```
@@ -365,33 +373,41 @@ scientific.phsychedelics (945 Users)
 ### Donate
 ```
 homeland$donate -idle neighborhood
-thank you
+idle time donated. Thank you
 ```
 
 ### Contribute to Nation's taxes
 ```
 homeland$tax 8
-contribute to local nation 8hrs full-time
+contribute to (default) local nation1 8hrs full-time
 completed (8 Credits)
 ```
 
 ### Value Creation (out-of-thin-air)
+
+#### IDLE-Time
 ```
 homeland$offer -idle federation1
 offering local idle-time for federation1
 ```
 
+#### Local-resources
+Published Local-resources are included in a globally available listing. It includes the set of available applications (programs, services, commands, tools) owned and explicitly shared by the current user
 ```
+homeland$publish /sha256optimised nation1
+/usr/me/sha256optimised is now shared for public use to nation1
+
 homeland$offer 8
-offering local-resources for 8hrs nation (default)
+offering 8hrs local-resources for nation 1 (default)
 rejected (not enough resources)
 ```
 
 ```
 homeland$offer 6
-offering local-resources for 6hrs nation (default)
-accepted
-completed. thank you (6 Credits granted)
+offering l6hrs ocal-resources for nation (default)
+accepted 23:10
+completed 05:10 
+thank you (6 Credits granted)
 ```
 
 ### Credits
@@ -402,6 +418,10 @@ homeland$credits
 
 ### Value Transfer - Request for service
 ```
+homeland$value tetris
+/usr/company/gameco/tetris
+2 credits 
+
 homeland$tetris
 running tetris..
 ..
@@ -424,34 +444,35 @@ homeland$assets --all
 3 assets
 
 borrowed/leasing
+----------------
 tetris - (0 Leasing Credits left:16:company:gameco:*)
 
 licensed
+--------
 doomclone - (34 Credits licensed:1564355:user:girx34:****)
 
 invested
+--------
 kernel - (2 Credits invested:0.0000 earned:6463872355:community:linux.org:*****)
 
-membership
+0 membership
 ```
 
 #### Communities
 ```
 homeland$ls communities
 communities
+-----------
 community1
 
 homeland$greetings community1 me --verbose
-$greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
+>greetings community1 me{pubkey:address:nodeuuid:useralias:mail}
 >>me:localledger /users/me/localledger/community1
 >>me:credentials me{pubkey:address:nodeuuid:useralias:mail}
 >>me:greetings community1
-
 >>community1:validating all-transactions found (credentials: (community1,'me'))
-
-  TX0735 with user1:abc -> via community1:user1
-  TX1622 with cool99:xyz -> via community1:cool99
-
+TX0735 with user1:abc -> via community1:user1
+ TX1622 with cool99:xyz -> via community1:cool99
 >>community1:validation OK
 >>community1:welcome back me
 0 Credits
@@ -495,12 +516,10 @@ DOWN
 ```
 homeland$dapp1 --verbose --debug
 connection established (@lapland)
-
 DEBUG: Exchange pubkey:me@homeland
 DEBUG: 1 Debit Credit to me@homeland (-1 Debit Credit, 2 Remaining Credits in Total)
 DEBUG: License key received (privatekey)
 DEBUG: run dapp1@lapland using privatekey
-
 running 'dapp1@lapland' with parameters:
   --key privatekey
   --in-data-chunk=/users/me/dapp1data
@@ -554,13 +573,16 @@ cmd1 -> /node/homeland/commands/cmd1
 tool1 -> /node/homeland/tools/tool1
 
 remote services
+---------------
 myapp1 -> /node/homeland/me:/myapp1
 dapp1 -> /node/lapland/dapps/dapp1
 
 local-users
+-----------
 me -> /users/me
 
 neighborhood
+------------
 user1 -> /neighborhood/nod35/user1 (light-consumer)
 lapland -> /neighborhood/lapland/root (full-provider)
 ```
@@ -568,16 +590,19 @@ lapland -> /neighborhood/lapland/root (full-provider)
 ```
 homeland$rate dapp1 ***
 Awesome tool. Thank you!
+^Z
 ```
 
 ```
 homeland$SMS user1
 Just tried '/homeland/dapp1' out. Is worth taking a look.
+^Z
 ```
 
 ```
 homeland$share dapp1 user1 2
 Hey! Check '/homeland/dapp1' out. You are going to loooove it!
+^Z
 Timeout set to 2 hours
 ```
 
@@ -599,17 +624,16 @@ restored (homeland)
 dapp1 -> /node/lapland/dapps/dapp1
 ```
 
-# Application Notes
-## Borrow service
+### Borrow service
 ```
 homeland$read ebook1 1
 1 Credits for read-right granted
 ```
 
-## Service production and consumption
+### Service production and consumption
 
 Use case:
-I want to know the outside temperature, but I don’t have a thermometer
+* I want to know the outside temperature, but I don’t have a thermometer
 
 Neighbour offers has a temperature sensor
 
@@ -652,7 +676,7 @@ Picture path: /users/foto.jpeg
 ## Snapshot
 ````
 homeland$man snap
-- snap
+snap - snapshot
 ````
 
 ````
