@@ -15,8 +15,8 @@
 
 ### Releases
 
-1. Releases [plan](releases.md)
 1. Roadmap
+1. Releases [plan](releases.md)
 
 ### Integration
 
