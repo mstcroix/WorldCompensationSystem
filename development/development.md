@@ -1,5 +1,4 @@
 # Development & Realisation Plan
-Plan
 
 ## Platform
 Node Targets:
@@ -9,16 +8,12 @@ Node Targets:
 - smartphone
 - actual computer (i.e. MacBook Air, ThinkPad X6)
 
-## Distributed Ledgers
+### Distributed Ledgers
 Blockchain:
 - Ethereum: Getth (private, testnet (Rinkeby))
 - IoT
 - [Holochain](https://holo.host/whitepapers/)
 - 
-
-## Documentation
-[x] Markdown
-[ ] PDF
 
 ## Tools
 
@@ -26,13 +21,14 @@ Blockchain:
 * Python
 * Compilers
 
+* [ipfs](https://ipfs.io/) - Interplanetary File-System (based on Blockchain)
+- [Plan 9](https://9p.io/plan9/) - Bell Labs research (Operating) system
+
 ### Support-Tools
 * [] vfsync (https://vfsync.org)
 * [] incubed in3
 * [] Geth
 * [] coyotelinux
-
-- [Plan 9](https://9p.io/plan9/) - Bell Labs research (Operating) system
 
 - [neo4j]() - Graph Database
 
@@ -40,8 +36,11 @@ Blockchain:
 - [128-bit OS](https://bellard.org/tinyemu/) - 128-bit RISC OS
 - [quickjs](https://bellard.org/quickjs/) - Embeddable Javascript engine
 
-* [ipfs](https://ipfs.io/) - Interplanetary File-System (based on Blockchain)
 
-### Community
-[x] Gitter
-[] Slack
+## Community-Tools
+* [x] Gitter
+* [] Slack
+
+### Documentation-Tools
+- [x] Markdown
+- [ ] PDF
