@@ -13,7 +13,6 @@ Blockchain:
 - Ethereum: Getth (private, testnet (Rinkeby))
 - IoT
 - [Holochain](https://holo.host/whitepapers/)
-- 
 
 ## Tools
 
