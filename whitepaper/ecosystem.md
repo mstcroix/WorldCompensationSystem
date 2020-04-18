@@ -4,7 +4,7 @@
 
 > Nature demonstrates that decentralized systems can be resilient and can produce emergent complexity and incredible sophistication without the need for a central authority, hierarchy, or complex parts.
 
-[aantonop](https://github.com/bitcoinbook/bitcoinbook/blob/df1828b7205a5950a16a3182cf9b15421ee70658/preface.asciidoc)
+[A. Antonopoulos](https://github.com/bitcoinbook/bitcoinbook/blob/df1828b7205a5950a16a3182cf9b15421ee70658/preface.asciidoc)
 
 ## Terms
 Ecosystem:
