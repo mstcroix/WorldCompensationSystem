@@ -9,3 +9,5 @@
 | RK1 | | testnet |
 | *Beta*  | mainnet |
 | __R1__  | mainnet |
+
+Refer to Customer [requirements](customer.md)
