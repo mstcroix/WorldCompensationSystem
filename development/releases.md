@@ -1,8 +1,8 @@
 # Release Plan
 ## Releases
 
-| Release | Requirements  | Network|  |
-| --- | --- | --- | --- | --- |
+| Release | Requirements  | Network | 
+| --- | --- | --- |
 | DV1 | REQ1, REQ2 | localhost |
 | DV2 | REQ3 | WLAN |
 | *Alpha* | testnet |
