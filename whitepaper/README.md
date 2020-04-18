@@ -2,35 +2,46 @@
 ## Table-of-contents
 
 # World Compensation (Eco-)System
+## Terms
+## Sub-Terms (used by previous definitions) 
 1. wcsO(E)S - WCS Operating Eco-System
-   1. Platform
    1. Use-cases
       1. Notation
-      1. Welcome home
-      1. Help
+      1. A Session with wcsOES 
+      1. Welcome user
+      1. Ask for Help
          1. View description manual
+      1. Execute ver ('get local version') command
       1. User management
-      1. File-System (Minimum commands)
+         1. Listing users (ls -u)
+         1. Create user
+         1. Writing other users
+         1. Return home
+      1. File-System
          1. Present working directory (pwd)
-         1. Listing files (ls)
+         1. Listing services (ls)
       1. Applications, Services, Commands and Tools
-         1. Running local tool system-service
-         1. Running local command system-service
-         1. Running local user-application
-         1. Running remote user-application
+         1. Applications
+1.         1. Running *local* user-application
+1.         1. Running *remote* user-application
+         1. Services
+1.         1. Running local tool system-service
          1. Commands
+1.         1. Running local command system-service
          1. Tools
       1. Local Services
          1. Financial
          1. Asset Management
-      1. Value Operations
-         1. Transactions
+1.         1. Value Operations
+1.         1. Transactions
       1. Distributed Services
       1. Group citizenship
       1. Work -- Get Idle Task (according to current citizenship)
       1. Donate
       1. Contribute to Nation's taxes
       1. Value Creation (out-of-thin-air)
+         1. IDLE-Time
+         1. Local-resources
       1. Credits
       1. Value Transfer - Request for service
       1. Value Transfer - Investment
@@ -44,36 +55,45 @@
    1. Financial services
       1. Lend User-service
       1. Claim lend User-service
-1. Application Notes
-   1. Borrow service
-   1. Service production and consumption
+      1. Borrow service
+      1. Service production and consumption
    1. Wallet
    1. Snapshot
    1. Application management
+1. Implementation
+   1. Platform
 
 ## (Eco-)System Application notes
 ### Examples
 ```
 homeland$
+homeland$
+homeland$date
+homeland$who
+homeland$whoami
 homeland$help
 homeland$man ver
 homeland$ver
-homeland$home
+homeland$ls -u
 homeland$user create user1
+homeland$ls /usr
+homeland$write me
+homeland$home
 homeland$pwd
 homeland$ls
-homeland$stat
-homeland$cmd1 --verbose
+homeland$apps
 homeland$app1 --verbose
 homeland$dapp1 --verbose
+homeland$stat
 homeland$commands
+homeland$cmd1 --verbose
 homeland$tools
-homeland$apps
 homeland$wallet
 homeland$credits
 homeland$debts
 homeland$assets
 homeland$send 2 user1
+homeland$send 2 user1 --verbose
 homeland$credit tetris
 homeland$neighborhood
 homeland$discover
@@ -86,9 +106,11 @@ homeland$idle federation1
 homeland$donate -idle neighborhood
 homeland$tax 8
 homeland$offer -idle federation1
+homeland$publish /sha256optimised nation1
 homeland$offer 8
 homeland$offer 6
 homeland$credits
+homeland$value tetris
 homeland$tetris
 homeland$credits
 homeland$invest kernel.org 2
@@ -118,7 +140,7 @@ homeland$ls -al /dapps
 homeland$lend 3 user1 2020-06-31 0.001
 homeland$gift 3 user3 /user3/birthday
 ```
-### Applications
+### Applications (Apps)
 /apps:
 
 ```
@@ -128,25 +150,43 @@ homeland$gift 3 user3 /user3/birthday
 /apps/<Domain>/App1/test -- test
 ```
 
-#### List of supported Application(s)
-* [wcsUTelnet](wcs) - Telnet (status:*planned*)
-* [wcsPFtp](wcs) - wcs:Protocol interpreter : File-Transfer (status:*planned*)
-* [wcsPHtpp](wcs) - HTML eXchanger (status:*planned*)
+#### List of native App(s)
+* [wcsUTelnet](/apps/wcsUTelnet) - Telnet (status:*planned*)
+* [wcsPFtp](/apps/wcsPFtp) - wcs:Protocol interpreter : File-Transfer (status:*planned*)
+* [wcsPHtpp](/apps/wcsPHtpp) - HTML eXchanger (status:*planned*)
+
+* [wcsAppTemplate](/apps/wcsApp) - WCS network DFApp Template (status:*planned*)
 
 ##### Dependencies
-/lang - implementation language specific files
+[/lang](/lang) - implementation language specific files
 
 ### Application Notes
 
+```
+homeland$
+homeland$wcsUTelnet 192.0.0.1:5001
+(C) 2020 World-Compensation Ecosystem
+Universal Telnet
+Connecting with: 192.0.0.1 Port: 5001
+OK   Connection accepted
+WAIT Waiting for commands
+```
+
 #### Digital signatures
 ```
-49bf9fabbb31ca80119c72109b914708  ./apps/README.md
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 52: 22306 Abort trap: 6           md5sum ./$d/*.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 49bf9fabbb31ca80119c72109b914708 apps/README.md |
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+| README.md | |
 
-### Distributed Apps
+### Distributed Applications (DApps)
 /dapps:
 
 ```
@@ -156,38 +196,76 @@ homeland$gift 3 user3 /user3/birthday
 /dapps/<Domain>/DApp1/test -- test
 ```
 
-#### List of native DFApp(s)
+#### List of native DApp(s)
 
-* [wcsDFAppDeductor {src, dst}](wcs) - Deduces 10% from src *monthly* into dst (status:*planned*)
+* [wcsDApp](/dapps/wcsDApp) - WCS remote (network) Distributed Application
 
-* [wcsDFAppTemplate](wcsDFApp) - WCS network DFApp Template (status:*planned*)
+* [wcsDAppTemplate](/dapps/wcsDAppTemplate) - WCS network DApp Template (status:*in progress*)
 
-#### List of registered third-party DFApp(s)
+
+##### Dependencies
+[/lang](/lang) - implementation language specific files
+
+#### List of registered (third-party) DApp(s)
 
 
 #### Application Notes
 
+```
+homeland$
+homeland$wcsDAppTemplate
+(C) 2020 World-Compensation Ecosystem
+Remote Application Template
+Local machine is: 127.0.0.1
+Running remotely on 192.14.3.1
+Finished
+homeland$
+```
+
 #### Digital signatures
 ```
-8bac8aaca025fbaed5d9753a66a1b7cd  ./dapps/README.md
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 52: 22312 Abort trap: 6           md5sum ./$d/*.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 8bac8aaca025fbaed5d9753a66a1b7cd dapps/README.md |
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+| README.md | |
 
-head: commands/README.md: No such file or directory
-
+### Third-Party Commands
 /commands:
-tail: commands/README.md: No such file or directory
+
+#### List of supported Commands(s)
+
+* [wcsUStatus](wcs) - Echo (status:*planned*)
+
+
+### Application Notes
+
+```
+homeland$
+homeland$wcsUStatus
+(C) 2020 World-Compensations Ecosystem
+Universal Status
+```
 
 #### Digital signatures
 ```
-md5sum: stat './commands/*.md': No such file or directory
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 52: 22317 Abort trap: 6           md5sum ./$d/*.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-md5sum: stat 'commands/*.md': No such file or directory
-| GLOSSARY.md README.md whitepaper.md | |
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+| README.md | |
 
 head: operations/README.md: No such file or directory
 
@@ -196,80 +274,165 @@ tail: operations/README.md: No such file or directory
 
 #### Digital signatures
 ```
-md5sum: stat './operations/*.md': No such file or directory
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 52: 22322 Abort trap: 6           md5sum ./$d/*.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-md5sum: stat 'operations/*.md': No such file or directory
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
 | GLOSSARY.md README.md whitepaper.md | |
 
-## Tools
+### Third-Party Tools
 /tools:
 
-### List of native (off-the-shelf) Tool(s)
+#### List of Third-Party (off-the-shelf) Tool(s)
 
 * [wcsUPing](wcsPing) - wcs:Util : Ping (status:*planned*)
 * [wcsUEcho](wcs) - Echo (status:*planned*)
 
 ### Application Notes
 
+```
+homeland$
+homeland$wcsUPing 192.14.23.1
+(C) 2020 World-Compensation Ecosystem
+Universal Ping
+Pinging 192.14.23.1
+Waiting for response
+OK Pong received after 126 ms
+homeland$
+homeland$
+```
+
 #### Digital signatures
 ```
-d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 52: 22327 Abort trap: 6           md5sum ./$d/*.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | d89cf07d2b13a22deec08c0c4ed9266e tools/README.md |
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+| README.md | |
 
-### Services
+### Third-Party Services
 /services:
 
-#### List of supported System-Service(s)
+#### List of native System-Service(s)
 
 * [wcsServer](wcsServer) - World Compensation System server (status:*planned*)
 
+##### Dependencies
+[/lang](/lang) - implementation language specific files
+
+### Application Notes
+
+Servers are normally executed during boot-up/startup time by system daemon (i.e. initd). Its execution requires admin-rights and once they are started remain persistent (they can not be stopped)
+
+```
+homeland$
+homeland$wcsServer &
+(C) 2020 World-Compensation Ecosystem
+Bootstrapping
+Starting-up
+OK Welcome
+```
+
 #### Digital signatures
 ```
-086f662610232b3d3c823e5af2138bce  ./services/README.md
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 52: 22332 Abort trap: 6           md5sum ./$d/*.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | 086f662610232b3d3c823e5af2138bce services/README.md |
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+| README.md | |
 
 ## Architecture
 /arch:
 
 ### Concept
 
-Create a World Compensation Ecosystem based on Decentralised Financial Applications.
+Create an *System* based on Users (including its possessions such as Files, Executables and Resources) and Groups of Users interacting with each other.
+  * [fs](/arch/fs) -- filesystem
+  * [users](/arch/users) -- users
+  * [bin](/arch/bin) -- system binaries (commands, services and tools)
+
+Create an *Eco*-system based on a community of publicly available Products and Services.
+  * [apps](/arch/apps) -- applications (Client/Server generalization for commands, services and tools)
+  * operations(/arch/operations) -- Operations
+  * ledger(/arch/ledger) -- Ledger
+
+Create a *World* Ecosystem based on Decentralised Applications.
+  * [networking](/arch/networking) -- Networking
+  * [dfs](/arch/dfs) -- Decentralised (remote and distributed) filesystem
+  * [citizen](/arch/citizen) -- Citizenship
+  * agreement(/arch/agreement) -- Agreement
+  * dbin(/arch/dbin) -- Decentralised binaries (commands, services and tools)
+
+Create a World *Compensation* Ecosystem based on a decentralised Credits and Debts mechanism which makes an appropaiate counterbalancing payment.
+  * dfapps(/arch/dfapps) -- Decenralised Financial applications (Client/Server generalization for commands, services and tools)
+
+## System
 
 __Implementation__:
 
 * Operation System (including fs, dfs, time-shared applications)
-
-[wcsOS](http://wikipedia.com/wiki/wcsOS) -- linux based distribution
+  * [wcsOS](http://wikipedia.com/wiki/wcsOS) -- linux based distribution
 
 __Layers__:
 
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system (dfsWcs)
+
+## (Eco)-System
+
 1. Nodes are Servers
+1. Users are Clients
+1. Clients and Servers interact via read/write file operations with eachother
+
+## World Ecosystem
+
 1. Servers
    1. run System- and Users-services
    1. route User- and System- interactions (transactions)
-1. Users are Clients
-1. Clients decide to participate or not (mounting/unmounting) as service suppliers in the network
-1. Clients interact with other Clients
-1. Clients request services from Servers (service suppliers)
-   1. Via Remote Procedure Call (RPC) returning values in JSON format
-1. Clients transfer value-assets to single or multiple-users or services
-1. Light-Clients connect and use the network only for short-time (SMS, PPP)
-1. Value-assets are represented via Addresses in the Distributed File system
-1. Clients and Servers interact via read/write file operations with eachother
-1. Servers providing User-services are debted certain agreed amount per-use
-1. Servers providing System-services are debted an agreed amount per-use, daily, monthly or yearly on donation basis
+1. Clients 
+   1. decide to participate or not (mounting/unmounting) as service suppliers in the network
+   1. interact with other Clients
+   1. request services from Servers (service suppliers)
+     1. Via Remote Procedure Call (RPC) returning values in JSON format
+   1. transfer value-assets to single or multiple-users or services
 
+## World Compensation Ecosystem
 
+1. Value / Assets
+    1. Value-assets are represented via Addresses in the Distributed File system
+    1. Servers providing User-services are debted certain agreed amount per-use
+    1. Servers providing System-services are debted an agreed amount per-use, daily, monthly or yearly on donation basis
+
+## Clients
+### Command, Services and Tools
+
+- [bin](/bin) - Local commands, services and tools
+- [dbin](/dbin) - Distributed (Remote) user-commands and user-tools
+
+### Applications
+
+- [apps](/apps) - Local commands, services and tools
+- [dapps](/dapps) - Distributed (Remote) User-services
+
+## Servers
 ### Network
 
 __Topology__: Flower or Tree-of-Life (sacred geometry star 1:N, N:=6)
@@ -277,22 +440,25 @@ __Topology__: Flower or Tree-of-Life (sacred geometry star 1:N, N:=6)
 
 __Nodes__:
 
-```
 Full-nodes:
- - store the complete history of command-blocks (analog to batch-files (a.k.a transactions))
+ - store the complete history (inputs and the corresponding output) of command-blocks ("command blocks" are a series of interactions (a.k.a transactions) executed between a Client and a Server either as:
+ a) geographically distributed Peers (P2P) or 
+ b) locally adjacent (analog to batch-files)
+
 Light-nodes:
  - store, validate and reconstruct environment from all nodes in local network (only) -- bis maximal 3x Brücke (Gateway)
+1. Light-Clients connect and use the network only for short-time (SMS, PPP)
 
-
- (light-Node) User : reads, modifies and stores state in Blockchain
+User : reads, modifies and stores state in Blockchain (typically a *light-Node*) 
  - In browser (js Linux machine)
  - Web App
  - Mobile App
 
- full-Node (service provider server) : offers (shares) execution time
- - USB live CD
+Service provider (server) : offers (shares) execution time (typically implemented as  *full-Node*)
+ - USB 
+ - live CD
  - Floppy disk
-```
+
 ### Local File-system
 
 Refer to [/arch/fs](/arch/fs)
@@ -317,82 +483,204 @@ UNIX's "Everything is a File" -> (name:Address)
 
 Refer to [support tools](/tools/).
 
-### Network Startup
-
-```
-$wcsStart &
-World Compensation System server (wcss) running
-Listening on port:280182
-
-$wcsStatus
-Status: OK
-```
-
-### Command, Services and Tools
-
-- [bin](/bin) - Local commands, services and tools
-- [dbin](/dbin) - Distributed (Remote) user-commands and user-tools
-
-### Application Notes
-
-- [apps](/apps) - Local commands, services and tools
-- [dapps](/dapps) - Distributed (Remote) User-services
-
 #### Digital signatures
 ```
-aa4209ef73003fc5ed561c333358fa92  ./arch/README.md
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 52: 22337 Abort trap: 6           md5sum ./$d/*.md
 ```
 | Document | MD5-Checksum |
 | -- | -- |
-| README.md | aa4209ef73003fc5ed561c333358fa92 arch/README.md |
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+| README.md | |
 
 ## 2020 (CC) Creative Common License
 ```
-57f63e009b37380325975d0f9aec0e5f  ./whitepaper/README.md
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 78: 22340 Abort trap: 6           md5sum ./whitepaper/README.md
 ```
 #### Digital signatures
 ```
-d89cf07d2b13a22deec08c0c4ed9266e  ./tools/README.md
-2002ca1741c76f6377bbeeee61871f2c  ./dbin/README.md
-6eec0042d8bf26b963570b205d79b536  ./bin/README.md
-94063115eb82858ccfd15ef5a3b21814  ./development/integration.md
-bd82171ac0321177e5e9fb73574018bb  ./development/README.md
-68f05ceb68281268217108fb55876082  ./development/deployment.md
-5cd4aa50a1a9f8d1b46b0b63c9d82e27  ./development/CONTRIBUTING.md
-9c060f1741bc37163838ead55b73c8ab  ./development/workproducts.md
-3582056e21f163e556a92a29f26da4bc  ./GLOSSARY.md
-8bac8aaca025fbaed5d9753a66a1b7cd  ./dapps/README.md
-ca8f6611e7334b5878a412f6908fab36  ./whitepaper/platform.md
-35610a8fc82e44c38b636eb7a8c4403f  ./whitepaper/wcsOES.md
-d3777eb628218cf79d50e576d5c95bbd  ./whitepaper/customer.md
-f80bb3d6110f0bb9d5b829e1c45b0fd0  ./whitepaper/ecosystem.md
-3433da0faf06086ef1fce211fe39ba7d  ./whitepaper/README.md
-549a6e7200570625315f52f47b1b8ffc  ./README.md
-cabaa25d0481b17f4fe563869c86a467  ./arch/ledger/README.md
-bdb604d4b1a062ad395e255c5fe46ca6  ./arch/dfs/README.md
-b6a84991d4f8957e69ccfd6d3e935e02  ./arch/dfs/dFSwcs/README.md
-7641cae0c8a83ae31000144d576289e2  ./arch/networking/README.md
-93224d53add26ee895587864ebdf3c00  ./arch/agreement/README.md
-5f5763428b097bebeee966cb45a39be1  ./arch/citizen/README.md
-227488574263a442dfc666513ef23f0c  ./arch/operations/README.md
-aa4209ef73003fc5ed561c333358fa92  ./arch/README.md
-f16bab90fe5bf837c86b04e89f7dbb86  ./arch/lang/README.md
-2eaaf2bbe0e2dae25cbc17345d4ba75a  ./arch/lang/c/README.md
-626a048f9af6cb0a4326140a20f61c35  ./arch/commands/README.md
-beb28c51736bf8eb435fbc02654657f6  ./arch/fs/README.md
-e598ee8dfcac71c6efdc5a3c56954ac0  ./users/README.md
-c15908d22552696e8d67679f60717794  ./users/user1/README.md
-49bf9fabbb31ca80119c72109b914708  ./apps/README.md
-a3c6c1e9fbc0dd9e6723f73f7402b08a  ./services/wcsServer/README.md
-086f662610232b3d3c823e5af2138bce  ./services/README.md
-dc45d393ffbb66020d91ddf6f4fc2da5  ./whitepaper.md
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22342 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22343 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22344 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22345 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22346 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22347 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22348 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22349 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22350 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22351 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22352 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22353 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22354 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22355 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22356 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22357 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22358 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22359 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22360 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22361 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22362 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22363 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22364 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22365 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22366 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22367 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22368 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22369 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22370 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22371 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22372 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22373 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22374 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22375 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22376 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22377 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22378 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22379 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22380 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22381 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22382 Abort trap: 6           md5sum $f
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/md5sum
+  Reason: image not found
+./whitepaper/publish.sh: line 84: 22383 Abort trap: 6           md5sum $f
 ```
 
 
 real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
-Whitepaper. WCS - published by: wcs:root : Sun Jan 19 23:22:54 CET 2020 
+Whitepaper. WCS - published by: wcs:root : Sat Apr 18 13:35:25 CEST 2020 
 
 # Glossary
 
