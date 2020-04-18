@@ -20,13 +20,24 @@ Compensation:
 [source:dictionary](https://www.merriam-webster.com/dictionary/compensation)
 
 Compensate:
-1: to be equivalent to : COUNTERBALANCE
-2: to make an appropriate and usually counterbalancing payment to
+> 1: to be equivalent to : COUNTERBALANCE
+
+> 2: to make an appropriate and usually counterbalancing payment to
 [source:dictionary](https://www.merriam-webster.com/dictionary/compensate)
 
 Counterbalance:
-1: a weight that balances another
+> 1: a weight that balances another
 [source:dictionary](https://www.merriam-webster.com/dictionary/counterbalance)
+
+
+Society:
+> 2: a voluntary association of individuals for common ends
+especially : an organized group working together or periodically meeting because of common interests, beliefs, or profession
+
+> 3a: an enduring and cooperating social group whose members have developed organized patterns of relationships through interaction with one another
+
+> b: a community, nation, or broad grouping of people having common traditions, institutions, and collective activities and interests
+[source:dictionary](https://www.merriam-webster.com/dictionary/society)
 
 ## Sub-Terms (used by previous definitions) 
 Ecological
