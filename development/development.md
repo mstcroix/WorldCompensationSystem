@@ -9,28 +9,38 @@ Node Targets:
 - smartphone
 - actual computer (i.e. MacBook Air, ThinkPad X6)
 
+## Distributed Ledgers
 Blockchain:
 - Ethereum: Getth (private, testnet (Rinkeby))
 - IoT
+- [Holochain](https://holo.host/whitepapers/)
+- 
 
 ## Documentation
-
 [x] Markdown
+[ ] PDF
 
 ## Tools
 
 ### Development-Tools
-Compilers
+* Python
+* Compilers
 
 ### Support-Tools
-[] vfsync (https://vfsync.org)
-[] JSLinux
+* [] vfsync (https://vfsync.org)
+* [] incubed in3
+* [] Geth
+* [] coyotelinux
 
-[] incubed in3
+- [Plan 9](https://9p.io/plan9/) - Bell Labs research (Operating) system
 
-[] Geth
-[] coyotelinux
+- [neo4j]() - Graph Database
 
+- [jslinux](https://bellard.org/jslinux/) - Web-Browwer Linux
+- [128-bit OS](https://bellard.org/tinyemu/) - 128-bit RISC OS
+- [quickjs](https://bellard.org/quickjs/) - Embeddable Javascript engine
+
+* [ipfs](https://ipfs.io/) - Interplanetary File-System (based on Blockchain)
 
 ### Community
 [x] Gitter
