@@ -2,14 +2,12 @@
 
 ### Concept
 
-Create a *System* based on Users and its related Files, Executables and Processes.
+Create an *System* based on Users (including its possessions such as Files, Executables and Resources) and Groups of Users interacting with each other.
   * [fs](/arch/fs) -- filesystem
   * [users](/arch/users) -- users
   * [bin](/arch/bin) -- system binaries (commands, services and tools)
-  
-  * lang(/arch/lang) -- Programming Language(s)
 
-Create an *Eco*-system based on Applications.
+Create an *Eco*-system based on a community of publicly available Products and Services.
   * [apps](/arch/apps) -- applications (Client/Server generalization for commands, services and tools)
   * operations(/arch/operations) -- Operations
   * ledger(/arch/ledger) -- Ledger
@@ -21,10 +19,10 @@ Create a *World* Ecosystem based on Decentralised Applications.
   * agreement(/arch/agreement) -- Agreement
   * dbin(/arch/dbin) -- Decentralised binaries (commands, services and tools)
 
-Create a World *Compensation* Ecosystem based on Decentralised Financial Applications.
+Create a World *Compensation* Ecosystem based on a decentralised Credits and Debts mechanism which makes an appropaiate counterbalancing payment.
   * dfapps(/arch/dfapps) -- Decenralised Financial applications (Client/Server generalization for commands, services and tools)
 
-## Operating (Eco)-System
+## System
 
 __Implementation__:
 
@@ -35,9 +33,15 @@ __Layers__:
 
 1. Distributed peer-2-peer (P2P) Network (Blockchain based)
 1. Distributed File system (dfsWcs)
+
+## (Eco)-System
+
 1. Nodes are Servers
 1. Users are Clients
 1. Clients and Servers interact via read/write file operations with eachother
+
+## World Ecosystem
+
 1. Servers
    1. run System- and Users-services
    1. route User- and System- interactions (transactions)
@@ -47,6 +51,9 @@ __Layers__:
    1. request services from Servers (service suppliers)
      1. Via Remote Procedure Call (RPC) returning values in JSON format
    1. transfer value-assets to single or multiple-users or services
+
+## World Compensation Ecosystem
+
 1. Value / Assets
     1. Value-assets are represented via Addresses in the Distributed File system
     1. Servers providing User-services are debted certain agreed amount per-use
