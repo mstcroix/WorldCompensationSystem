@@ -2,9 +2,9 @@
 
 ## Use-cases
 
-* [Documentation, Help and Manuals](#Ask for Help)
+* [Documentation, Help and Manuals](#Ask-for-Help)
 * [File System](#File-System)
-* [User Management](#User management)
+* [User Management](#User-management)
 * [Applications](#Applications)
 * [Services](#Services)
 * [Commands](#Commands)
@@ -14,7 +14,7 @@
 The following `code` sections provide the main use-case description.
 The current node (client or server) is specified before the $ (dollar) sign.
 
-For example, node 'homeland' is described as followin:
+For example, node 'homeland' is described as following:
 ```
 homeland$
 ```
@@ -30,9 +30,9 @@ As with classic UNIX systems, let's begin with an "annotated dialog" between an 
 
 ```
 (C) 2020 World Compensation Eco-System
-login: you
+login: me
 Password:
-** Welcome @homeland
+** Welcome me@homeland
 You have notifications.
 homeland$
 homeland$date
@@ -41,7 +41,7 @@ homeland$who
 me       tty0  Jan 28 14:30
 you      tty0  Apr 17 21:44
 homeland$whoami
-you      tty0  Apr 17 21:44
+me       tty0  Jan 28 14:30
 ```
 
 ### Ask for Help
@@ -80,12 +80,14 @@ wcsOS 0.0.1
 #### Listing users (ls -u)
 ```
 homeland$ls -u
-local-users
+local-users 2
 -----------
 me -> /usr/me
 you -> /usr/you
 
-remote-users 0
+remote-users 1
+-----------
+she -> /ipfs/QmW2WQi7j6c7UgJTarActp7tDNikE4B2qXtFCfLPdsgaTQ/she
 ```
 
 #### Create user
@@ -93,6 +95,7 @@ remote-users 0
 homeland$user create user1
 New wallet created
 Address: user1:0xc50...0000
+
 homeland$ls /usr
 local-users
 -----------
@@ -105,7 +108,7 @@ remote-users 0
 
 #### Writing other users
 ```
-homeland$write me
+homeland$write you
 Hey, care for value exchange?
 ^Z
 ```
