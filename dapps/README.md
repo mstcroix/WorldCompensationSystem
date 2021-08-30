@@ -1,5 +1,7 @@
 ### Distributed Applications (DApps)
 
+**Note:** DApps (in its capitalised form) refers to *Distributed* Applications. Not to be confused with current Blockchain [decentralised applications](https://ethereum.org/en/developers/docs/dapps/)
+
 ```
 /dapps/DApp1 -- Distributed App1 executable
 /dapps/<Domain>/DApp1/spec -- (external) interface specification
