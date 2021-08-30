@@ -1,6 +1,18 @@
 ### Distributed Applications (DApps)
 
-**Note:** DApps (in its capitalised form) refers to *Distributed* Applications. Not to be confused with current Blockchain [decentralised applications](https://ethereum.org/en/developers/docs/dapps/)
+DApps (in its capitalised form) refers to *Distributed* Applications.
+Distributed Applications are applications (tools, utilities, games, etc.) available in decentralised repositories. 
+The first time a DApp is executed, a copy of its universal-binary code (i.e. similar to java byetcode or Ethereum's smart-contract bytecode) is first downloaded into the user computer and then, before every execution, a handshake with its native decentralized peer-to-peer network (blockchain) is performed to exchange meta-information such as:
+- user-rights information (licensing)
+- expire date
+- credits
+
+/**
+The DApp-Code is stored permanently in a Universal-storage form (see [ipfs](https://docs.ipfs.io/) as reference) while the meta-information is stored on the applications native blockchain.
+Once the DApp-Code is deployed on the network no changes can be made.
+*/
+
+**Note:** The term DApps should not be confused with smart-contract [decentralised applications](https://ethereum.org/en/developers/docs/dapps/)
 
 ```
 /dapps/DApp1 -- Distributed App1 executable
