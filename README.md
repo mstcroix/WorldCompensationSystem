@@ -7,8 +7,9 @@ __Platform__: #RSK, #DeFi, #DeFiApp, #DFApp, #wcsDFApp
 __Classification__: DeFi : EcoSystem : @rif_os :
 
 __Version__: 
-0.0.1 (2020-01-15)
-0.0.2 (2021-08-29)
+0.0.1 (2020-01-15) Created
+0.0.2 (2021-08-29) First draft
+0.0.3 (2023-04-28) Edited
 
 __Status__: Draft / *in work*
 
@@ -18,7 +19,8 @@ Simple. *Eliminate money invisibility*.
 
 ## User-story
 
-> I dare you to throw out all your money, all your papers and coins and individual national currencies, and start over.
+I dare you to...
+> Throw out all your money, all your papers and coins and individual national currencies, and start over.
 
 > Develop an international monetary system that is wide open, totally visible, immediately traceable, completely accountable.
 > 
